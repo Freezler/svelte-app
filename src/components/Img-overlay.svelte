@@ -9,7 +9,7 @@
 		<div class="flex h-full items-center justify-center">
 			<div class="bg-black bg-opacity-50 px-8 w-screen h-full text-center text-white">
 				<h1
-					class="tracking-tight drop-shadow-[1px_-2px_1px#EF7FFF] mt-[40%] sm:mt-[25%] md:mt-[17%] lg:mt-[15%] xl:mt-[10%] mb-16 text-5xl font-bold md:text-6xl xl:text-8xl from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent"
+					class="tracking-tight drop-shadow-[1px_-2px_1px#EF7FFF] mt-[40%] sm:mt-[25%] md:mt-[17%] lg:mt-[16%] xl:mt-[10%] mb-16 text-5xl font-bold md:text-6xl xl:text-8xl from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent"
 				>
 					Randy de Vries
 				</h1>
@@ -27,11 +27,11 @@
 						href="#0">Mail mij!</a
 					>
 					<a
-						class="  drop-shadow-[1px_1px_3px_rgba(0,255,255,0.9)] inline-block rounded-full border-2 border-cyan-300 w-36 px-[8px] py-[16px] text-md font-semibold uppercase leading-normal text-[#EF7FFF] transition duration-550 ease-in-out hover:border-neutral-100 hover:bg-cyan-600 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200"
+						class="  drop-shadow-[1px_1px_3px_rgba(0,255,255,0.9)] inline-block rounded-full border-2 border-cyan-300 w-36 px-[8px] py-[16px] text-md font-semibold uppercase leading-normal text-[#4de2ef] transition duration-550 ease-in-out hover:border-neutral-100 hover:bg-cyan-600 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200"
 						data-te-ripple-init
 						data-te-ripple-color="light"
 						href="/about"
-						role="button">Meer weten?</a
+						role="button">Over mij</a
 					>
 				</div>
 			</div>
