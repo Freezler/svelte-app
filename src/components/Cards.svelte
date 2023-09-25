@@ -31,13 +31,13 @@
 						d="M8 17l5 -3l-.822 .496c-1.86 1.151 -4.411 .491 -5.574 -1.351a3.91 3.91 0 0 1 1.264 -5.42l5.054 -3.127c1.86 -1.15 4.311 -.59 5.474 1.252a3.91 3.91 0 0 1 -1.264 5.42l-.26 .16"
 					/>
 				</svg>
-				<div class="tracking-wider text-center font-bold text-3xl text-[cyan]">Svelte</div>
-				<p class="text-[#eedaf3] text-base mt-6">
+				<div class="tracking-wider text-center  font-bold text-3xl text-[cyan]">Svelte</div>
+				<p class="text-[#eedaf3] text-base mt-6 px-auto">
 					Efficiënt JS-framework voor snelle, gestroomlijnde webapps. Slank, direct en
 					dynamisch voor soepele gebruikerservaringen.
 				</p>
 			</div>
-			<div class="bg-[hsla(301,75%,55%,0.34)] items-center justify-center h-full pt-3">
+			<div class="bg-[hsla(301,75%,55%,0.34)] items-center justify-center h-full  w-full pt-3 mx-auto">
 				<span
 					class="p-3 inline-block bg-gray-200 rounded-full text-sm font-semibold text-[hsla(301,75%,55%,0.99)] mr-4 mt-4"
 					>#Webdev</span
@@ -80,14 +80,14 @@
 					dynamisch voor soepele gebruikerservaringen.
 				</p>
 			</div>
-			<div class="bg-[hsla(301,75%,55%,0.34)] items-center justify-center h-full pt-3">
+			<div class="bg-[hsla(301,75%,55%,0.34)] items-center justify-center  w-full h-full pt-3 mx-auto">
 				<span
 					class="p-3 inline-block bg-gray-200 rounded-full text-sm font-semibold text-[hsla(301,75%,55%,0.99)] mr-4 mt-4"
-					>#Webdev</span
+					>#Styling</span
 				>
 				<span
 					class="p-3 inline-block bg-gray-200 rounded-full text-sm font-semibold text-[hsla(301,75%,55%,0.99)] mr-4 mt-4"
-					>#Frameworks</span
+					>#CCS</span
 				>
 			</div>
 		</div>
