@@ -11,6 +11,7 @@
 				<h1
 					class="tracking-tight drop-shadow-[1px_-2px_1px#EF7FFF] mt-[30%] sm:mt-[17%] md:mt-[17%] lg:mt-[10%] mb-16 text-5xl font-bold  md:text-6xl xl:text-8xl from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent"
 				>
+			
 					Randy de Vries
 				</h1>
 				<p
@@ -18,7 +19,7 @@
 				>
 					Svelte | Tailwind | javaScript
 				</p>
-				<div class=" mt-8 sm:mt-20 xs:bg-yellow-200 sm:bg-red-200 md:bg-blue-200 lg:bg-green-400 xl:bg-fuchsia-500">
+				<div class=" mt-8 sm:mt-20 ">
 					<a
 						on:click={sendEmail}
 						class="  drop-shadow-[1px_1px_3px_rgba(0,255,255,0.9)] inline-block rounded-full border-2 border-cyan-300 w-36 px-[8px] py-[16px] text-md font-semibold uppercase leading-normal hover:text-[#EF7FFF] transition duration-550 ease-in-out hover:border-neutral-100 hover:bg-cyan-600 hover:bg-opacity-10 text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200"
