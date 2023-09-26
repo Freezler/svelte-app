@@ -14,9 +14,9 @@
 </script>
 
 <nav
-	class="fixed select-none flex  items-center justify-between w-full h-16 z-10 text-violet-300 bg-transparent"
+	class="fixed select-none flex items-center justify-between w-full h-16 z-10 text-violet-300 bg-transparent"
 >
-	<a href="/" class="align-self-start ml-6 mr-auto select-none"
+	<a href="/" class="align-self-start ml-4 mt-4 mr-auto select-none"
 		><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
 			<!-- Outline -->
 			<text
@@ -24,7 +24,7 @@
 				y="65"
 				font-family="Inter"
 				font-size="40"
-				fill="cyan"
+				fill="white"
 				stroke="#EF7FFF"
 				stroke-width="6"
 				stroke-linejoin="round">RL</text
@@ -35,15 +35,15 @@
 	>
 
 	<!-- Hamburger Icon for Small Screens -->
-	<button class="lg:hidden mr-8" on:click={toggleNav}>
+	<button class="animate-pulse lg:hidden mr-6" on:click={toggleNav}>
 		<div
-			class={`w-5 h-0.5 bg-[#EF7FFF] my-1 ${
+			class={`w-8 h-1 bg-[#EF7FFF] my-1 ${
 				showNav ? 'transform rotate-45 translate-y-1' : ''
 			}`}
 		/>
-		<div class={`w-5 h-0.5 bg-[#EF7FFF] my-1 ${showNav ? 'opacity-0' : ''}`} />
+		<div class={`w-8 h-1 bg-[#EF7FFF] my-1 ${showNav ? 'hidden' : ''}`} />
 		<div
-			class={`w-5 h-0.5 bg-[#EF7FFF] my-1 ${
+			class={`w-8 h-1 bg-[#EF7FFF] my-1 ${
 				showNav ? 'transform -rotate-45 -translate-y-1' : ''
 			}`}
 		/>
@@ -72,15 +72,9 @@
 	>
 		<div
 			class="flex flex-col text-2xl items-center space-y-4 text-gray-200 pacity-0 transition-opacity duration-300 ease-in-out opacity-100"
-			
 		>
 			<a href="/" tabindex="0" class="text-cyan-200"
-				><svg
-					xmlns="http://www.w3.org/2000/svg"
-					width="80"
-					height="80"
-					viewBox="0 0 80 80"
-				>
+				><svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
 					<!-- Outline -->
 					<text
 						x="16"

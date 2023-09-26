@@ -11,30 +11,34 @@
 		<div class="flex h-full items-center justify-center">
 			<div class="bg-black bg-opacity-50 px-8 w-screen h-full text-center text-white">
 				<h1
-					class="tracking-tight drop-shadow-[1px_1px_3px_rgba(0,255,255,0.9)] mt-[45%] sxs:mt-[60%] xs:mt-[40%] sm:mt-[35%] md:mt-[25%] lg:mt-[18%] xl:mt-[12%]  sxs:text-4xl xs:text-5xl sm:text-7xl font-bold md:text-7xl lg:text-8xl xl:text-9xl from-[hsla(288,51%,90%,0.8)] via-[]hsla(288,51%,90%,0.7)] to-blue-700 bg-gradient-to-r bg-clip-text text-transparent"
+					class="tracking-tight drop-shadow-[1px_1px_3px_rgba(0,255,255,0.9)] mt-[45%] sxs:mt-[60%] xs:mt-[40%] sm:mt-[35%] md:mt-[25%] lg:mt-[18%] xl:mt-[12%] sxs:text-4xl xs:text-5xl sm:text-7xl font-bold md:text-7xl lg:text-8xl xl:text-9xl from-[hsla(288,51%,90%,0.8)] via-[]hsla(288,51%,90%,0.7)] to-blue-700 bg-gradient-to-r bg-clip-text text-transparent"
 				>
 					Randy de Vries
 				</h1>
 				<p
-					class=" w-full -translate-x-28 translate-y-0 sxs:ml-44  xs:ml-52 sxs:text-xs xs:text-sm sm:font-base md:font-base lg:font-base xl:font-sans sm:text-sm md:text-base font-semibold font-[sans-serif] from-orange-300 via-cyan-300 to-yellow-300 bg-gradient-to-r bg-clip-text text-transparent"
+					class=" w-full -translate-x-28 translate-y-0 sxs:ml-44 xs:ml-52 sxs:text-xs xs:text-sm sm:font-base md:font-base lg:font-base xl:font-sans sm:text-sm md:text-base font-semibold font-[sans-serif] from-orange-300 via-cyan-300 to-yellow-300 bg-gradient-to-r bg-clip-text text-transparent"
 				>
 					Svelte | Tailwind | javaScript
 				</p>
-				<div class=" mt-8 sm:mt-20">
-					<a
+				<div class=" mt-8 sm:mt-32">
+					<button
 						on:click={sendEmail}
-						class="  drop-shadow-[1px_1px_3px_rgba(0,255,255,0.9)] inline-block rounded-full border-2 border-cyan-300 w-36 px-[8px] py-[16px] text-md font-semibold uppercase leading-normal hover:text-[#EF7FFF] transition duration-550 ease-in-out hover:border-neutral-100 hover:bg-cyan-600 hover:bg-opacity-10 text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200"
+						class="bg-transparent border-cyan-400 border-2 hover:bg-cyan-400 text-white font-bold py-2 px-4 rounded-[16px] transition duration-300 ease-in-out"
 						data-te-ripple-init
 						data-te-ripple-color="light"
-						href="#0">Mail mij!</a
+						href="#0"
 					>
+						Mail mij!
+					</button>
+
 					<a
-						class="  drop-shadow-[1px_1px_3px_rgba(0,255,255,0.9)] inline-block rounded-full border-2 border-cyan-300 w-36 px-[8px] py-[16px] text-md font-semibold uppercase leading-normal text-[#4de2ef] transition duration-550 ease-in-out hover:border-neutral-100 hover:bg-cyan-600 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200"
+						class="bg-cyan-400 border-cyan-400 border-2 hover:bg-transparent text-white font-bold py-[10px] px-4 rounded-[16px] transition duration-300 ease-in-out"
 						data-te-ripple-init
 						data-te-ripple-color="light"
 						href="/about"
-						role="button">Over mij</a
 					>
+						Over mij
+					</a>
 				</div>
 			</div>
 		</div>

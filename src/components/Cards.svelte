@@ -3,14 +3,14 @@
 		class="mb-4 px-12 lg:px-30 xl:px-40 text-center text-3xl flex flex-col md:flex-row w-screen items-center justify-between gap-12"
 	>
 		<div
-			class="mb-24 max-w-lg  xs:w-[100%] sm:w-[90%] md:w-1/2 rounded-2xl overflow-hidden shadow-lg h-[550px] drop-shadow-[0px_0px_0px_rgba(255,255,255,0.1)]"
+			class="mb-24 max-w-lg xs:w-[100%] sm:w-[90%] md:w-1/2 rounded-2xl overflow-hidden shadow-lg h-[550px] drop-shadow-[0px_0px_0px_rgba(255,255,255,0.1)]"
 		>
 			<img
 				class="h-48 w-full object-cover rounded-t-lg"
 				src="https://source.unsplash.com/random/?svelte"
 				alt="svelt related"
 			/>
-			<div class="bg-[hsla(180,2%,19%,0.5)] px-8 py-6 items-center justify-center h-[265px] ">
+			<div class="bg-[hsla(180,2%,19%,0.5)] px-8 py-6 items-center justify-center h-[265px]">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					class="translate-x-1 w-[4rem] h-[4.2rem] icon icon-tabler icon-tabler-brand-svelte mx-auto"
@@ -32,21 +32,23 @@
 					/>
 				</svg>
 				<div class="tracking-wider text-center font-bold text-3xl text-[cyan]">Svelte</div>
-				<p class="text-[#eedaf3] text-[clamp(0.8rem,1.5vw,01rem)] mt-6 px-auto -translate-y-4">
+				<p
+					class="text-[#eedaf3] text-[clamp(0.8rem,1.5vw,01rem)] mt-6 px-auto -translate-y-4"
+				>
 					Efficiënt JS-framework voor snelle, gestroomlijnde webapps. Slank, direct en
 					dynamisch voor soepele gebruikerservaringen
 				</p>
 			</div>
 			<div
-				class="bg-[hsla(301,75%,55%,0.34)] items-center justify-center h-full w-full pt-3 mx-auto"
+				class="bg-[hsla(301,75%,55%,0.34)] text-sm py-[2.3rem] mr-4items-center justify-center  w-full h-full  mx-auto"
 			>
 				<span
-					class=" w-[28%] lg:w-120%] py-2 inline-block bg-gray-200 rounded-full text-sm font-semibold text-[hsla(186,52%,41%,1)] mr-4 mt-4"
-					>#innovatief</span
+					class=" bg-cyan-400 border-cyan-400 border-2 hover:bg-transparent text-white font-bold py-2 px-4 rounded-[16px] transition duration-300 ease-in-out"
+					>#EFFICIENT</span
 				>
 				<span
-					class=" w-[28%] lg:w-120%] py-2 inline-block bg-gray-200 rounded-full text-sm font-semibold text-[hsla(186,52%,41%,1)] mr-4 mt-4"
-					>#Efficiënt</span
+					class="bg-cyan-400 ml-4 border-cyan-400 border-2 hover:bg-transparent text-white font-bold py-2 px-4 rounded-[16px] transition duration-300 ease-in-out"
+					>#INNOVATIEF</span
 				>
 			</div>
 		</div>
@@ -85,18 +87,18 @@
 				</p>
 			</div>
 			<div
-				class="bg-[hsla(301,75%,55%,0.34)] items-center justify-center w-full h-full pt-3 mx-auto"
+				class="bg-[hsla(301,75%,55%,0.34)] text-sm py-[2.3rem] mr-4items-center justify-center  w-full h-full  mx-auto"
 			>
 				<span
-					class=" w-[28%] lg:w-120%] py-2 inline-block bg-gray-200 rounded-full text-sm font-semibold text-[hsla(186,52%,41%,1)] mr-4 mt-4"
-					>#Responive</span
+					class=" bg-cyan-400 border-cyan-400 border-2 hover:bg-transparent text-white font-bold py-2 px-4 rounded-[16px] transition duration-300 ease-in-out"
+					>#RESPONSIEF</span
 				>
 				<span
-					class=" w-[28%] lg:w-120%] py-2 inline-block bg-gray-200 rounded-full text-sm font-semibold text-[hsla(186,52%,41%,1)] mr-4 mt-4"
-					>#Modulair</span
+					class="bg-cyan-400 ml-4 border-cyan-400 border-2 hover:bg-transparent text-white font-bold py-2 px-4 rounded-[16px] transition duration-300 ease-in-out"
+					>#MODULAIR</span
 				>
 			</div>
 		</div>
 	</div>
-	<div/>
+	<div />
 </div>

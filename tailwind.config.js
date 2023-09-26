@@ -4,6 +4,7 @@ export default {
   theme: {
     extend: {
       animation: {
+        'burger-toggle': 'burger-toggle 0.6s ease-in-out',
         'spin-slow': 'spin 3s linear infinite',
         'spin-fast': 'spin 1s linear infinite',
         'slow-fade-in': 'fade-in 1s ease-in-out',
@@ -19,6 +20,7 @@ export default {
         'wave': 'wave 5s ease-in-out',
         'fast-slide-up': 'slide-up 1.6s cubic-bezier(0.215, 0.61, 0.355, 1)',
         'slow-slide-down': 'slide-down 1.6s cubic-bezier(0.215, 0.61, 0.355, 1)',
+        'burgerSmooth': 'burgerSmooth 2s ease-in-out',
       },
       keyframes: {
         'fade-in': {
@@ -54,6 +56,9 @@ export default {
         'slide-down': {
           '0%': { transform: 'translateY(-400px)' },
           '100%': { transform: 'translateY(0px)' },
+        },
+        'burgerSmooth': {
+          transition: 'all 2s ease-in-out',
         }
       },
 
