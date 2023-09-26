@@ -3,7 +3,7 @@
 		class="mb-4 px-12 lg:px-30 xl:px-40 text-center text-3xl flex flex-col md:flex-row w-screen items-center justify-between gap-12"
 	>
 		<div
-			class="max-w-lg xs:w-3/4 w-1/2 rounded-3xl overflow-hidden shadow-lg h-[550px] drop-shadow-[0px_0px_0px_rgba(10,10,0.9)]"
+			class="mb-24 max-w-lg  xs:w-[100%] sm:w-[90%] md:w-1/2 rounded-3xl overflow-hidden shadow-lg h-[550px] drop-shadow-[0px_0px_0px_rgba(255,255,255,0.1)]"
 		>
 			<img
 				class="h-48 w-full object-cover rounded-t-lg"
@@ -41,17 +41,17 @@
 				class="bg-[hsla(301,75%,55%,0.34)] items-center justify-center h-full w-full pt-3 mx-auto"
 			>
 				<span
-					class="p-3 inline-block bg-gray-200 rounded-full text-sm font-semibold text-[hsla(301,75%,55%,0.99)] mr-4 mt-4"
-					>#Webdev</span
+					class="w-[20%] py-2 inline-block bg-gray-200 rounded-full text-sm font-semibold text-[hsla(186,52%,41%,1)] mr-4 mt-4"
+					>#innovatief</span
 				>
 				<span
-					class="p-3 inline-block bg-gray-200 rounded-full text-sm font-semibold text-[hsla(301,75%,55%,0.99)] mr-4 mt-4"
-					>#Frameworks</span
+					class="w-[20%] py-2 inline-block bg-gray-200 rounded-full text-sm font-semibold text-[hsla(186,52%,41%,1)] mr-4 mt-4"
+					>#Efficiënt</span
 				>
 			</div>
 		</div>
 		<div
-			class=" max-w-lg xs:w-3/4 w-1/2 rounded-3xl overflow-hidden shadow-lg h-[550px] drop-shadow-[0px_0px_0px_rgba(10,10,0.9)]"
+			class="mb-24 max-w-lg xs:w-[100%] md:w-1/2 rounded-3xl overflow-hidden shadow-lg h-[550px] drop-shadow-[0px_0px_0px_rgba(255,255,255,0.1)]"
 		>
 			<img
 				class="h-48 w-full object-cover rounded-t-lg opacity-80"
@@ -88,12 +88,12 @@
 				class="bg-[hsla(301,75%,55%,0.34)] items-center justify-center w-full h-full pt-3 mx-auto"
 			>
 				<span
-					class="p-3 inline-block bg-gray-200 rounded-full text-sm font-semibold text-[hsla(301,75%,55%,0.99)] mr-4 mt-4"
-					>#Styling</span
+					class=" w-[20%] py-2 inline-block bg-gray-200 rounded-full text-sm font-semibold text-[hsla(186,52%,41%,1)] mr-4 mt-4"
+					>#Responive</span
 				>
 				<span
-					class="p-3 inline-block bg-gray-200 rounded-full text-sm font-semibold text-[hsla(301,75%,55%,0.99)] mr-4 mt-4"
-					>#CCS</span
+					class=" w-[20%] py-2 inline-block bg-gray-200 rounded-full text-sm font-semibold text-[hsla(186,52%,41%,1)] mr-4 mt-4"
+					>#Modulair</span
 				>
 			</div>
 		</div>
