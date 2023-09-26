@@ -1,11 +1,9 @@
 <script>
-    import { onDestroy, onMount } from "svelte";
-	onMount(() => console.log('Mounted projects page'))
-	onDestroy(() => console.log('Unmounted projects page'))
+	import { onDestroy, onMount } from 'svelte';
+	onMount(() => console.log('Mounted projects page'));
+	onDestroy(() => console.log('Unmounted projects page'));
 </script>
 
 <main>
 	<h1>Projects Page</h1>
-	
-
 </main>

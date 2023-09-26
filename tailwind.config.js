@@ -11,12 +11,47 @@ export default {
         'slow-fade-out': 'fade-out 1s ease-in-out',
         'fast-fade-out': 'fade-out 0.5s ease-in-out',
         'slow-slide-in': 'slide-in 1s ease-in-out',
-        'fast-slide-in': 'slide-in 0.5s ease-in-out',
+        'fast-slide-in': 'slide-in 0.6s cubic-bezier(0.215, 0.91, 0.655, 1)',
+        'slow-slide-up': 'slide-up 3s cubic-bezier(0.215, 0.61, 0.355, 1)',
         'slow-slide-out': 'slide-out 1s ease-in-out',
         'fast-slide-out': 'slide-out 0.5s ease-in-out',
-        'ani-translate-y': 'translate-y 1s ease-in-out',
+        'ani-translate-y': 'translate-y 5s ease-in-out',
+        'wave': 'wave 5s ease-in-out',
+        'fast-slide-up': 'slide-up 1.6s cubic-bezier(0.215, 0.61, 0.355, 1)',
       },
-      
+      keyframes: {
+        'fade-in': {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        'fade-out': {
+          '0%': { opacity: '1' },
+          '100%': { opacity: '0' },
+        },
+        'slide-in': {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0)' },
+        },
+        'slide-out': {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+        'translate-y': {
+          '0%': { transform: 'translateY(0)' },
+          '100%': { transform: 'translateY(-100%)' },
+        },
+        'wave': {
+          '0%': { transform: 'rotate(0deg)' },
+          '25%': { transform: 'rotate(45deg)' },
+          '50%': { transform: 'rotate(90deg)' },
+          '100%': { transform: 'rotate(0deg)' },
+        },
+        'slide-up': {
+          '0%': { transform: 'translateY(100%)' },
+          '100%': { transform: 'translateY(0)' },
+        },
+      },
+
       fontFamily: {
         sans: ['Inter', 'Arial', 'Helvetica', 'sans-serif'],
         serif: ['Georgia', 'serif'],
@@ -62,7 +97,7 @@ export default {
         sans: ['Inter', 'Arial', 'Helvetica', 'sans-serif'],
         serif: ['Georgia', 'serif'],
         mono: ['Menlo', 'Monaco', 'Courier New', 'monospace'],
-        display: ['Oswald', 'sans-serif'],
+        display: ['San-francisco', 'sans-serif'],
         handwriting: ['Pacifico', 'cursive'],
       }
     },

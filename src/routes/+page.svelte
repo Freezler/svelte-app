@@ -6,7 +6,7 @@
 	onDestroy(() => console.log('Unmounted home page'));
 </script>
 
-<main class="flex flex-col m-0 p-0">
+<main class="flex flex-col m-0 p-0 animate-slow-fade-in">
 	<ImgOverlay />
 	<div class="blur-[0.7px] opacity-50 text-center relative z-20 animate-bounce">
 		<div class=" flex justify-center flex-col items-center translate-y-[6.8rem] z-10">
