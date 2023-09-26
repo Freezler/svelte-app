@@ -8,23 +8,23 @@
 
 <main class="flex flex-col m-0 p-0">
 	<ImgOverlay />
-	<div class="text-center relative z-20 animate-bounce">
+	<div class="opacity-60 text-center relative z-20 animate-bounce on:click-outside:animate-pulse">
 		<div class=" flex justify-center flex-col items-center translate-y-[6.8rem] z-10">
 			<span
-				class="inline-block w-4 h-4 border-t-4 rounded-l-4 border-[hsl(292,92%,53%)] border-w-4 border-r-4 transform rotate-[135deg]"
+				class="scale-150 inline-block w-4 h-4 border-t-4 rounded-l-4 border-[hsl(292,92%,53%)] border-w-4 border-r-4 transform rotate-[135deg]"
 			/>
 			<span
-				class="inline-block w-4 h-4 border-t-4 border-[hsl(292,92%,53%)] border-w-8 border-r-4 transform rotate-[135deg]"
+				class="scale-150 inline-block w-4 h-4 border-t-4 border-[hsl(292,92%,53%)] border-w-8 border-r-4 transform rotate-[135deg]"
 			/>
 			<span
-				class="inline-block w-4 h-4 border-t-4 border-[hsl(292,92%,53%)] border-w-8 border-r-4 transform rotate-[135deg]"
+				class="scale-150 inline-block w-4 h-4 border-t-4 border-[hsl(292,92%,53%)] border-w-8 border-r-4 transform rotate-[135deg]"
 			/>
 		</div>
 	</div>
 	<div class="relative">
 		<svg
 			version="1.1"
-			class="h-72 -translate-x-32 -translate-y-16 ml-32 text-md font-semibold font-[sans-serif] from-orange-300 via-cyan-300 to-yellow-300 bg-gradient-to-r bg-clip-text text-transparent"
+			class="h-72 -translate-x-32 -translate-y-16 ml-32 text-md font-semibold "
 			xmlns="http://www.w3.org/2000/svg"
 			viewBox="0 0 500 500"
 			width="100%"

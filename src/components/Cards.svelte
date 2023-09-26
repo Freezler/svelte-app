@@ -1,4 +1,4 @@
-<div class="">
+<div class="select-none">
 	<div
 		class="mb-4 px-12 lg:px-30 xl:px-40 text-center text-3xl flex flex-col md:flex-row w-screen items-center justify-between gap-12"
 	>
