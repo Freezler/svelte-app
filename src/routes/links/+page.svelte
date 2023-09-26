@@ -12,7 +12,7 @@
 		<div class="py-12 md:px-12">
 			<div class="container mx-auto xl:px-32">
 				<div class="grid items-center lg:grid-cols-2 drop-shadow-2xl">
-					<div class="mb-12 md:mt-12 lg:mt-0 lg:mb-0">
+					<div class="mb-12 md:mt-12 lg:mt-0 lg:mb-0 animate-slow-slide-up z-10">
 						<div
 							class="relative z-[1] block rounded-lg bg-[hsla(0,0%,100%,0.55)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] dark:bg-[hsla(0,0%,5%,0.7)] dark:shadow-black/20 md:px-12 lg:-mr-14"
 						>
@@ -87,7 +87,7 @@
 							</form>
 						</div>
 					</div>
-					<div class="md:mb-12 lg:mb-0">
+					<div class="md:mb-12 lg:mb-0 animate-slow-slide-in">
 						<div class="relative h-[700px] rounded-lg shadow-lg dark:shadow-black/20">
 							<iframe
 								loading="lazy"
