@@ -21,7 +21,7 @@
 			</h3>
 		</div>
 		<div
-			class="drop-shadow-[1.7px_1px_22px_rgba(1,1,1,0.7)] flex flex-col sm:flex-col md:flex-row md:justify-around gap-8 mx-8"
+			class="xl:w-[80%] lg:w-[80%] md:w-[80%] sm:w-[90%] sxs:w-[90%] drop-shadow-[1.7px_1px_22px_rgba(1,1,1,0.7)] flex flex-col sm:flex-col md:flex-row md:justify-around gap-8 mx-8"
 		>
 			<p
 				class="animate-slow-slide-up w-1/2  sxs:w-[80%] xs:w-[80%] sm:w-[80%] mx-auto px-12 py-8 rounded-[12px] font-inter text-sm text-[hsla(255,255%,255%,0.8)] word-break tracking-wide line-clamp-7 bg-[hsla(98,29%,11%,0.2)]"
