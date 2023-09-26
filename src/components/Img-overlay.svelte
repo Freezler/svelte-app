@@ -11,12 +11,12 @@
 		<div class="flex h-full items-center justify-center">
 			<div class="bg-black bg-opacity-50 px-8 w-screen h-full text-center text-white">
 				<h1
-					class="tracking-tight drop-shadow-[1px_-2px_1px#EF7FFF] mt-[45%] sxs:mt-[8%] xs:mt-[40%] sm:mt-[35%] md:mt-[25%] lg:mt-[18%] xl:mt-[12%]  sxs:text-5xl xs:text-5xl sm:text-7xl font-bold md:text-7xl lg:text-8xl xl:text-9xl from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent"
+					class="tracking-tight drop-shadow-[1px_-2px_1px#EF7FFF] mt-[45%] sxs:mt-[60%] xs:mt-[40%] sm:mt-[35%] md:mt-[25%] lg:mt-[18%] xl:mt-[12%]  sxs:text-4xl xs:text-5xl sm:text-7xl font-bold md:text-7xl lg:text-8xl xl:text-9xl from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent"
 				>
 					Randy de Vries
 				</h1>
 				<p
-					class=" w-full -translate-x-28 translate-y-0 sxs:ml-44  xs:ml-52 xs:text-xs sm:text-sm md:text-base font-semibold font-[sans-serif] from-orange-300 via-cyan-300 to-yellow-300 bg-gradient-to-r bg-clip-text text-transparent"
+					class=" w-full -translate-x-28 translate-y-0 sxs:ml-44  xs:ml-52 sxs:text-xs xs:text-sm sm:font-base md:font-base lg:font-base xl:font-sans sm:text-sm md:text-base font-semibold font-[sans-serif] from-orange-300 via-cyan-300 to-yellow-300 bg-gradient-to-r bg-clip-text text-transparent"
 				>
 					Svelte | Tailwind | javaScript
 				</p>
