@@ -3,7 +3,7 @@
 		class="mb-4 px-12 lg:px-30 xl:px-40 text-center text-3xl flex flex-col md:flex-row w-screen items-center justify-between gap-12"
 	>
 		<div
-			class="mb-24 max-w-lg xs:w-[100%] sm:w-[90%] md:w-1/2 rounded-2xl overflow-hidden shadow-lg h-[550px] drop-shadow-[0px_0px_0px_rgba(255,255,255,0.1)]"
+			class="mb-24 min-w-lg xs:w-[100%] sm:w-[100%] md:w-[100%] rounded-2xl overflow-hidden shadow-lg h-[550px] drop-shadow-[0px_0px_0px_rgba(255,255,255,0.1)]"
 		>
 			<img
 				class="h-48 w-full object-cover rounded-t-lg"
@@ -50,10 +50,10 @@
 			</div>
 		</div>
 		<div
-			class="mb-24 max-w-lg xs:w-[100%] md:w-1/2 rounded-3xl overflow-hidden shadow-lg h-[550px] drop-shadow-[0px_0px_0px_rgba(255,255,255,0.1)]"
+			class="mb-24 min-w-lg xs:w-[100%] sm:w-[100%] md:w-[100%] rounded-3xl overflow-hidden shadow-lg h-[550px] drop-shadow-[0px_0px_0px_rgba(255,255,255,0.1)]"
 		>
 			<img
-				class="h-48 w-full object-cover rounded-t-lg opacity-80"
+				class="max-h-48 w-full object-cover rounded-t-lg opacity-80"
 				src="https://source.unsplash.com/random/?css,html"
 				alt="Tailwind related"
 			/>
@@ -78,13 +78,13 @@
 				<div class="tracking-wider text-center font-bold text-3xl text-[cyan]">
 					Tailwind CSS
 				</div>
-				<p class="text-[#eedaf3] text-base mt-6 text-[clamp(0.8rem,1.5vw,01rem)]">
+				<p class="text-[#eedaf3] text-base mt-6 text-[clamp(0.8rem,1.3xvw,01rem)] line-clamp-6 eclipse-text">
 					Krachtig CSS-framework voor het snel bouwen van moderne, responsieve en
 					stijlvolle webinterfaces
 				</p>
 			</div>
 			<div
-				class="bg-[hsla(301,75%,55%,0.34)] text-sm py-[2.3rem] mr-4 items-center justify-center  w-full h-full  mx-auto"
+				class="bg-[hsla(301,75%,55%,0.34)] text-[clamp(0.3rem,1.5vw,01rem)]  py-[2.3rem] mr-4 items-center justify-center  w-full h-full  mx-auto"
 			>
 				<span
 					class=" bg-cyan-400 border-cyan-400 border-2 hover:bg-transparent text-white font-bold py-2 px-4 rounded-[16px] transition duration-300 ease-in-out"

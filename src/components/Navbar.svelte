@@ -10,7 +10,7 @@
 		} else {
 			body.classList.remove('overflow-hidden');
 		}
-	};
+		};
 </script>
 
 <nav
@@ -35,7 +35,7 @@
 	>
 
 	<!-- Hamburger Icon for Small Screens -->
-	<button class="animate-pulse lg:hidden mr-6" on:click={toggleNav}>
+	<button class="animate-pu lg:hidden mr-6" on:click={toggleNav}>
 		<div
 			class={`w-8 h-1 bg-[#EF7FFF] my-1 ${
 				showNav ? 'transform rotate-45 translate-y-1' : ''
