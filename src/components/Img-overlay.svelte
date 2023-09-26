@@ -11,12 +11,12 @@
 		<div class="flex h-full items-center justify-center">
 			<div class="bg-black bg-opacity-50 px-8 w-screen h-full text-center text-white">
 				<h1
-					class="tracking-tight drop-shadow-[1px_-2px_1px#EF7FFF] mt-[45%] xs:m-45% sm:mt-[35%] md:mt-[17%] lg:mt-[16%] xl:mt-[10%]  xs:text-3xl sm:text-4xl font-bold md:text-6xl lg:text-7xl xl:text-8xl from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent"
+					class="tracking-tight drop-shadow-[1px_-2px_1px#EF7FFF] mt-[45%] xs:mt-[45%] sm:mt-[30%] md:mt-[20%] lg:mt-[16%] xl:mt-[15%]  xs:text-5xl sm:text-7xl font-bold md:text-7xl lg:text-8xl xl:text-9xl from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent"
 				>
 					Randy de Vries
 				</h1>
 				<p
-					class=" w-full -translate-x-16 -translate-y-16 ml-32 text-md font-semibold font-[sans-serif] from-orange-300 via-cyan-300 to-yellow-300 bg-gradient-to-r bg-clip-text text-transparent"
+					class=" w-full -translate-x-28 translate-y-0 xs:ml-52 xs:text-xs sm:text-sm md:text-base font-semibold font-[sans-serif] from-orange-300 via-cyan-300 to-yellow-300 bg-gradient-to-r bg-clip-text text-transparent"
 				>
 					Svelte | Tailwind | javaScript
 				</p>

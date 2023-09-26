@@ -5,16 +5,19 @@
 	class="bg-[#EF7FFF] bg-opacity-70 fixed w-screen bottom-0 left-0 h-12 flex items-center justify-center"
 >
 	<!-- GitHub icon -->
-	<div>
+	<div class="flex w-screen items-center justify-evenly">
+		<a href="https://github.com/Freezler"
+			><span class=" justify-around font-semibold font-system text-[#00efff]">Randy de vries</span></a
+		>
 		<a href="http://github.com/Freezler"
 			><svg
 				xmlns="http://www.w3.org/2000/svg"
-				class="h-[2.4rem] icon icon-tabler icon-tabler-brand-github"
+				class="h-[2.4rem] icon icon-tabler icon-tabler-brand-github mr-16"
 				width="48"
 				height="24"
 				viewBox="0 0 24 24"
 				stroke-width="1.5"
-				stroke="cyan"
+				stroke="#00efff"
 				fill="none"
 				stroke-linecap="round"
 				stroke-linejoin="round"
@@ -25,5 +28,29 @@
 				/>
 			</svg></a
 		>
+		<div class="flex ">
+			<a href="https://github.com/Freezler">
+				 <div class="flex flex-row items-center font-normal  text-[#00efff] ">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						class=" icon icon-tabler icon-tabler-copyright"
+						width="24"
+						height="18"
+						viewBox="0 0 24 24"
+						stroke-width="2"
+						stroke="#00efff"
+						fill="none"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					>
+						<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+						<path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+						<path
+							d="M14 9.75a3.016 3.016 0 0 0 -4.163 .173a2.993 2.993 0 0 0 0 4.154a3.016 3.016 0 0 0 4.163 .173"
+						/>
+					</svg>2023</div
+				></a
+			>
+		</div>
 	</div>
 </div>
