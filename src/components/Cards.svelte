@@ -3,7 +3,7 @@
 		class="mb-4 px-12 lg:px-30 xl:px-40 text-center text-3xl flex flex-col md:flex-row w-screen items-center justify-between gap-12"
 	>
 		<div
-			class="mb-24 max-w-lg  xs:w-[100%] sm:w-[90%] md:w-1/2 rounded-3xl overflow-hidden shadow-lg h-[550px] drop-shadow-[0px_0px_0px_rgba(255,255,255,0.1)]"
+			class="mb-24 max-w-lg  xs:w-[100%] sm:w-[90%] md:w-1/2 rounded-2xl overflow-hidden shadow-lg h-[550px] drop-shadow-[0px_0px_0px_rgba(255,255,255,0.1)]"
 		>
 			<img
 				class="h-48 w-full object-cover rounded-t-lg"
@@ -32,7 +32,7 @@
 					/>
 				</svg>
 				<div class="tracking-wider text-center font-bold text-3xl text-[cyan]">Svelte</div>
-				<p class="text-[#eedaf3] text-base mt-6 px-auto">
+				<p class="text-[#eedaf3] text-[clamp(0.8rem,1.5vw,01rem)] mt-6 px-auto -translate-y-4">
 					Efficiënt JS-framework voor snelle, gestroomlijnde webapps. Slank, direct en
 					dynamisch voor soepele gebruikerservaringen
 				</p>
@@ -41,11 +41,11 @@
 				class="bg-[hsla(301,75%,55%,0.34)] items-center justify-center h-full w-full pt-3 mx-auto"
 			>
 				<span
-					class="w-[20%] py-2 inline-block bg-gray-200 rounded-full text-sm font-semibold text-[hsla(186,52%,41%,1)] mr-4 mt-4"
+					class=" w-[28%] lg:w-120%] py-2 inline-block bg-gray-200 rounded-full text-sm font-semibold text-[hsla(186,52%,41%,1)] mr-4 mt-4"
 					>#innovatief</span
 				>
 				<span
-					class="w-[20%] py-2 inline-block bg-gray-200 rounded-full text-sm font-semibold text-[hsla(186,52%,41%,1)] mr-4 mt-4"
+					class=" w-[28%] lg:w-120%] py-2 inline-block bg-gray-200 rounded-full text-sm font-semibold text-[hsla(186,52%,41%,1)] mr-4 mt-4"
 					>#Efficiënt</span
 				>
 			</div>
@@ -79,7 +79,7 @@
 				<div class="tracking-wider text-center font-bold text-2xl text-[cyan]">
 					Tailwind CSS
 				</div>
-				<p class="text-[#eedaf3] text-base mt-6">
+				<p class="text-[#eedaf3] text-base mt-6 text-[clamp(0.8rem,1.5vw,01rem)]">
 					Krachtig CSS-framework voor het snel bouwen van moderne, responsieve en
 					stijlvolle webinterfaces
 				</p>
@@ -88,11 +88,11 @@
 				class="bg-[hsla(301,75%,55%,0.34)] items-center justify-center w-full h-full pt-3 mx-auto"
 			>
 				<span
-					class=" w-[20%] py-2 inline-block bg-gray-200 rounded-full text-sm font-semibold text-[hsla(186,52%,41%,1)] mr-4 mt-4"
+					class=" w-[28%] lg:w-120%] py-2 inline-block bg-gray-200 rounded-full text-sm font-semibold text-[hsla(186,52%,41%,1)] mr-4 mt-4"
 					>#Responive</span
 				>
 				<span
-					class=" w-[20%] py-2 inline-block bg-gray-200 rounded-full text-sm font-semibold text-[hsla(186,52%,41%,1)] mr-4 mt-4"
+					class=" w-[28%] lg:w-120%] py-2 inline-block bg-gray-200 rounded-full text-sm font-semibold text-[hsla(186,52%,41%,1)] mr-4 mt-4"
 					>#Modulair</span
 				>
 			</div>
