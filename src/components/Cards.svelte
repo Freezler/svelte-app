@@ -32,15 +32,12 @@
 					/>
 				</svg>
 				<div class="tracking-wider text-center font-bold text-3xl text-[cyan]">Svelte</div>
-				<p
-					class="text-[#eedaf3] text-[clamp(0.8rem,1.5vw,01rem)] mt-6 px-auto -translate-y-4"
-				>
-					Efficiënt JS-framework voor snelle, gestroomlijnde webapps. Slank, direct en
-					dynamisch voor soepele gebruikerservaringen
+				<p class="text-[#eedaf3] text-base mt-6 text-[clamp(0.8rem,1.5vw,01rem)]">
+					 snel, compileerbaar JavaScript-framework voor moderne, responsieve webinterfaces met modulaire architectuur en ingebouwde animaties.
 				</p>
 			</div>
 			<div
-				class="bg-[hsla(301,75%,55%,0.34)] text-sm py-[2.3rem] mr-4items-center justify-center  w-full h-full  mx-auto"
+				class="bg-[hsla(301,75%,55%,0.34)] text-sm py-[2.3rem] mr-4 items-center justify-center  w-full h-full  mx-auto"
 			>
 				<span
 					class=" bg-cyan-400 border-cyan-400 border-2 hover:bg-transparent text-white font-bold py-2 px-4 rounded-[16px] transition duration-300 ease-in-out"
@@ -78,7 +75,7 @@
 						d="M11.667 6c-2.49 0 -4.044 1.222 -4.667 3.667c.933 -1.223 2.023 -1.68 3.267 -1.375c.71 .174 1.217 .68 1.778 1.24c.916 .912 2 1.968 4.288 1.968c2.49 0 4.044 -1.222 4.667 -3.667c-.933 1.223 -2.023 1.68 -3.267 1.375c-.71 -.174 -1.217 -.68 -1.778 -1.24c-.916 -.912 -1.975 -1.968 -4.288 -1.968zm-4 6.5c-2.49 0 -4.044 1.222 -4.667 3.667c.933 -1.223 2.023 -1.68 3.267 -1.375c.71 .174 1.217 .68 1.778 1.24c.916 .912 1.975 1.968 4.288 1.968c2.49 0 4.044 -1.222 4.667 -3.667c-.933 1.223 -2.023 1.68 -3.267 1.375c-.71 -.174 -1.217 -.68 -1.778 -1.24c-.916 -.912 -1.975 -1.968 -4.288 -1.968z"
 					/>
 				</svg>
-				<div class="tracking-wider text-center font-bold text-2xl text-[cyan]">
+				<div class="tracking-wider text-center font-bold text-3xl text-[cyan]">
 					Tailwind CSS
 				</div>
 				<p class="text-[#eedaf3] text-base mt-6 text-[clamp(0.8rem,1.5vw,01rem)]">
@@ -87,7 +84,7 @@
 				</p>
 			</div>
 			<div
-				class="bg-[hsla(301,75%,55%,0.34)] text-sm py-[2.3rem] mr-4items-center justify-center  w-full h-full  mx-auto"
+				class="bg-[hsla(301,75%,55%,0.34)] text-sm py-[2.3rem] mr-4 items-center justify-center  w-full h-full  mx-auto"
 			>
 				<span
 					class=" bg-cyan-400 border-cyan-400 border-2 hover:bg-transparent text-white font-bold py-2 px-4 rounded-[16px] transition duration-300 ease-in-out"
