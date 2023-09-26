@@ -3,6 +3,20 @@ export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
     extend: {
+      animation: {
+        'spin-slow': 'spin 3s linear infinite',
+        'spin-fast': 'spin 1s linear infinite',
+        'slow-fade-in': 'fade-in 1s ease-in-out',
+        'fast-fade-in': 'fade-in 0.5s ease-in-out',
+        'slow-fade-out': 'fade-out 1s ease-in-out',
+        'fast-fade-out': 'fade-out 0.5s ease-in-out',
+        'slow-slide-in': 'slide-in 1s ease-in-out',
+        'fast-slide-in': 'slide-in 0.5s ease-in-out',
+        'slow-slide-out': 'slide-out 1s ease-in-out',
+        'fast-slide-out': 'slide-out 0.5s ease-in-out',
+        'ani-translate-y': 'translate-y 1s ease-in-out',
+      },
+      
       fontFamily: {
         sans: ['Inter', 'Arial', 'Helvetica', 'sans-serif'],
         serif: ['Georgia', 'serif'],

@@ -31,13 +31,15 @@
 						d="M8 17l5 -3l-.822 .496c-1.86 1.151 -4.411 .491 -5.574 -1.351a3.91 3.91 0 0 1 1.264 -5.42l5.054 -3.127c1.86 -1.15 4.311 -.59 5.474 1.252a3.91 3.91 0 0 1 -1.264 5.42l-.26 .16"
 					/>
 				</svg>
-				<div class="tracking-wider text-center  font-bold text-3xl text-[cyan]">Svelte</div>
+				<div class="tracking-wider text-center font-bold text-3xl text-[cyan]">Svelte</div>
 				<p class="text-[#eedaf3] text-base mt-6 px-auto">
 					Efficiënt JS-framework voor snelle, gestroomlijnde webapps. Slank, direct en
-					dynamisch voor soepele gebruikerservaringen.
+					dynamisch voor soepele gebruikerservaringen
 				</p>
 			</div>
-			<div class="bg-[hsla(301,75%,55%,0.34)] items-center justify-center h-full  w-full pt-3 mx-auto">
+			<div
+				class="bg-[hsla(301,75%,55%,0.34)] items-center justify-center h-full w-full pt-3 mx-auto"
+			>
 				<span
 					class="p-3 inline-block bg-gray-200 rounded-full text-sm font-semibold text-[hsla(301,75%,55%,0.99)] mr-4 mt-4"
 					>#Webdev</span
@@ -74,13 +76,17 @@
 						d="M11.667 6c-2.49 0 -4.044 1.222 -4.667 3.667c.933 -1.223 2.023 -1.68 3.267 -1.375c.71 .174 1.217 .68 1.778 1.24c.916 .912 2 1.968 4.288 1.968c2.49 0 4.044 -1.222 4.667 -3.667c-.933 1.223 -2.023 1.68 -3.267 1.375c-.71 -.174 -1.217 -.68 -1.778 -1.24c-.916 -.912 -1.975 -1.968 -4.288 -1.968zm-4 6.5c-2.49 0 -4.044 1.222 -4.667 3.667c.933 -1.223 2.023 -1.68 3.267 -1.375c.71 .174 1.217 .68 1.778 1.24c.916 .912 1.975 1.968 4.288 1.968c2.49 0 4.044 -1.222 4.667 -3.667c-.933 1.223 -2.023 1.68 -3.267 1.375c-.71 -.174 -1.217 -.68 -1.778 -1.24c-.916 -.912 -1.975 -1.968 -4.288 -1.968z"
 					/>
 				</svg>
-				<div class="tracking-wider text-center font-bold text-2xl text-[cyan]">Tailwind CSS</div>
+				<div class="tracking-wider text-center font-bold text-2xl text-[cyan]">
+					Tailwind CSS
+				</div>
 				<p class="text-[#eedaf3] text-base mt-6">
-					Standaard CSS-framework voor snelle, gestroomlijnde webapps. Slank, direct en
-					dynamisch voor soepele gebruikerservaringen.
+					Krachtig CSS-framework voor het snel bouwen van moderne, responsieve en
+					stijlvolle webinterfaces
 				</p>
 			</div>
-			<div class="bg-[hsla(301,75%,55%,0.34)] items-center justify-center  w-full h-full pt-3 mx-auto">
+			<div
+				class="bg-[hsla(301,75%,55%,0.34)] items-center justify-center w-full h-full pt-3 mx-auto"
+			>
 				<span
 					class="p-3 inline-block bg-gray-200 rounded-full text-sm font-semibold text-[hsla(301,75%,55%,0.99)] mr-4 mt-4"
 					>#Styling</span

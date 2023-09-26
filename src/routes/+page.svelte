@@ -6,8 +6,21 @@
 	onDestroy(() => console.log('Unmounted home page'));
 </script>
 
-<main class="flex flex-col wrap m-0 p-0">
+<main class="flex flex-col m-0 p-0">
 	<ImgOverlay />
+	<div class="text-center relative z-20 animate-bounce">
+		<div class=" flex justify-center flex-col items-center translate-y-[6.8rem] z-10">
+			<span
+				class="inline-block w-4 h-4 border-t-4 rounded-l-4 border-[hsl(292,92%,53%)] border-w-4 border-r-4 transform rotate-[135deg]"
+			/>
+			<span
+				class="inline-block w-4 h-4 border-t-4 border-[hsl(292,92%,53%)] border-w-8 border-r-4 transform rotate-[135deg]"
+			/>
+			<span
+				class="inline-block w-4 h-4 border-t-4 border-[hsl(292,92%,53%)] border-w-8 border-r-4 transform rotate-[135deg]"
+			/>
+		</div>
+	</div>
 	<div class="relative">
 		<svg
 			version="1.1"
@@ -38,3 +51,4 @@
 	</div>
 	<Cards />
 </main>
+]

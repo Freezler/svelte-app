@@ -1,5 +1,7 @@
 <script>
 	import { sendEmail } from '$lib/index.js';
+
+	let show = false;
 </script>
 
 <section
