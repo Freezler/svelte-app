@@ -25,7 +25,7 @@ export default {
         handwriting: ['Pacifico', 'cursive'],
       },
       colors: {
-        primary: '#3490dc', // Add your primary color
+        primary: 'hsla(0, 0%, 00%, 0.1)', // Add your primary color
         secondary: '#ff6b6b', // Add your secondary color
         pcolor: '#6c757d',
         h1color: '#212529',
