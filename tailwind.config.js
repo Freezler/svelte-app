@@ -38,6 +38,7 @@ export default {
         // Add more custom colors as needed
       },
       screens: {
+        sxs: '320px', // Super Extra small screen size
         xs: '480px', // Extra small screen size
         sm: '640px', // Small screen size
         md: '768px', // Medium screen size

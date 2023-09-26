@@ -3,14 +3,14 @@
 		class="mb-4 px-12 lg:px-30 xl:px-40 text-center text-3xl flex flex-col md:flex-row w-screen items-center justify-between gap-12"
 	>
 		<div
-			class="max-w-lg rounded-3xl overflow-hidden shadow-lg h-[550px] drop-shadow-[0px_0px_0px_rgba(10,10,0.9)]"
+			class="max-w-lg xs:w-3/4 w-1/2 rounded-3xl overflow-hidden shadow-lg h-[550px] drop-shadow-[0px_0px_0px_rgba(10,10,0.9)]"
 		>
 			<img
 				class="h-48 w-full object-cover rounded-t-lg"
 				src="https://source.unsplash.com/random/?svelte"
 				alt="svelt related"
 			/>
-			<div class="bg-[hsla(180,2%,19%,0.5)] px-8 py-6 items-center justify-center h-[265px]">
+			<div class="bg-[hsla(180,2%,19%,0.5)] px-8 py-6 items-center justify-center h-[265px] ">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					class="translate-x-1 w-[4rem] h-[4.2rem] icon icon-tabler icon-tabler-brand-svelte mx-auto"
@@ -51,7 +51,7 @@
 			</div>
 		</div>
 		<div
-			class="max-w-lg rounded-3xl overflow-hidden shadow-lg h-[550px] drop-shadow-[0px_0px_0px_rgba(10,10,0.9)]"
+			class=" max-w-lg xs:w-3/4 w-1/2 rounded-3xl overflow-hidden shadow-lg h-[550px] drop-shadow-[0px_0px_0px_rgba(10,10,0.9)]"
 		>
 			<img
 				class="h-48 w-full object-cover rounded-t-lg opacity-80"
@@ -98,5 +98,5 @@
 			</div>
 		</div>
 	</div>
-	<div class="w-full h-32" />
+	<div/>
 </div>
