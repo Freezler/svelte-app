@@ -1,0 +1,33 @@
+<script>
+	import HeroButton from './HeroButton.svelte';
+</script>
+
+<section
+	class="absolute select-none items-center justify-center z-5 transparent w-full overflow-hidden bg-center bg-cover bg-no-repeat h-[100%] bg-[url('./assets/svelte.jpg')]"
+>
+	<div class="frelative top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed">
+		<div class="flex h-full items-center">
+			<div class="bg-secondary-900 bg-opacity-50 px-8 w-screen h-full text-center">
+				<div class="flex flex-col items-center w-full">
+					<h1
+						class="tracking-tighter w-[100%] mt-5 font-sans font-semithin -skew-y-2 -space-x-4 md:transform-none absolute text-tertiary-500 text-[clamp(5rem,8vw,4rem)] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[9rem]"
+					>
+						<span class="text-shadow-[-3px_-3px_10px_purple]">R</span>
+						<span class="text-shadow-[-3px_-3px_10px_purple]">A</span>
+						<span class="text-shadow-[-2px_-2px_10px_purple]">N</span>
+						<span class="text-shadow-[-2px_-1px_10px_purple]">D</span>
+						<span class="text-shadow-[-1px_-1px_10px_purple]">Y</span>
+					</h1>
+					<p class="text-lg md:text-xl lg:text-2xl mb-8">
+						Welkom op mijn portfolio waarin ik mijn passie voor webontwikkeling met je
+						deel. Hier vind je een verzameling van mijn projecten van het afgelopen
+						jaar. Met behulp van krachtige frameworks zoals Svelte, SvelteKit en
+						Tailwind CSS, streef ik naar efficiënte en aantrekkelijke weboplossingen.
+						Neem gerust een kijkje en ontdek mijn creatieve benadering van het web.
+					</p>
+					<HeroButton />
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
