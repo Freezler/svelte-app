@@ -3,7 +3,7 @@
 	
 </script>
 
-<main class="bg-astral-950 animate-slow-fade-in drop-shadow-[3px_-1px_2px_rgba(1,1,1,0.7)]  rounded-[12px] opacity-100 p-0 m-0 flex flex-col text-center items-center justify-center box-border">
+<main class=" animate-slow-fade-in drop-shadow-[3px_-1px_2px_rgba(1,1,1,0.7)]  rounded-[12px] opacity-100 p-0 m-0 flex flex-col text-center items-center justify-center box-border">
 	<div class="w-full h-[110%] flex flex-col text-center items-center justify-center box-border">
 		<div
 			class="bg-gradient-to-tl from-green-400 via-blue-400 to-purple-900 text-shadow-[hsl(98,29%,11%,0.1)] animate-slow-slide-down transition-all drop-shadow-[3px_-1px_2px_rgba(1,1,1,0.7)] rounded-[12px] border-[0.1px] border-[#b9f3f2] opacity-80 p-8 mt-[20%] mb-[2rem] w-fit flex flex-col items-center justify-center box-border drop"

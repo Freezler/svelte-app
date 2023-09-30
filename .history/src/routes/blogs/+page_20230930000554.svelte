@@ -9,7 +9,7 @@
 	class="flex flex-col bg-gradient-to-tr from-astral-900 via-gray-900 to-astral-900 bg-cover bg-center bg-no-repeat w-screen h-full items-center justify-center font-display text-3xl text-center"
 >
 	<div
-		class="mt-[7.5rem] [&>*]:border-purplethree-800 [&>*]:border-[3px] [&>*]:drop-shadow-[-1px_3px_4px_hsla(25,60%,150%,0.5)] [&>*]:rounded-[12px] text-2xl grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-4 items-center"
+		class="mt-[7.5rem] [&>*]:border-red-800 [&>*]:border-8 [&>*]:drop-shadow-[0_0_10px_ text-2xl grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-4 items-center"
 	>
 		<div class=" bg-purpleone-50 square-md w-60 h-40 rounded-xl flex items-center justify-center">
 			bg-blueone-50
