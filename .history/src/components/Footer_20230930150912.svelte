@@ -9,9 +9,9 @@
 		<a href="http://github.com/Freezler" class="w-[2/3] "
 			><svg
 				xmlns="http://www.w3.org/2000/svg"
-				class="h-[2.8rem] icon icon-tabler icon-tabler-brand-github "
-				width="62"
-				height="32"
+				class="h-[2.4rem] icon icon-tabler icon-tabler-brand-github "
+				width="5452"
+				height="24"
 				viewBox="0 0 24 24"
 				stroke-width="1.2"
 				stroke="#dfe2ff"

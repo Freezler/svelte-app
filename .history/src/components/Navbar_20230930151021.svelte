@@ -65,7 +65,7 @@
 <!-- Conditional Mobile Menu Overlay -->
 {#if showNav}
 	<div
-		class="animate-fast-fade-in select-none fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-75 z-50"
+		class="animate-slow-fade-in select-none fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-75 z-50"
 		on:click={toggleNav}
 		on:keypress={toggleNav}
 		role="button"

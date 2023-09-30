@@ -46,7 +46,7 @@
 		<div class={`w-9 h-1 bg-[#dfe2ff] my-2 ${showNav ? 'hidden' : ''}`} />
 		<div
 			class={`w-9 h-1 bg-[#dfe2ff] my-2 ${
-				showNav ? 'transform -rotate-45 transition duration-300  -translate-y-[5px]' : ''
+				showNav ? 'transform -rotate-45 transition duration-300  -translate-y' : ''
 			}`}
 		/>
 	</button>
@@ -58,14 +58,14 @@
 	>
 		<a href="/blogs" class="text-[#dfe2ff]">Color Cards</a>
 		<a href="/about" class="text-[#dfe2ff]">About</a>
-		<a href="/links" class="mr-4 text-[#dfe2ff]">Links</a>
+		<a href="/links" class="mr-8 text-[#dfe2ff]">Links</a>
 	</div>
 </nav>
 
 <!-- Conditional Mobile Menu Overlay -->
 {#if showNav}
 	<div
-		class="animate-fast-fade-in select-none fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-75 z-50"
+		class="animate-slow-fade-in select-none fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-75 z-50"
 		on:click={toggleNav}
 		on:keypress={toggleNav}
 		role="button"

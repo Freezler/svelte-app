@@ -2,16 +2,16 @@
 </script>
 
 <div
-	class="bg-bluethree-950 bg-opacity-90 fixed w-screen bottom-0 h-20 flex items-center p-0 m-0"
+	class="bg-bluethree-500 bg-opacity-70 fixed w-screen bottom-0 h-12 flex items-center p-0 m-0"
 >
 	<div class="flex w-full items-center justify-around">
 		<!-- GitHub icon -->
 		<a href="http://github.com/Freezler" class="w-[2/3] "
 			><svg
 				xmlns="http://www.w3.org/2000/svg"
-				class="h-[2.8rem] icon icon-tabler icon-tabler-brand-github "
-				width="62"
-				height="32"
+				class="h-[2.4rem] icon icon-tabler icon-tabler-brand-github m"
+				width="48"=
+				height="24"
 				viewBox="0 0 24 24"
 				stroke-width="1.2"
 				stroke="#dfe2ff"

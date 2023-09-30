@@ -14,9 +14,9 @@
 </script>
 
 <nav
-	class="fixed select-none flex items-center bottom-0 md:top-0 justify-between w-full h-16 z-10 text-classic_blue_pallete-primary bg-transparent"
+	class="fixed select-none flex items-center justify-between w-full h-16 z-10 text-classic_blue_pallete-primary bg-transparent"
 >
-	<a href="/" class="align-self-start select-none ml-6 mb-6 md:"
+	<a href="/" class="align-self-start ml-4 mt-4"
 		><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
 			<!-- Outline -->
 			<text
@@ -35,9 +35,9 @@
 	>
 
 	<!-- Hamburger voorS  mobile/kleine schermen -->
-	<button class="lg:hidden mr-6 mb-4 md:mt-4animate-burgersmooth" on:click={toggleNav}>
+	<button class="lg:hidden mr-6 mt-4 animate-burgersmooth" on:click={toggleNav}>
 		<div
-			class={`w-9 h-[4.6px] bg-[#dfe2ff] my-2 ${
+			class={`w-9 h-[4.1px] bg-[#dfe2ff] my-2 ${
 				showNav
 					? 'transform rotate-45 transition duration-300 ease-in-out translate-y-2'
 					: ''
@@ -46,7 +46,7 @@
 		<div class={`w-9 h-1 bg-[#dfe2ff] my-2 ${showNav ? 'hidden' : ''}`} />
 		<div
 			class={`w-9 h-1 bg-[#dfe2ff] my-2 ${
-				showNav ? 'transform -rotate-45 transition duration-300  -translate-y-[5px]' : ''
+				showNav ? 'transform -rotate-45 transition duration-300  -translate-y-1' : ''
 			}`}
 		/>
 	</button>
@@ -58,14 +58,14 @@
 	>
 		<a href="/blogs" class="text-[#dfe2ff]">Color Cards</a>
 		<a href="/about" class="text-[#dfe2ff]">About</a>
-		<a href="/links" class="mr-4 text-[#dfe2ff]">Links</a>
+		<a href="/links" class="mr-8 text-[#dfe2ff]">Links</a>
 	</div>
 </nav>
 
 <!-- Conditional Mobile Menu Overlay -->
 {#if showNav}
 	<div
-		class="animate-fast-fade-in select-none fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-75 z-50"
+		class="animate-slow-fade-in select-none fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-75 z-50"
 		on:click={toggleNav}
 		on:keypress={toggleNav}
 		role="button"

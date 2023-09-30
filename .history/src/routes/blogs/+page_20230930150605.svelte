@@ -6,7 +6,7 @@
 </script>
 
 <main
-	class="flex scroll-bars-none flex-col bg-gradient-to-tr from-astral-900 via-gray-900 to-astral-900 bg-cover bg-center bg-no-repeat w-screen h-full items-center justify-center font-display text-3xl text-center"
+	class="flex scrollflex-col bg-gradient-to-tr from-astral-900 via-gray-900 to-astral-900 bg-cover bg-center bg-no-repeat w-screen h-full items-center justify-center font-display text-3xl text-center"
 >
 	<div
 		class="mt-[7.5rem] [&>*]:border-purplethree-800 [&>*]:border-[3px] [&>*]:drop-shadow-[-1px_3px_4px_hsla(25,60%,150%,0.5)] [&>*]:rounded-[12px] text-2xl grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-4 items-center"
