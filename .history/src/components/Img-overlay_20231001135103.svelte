@@ -18,7 +18,7 @@
 				>
 					<span class="font-display text-5xl font-bold tracking-tight drop-shadow-[1.4px_3px_1.4px_rgba(1,1,1,0.9)]">
 						<h1
-							class="w-[110%] -skew-y-1 transform animate-fast-slide-in -space-x-4 font-display text-[clamp(5rem,8vw,4rem)] font-bold tracking-tighter  drop-shadow-[1.4px_3px_1.4px_rgba(1,1,1,0.5)] 
+							class="w-[95%] -skew-y-1 transform animate-fast-slide-in -space-x-4 font-display text-[clamp(5rem,8vw,4rem)] font-bold tracking-tighter  drop-shadow-[1.4px_3px_1.4px_rgba(1,1,1,0.5)] 
 							bg-gradient-to-b bg-clip-text text-transparent from-green-900 via-blue-400 to-purple-900 md:transform-none"
 						>
 							{#each 'RANDY' as char}

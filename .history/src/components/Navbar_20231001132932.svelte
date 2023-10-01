@@ -25,7 +25,7 @@
 <nav
 	class=" focus:select-none fixed bottom-0 z-10 flex h-20 w-full select-none items-center justify-between bg-transparent px-0 md:top-0"
 >
-	<a href="/" class="flex h-16 items-center focus:select-none select-none"
+	<a href="/" class="flex h-16 items-center focus:select-none"
 		><svg
 			class="h-16"
 			xmlns="http://www.w3.org/2000/svg"
@@ -35,8 +35,8 @@
 		>
 			<!-- Outline -->
 			<text
-				class="drop-shadow-[0px_0px_13px_hsla(234,100%,59%,0.9)] focus:select-none select-none"
-				x="0"
+				class="drop-shadow-[0px_0px_13px_hsla(234,100%,59%,0.9)]"
+				x="12"
 				y="66"
 				font-family="Inter"
 				font-size="40"
@@ -46,15 +46,15 @@
 				stroke-linejoin="round">RL</text
 			>
 			<!-- Text -->
-			<text x="0" y="65" font-family="Inter" font-size="40" fill="#87ccd9">RL</text>
+			<text x="10" y="65" font-family="Inter" font-size="40" fill="#87ccd9">RL</text>
 		</svg></a
 	>
 
 	<!-- Hamburger voorS  mobile/kleine schermen -->
-	<button class="mr-4 select-none text-white lg:hidden select-none focus:select-none" on:click={toggleNav}>
+	<button class="mr-4 select-none text-white lg:hidden" on:click={toggleNav}>
 		<div class="relative flex h-6 w-6 items-center">
 			<span
-				class={'absolute block h-[2px] w-5 origin-center bg-blueone-50 transition-transform'}
+				class={'absolute block h-[2px] w-5 origin-center bg-white transition-transform'}
 				class:rotate-45={showNav}
 				class:top-2={!showNav}
 			></span>
@@ -80,7 +80,7 @@
 <!-- Conditional Mobile Menu Overlay -->
 {#if showNav}
 	<div
-		class=" fixed inset-0 z-50 flex animate-fast-fade-in select-none items-center justify-center bg-gray-800 bg-opacity-75 backdrop-blur-[4px]"
+		class=" fixed inset-0 z-50 flex animate-fast-fade-in select-none items-center justify-center bg-gray-800 bg-opacity-75 backdrop-blur-[5px]"
 		
 		on:click={toggleNav} 
 		on:keypress={toggleNav}
@@ -88,7 +88,7 @@
 		tabindex="0"
 	>
 		<div
-			class="absulute mb-7  flex select-none flex-col items-center text-2xl text-gray-200 opacity-100 transition-opacity duration-300 ease-in-out"
+			class="absulute mb-8 flex select-none flex-col items-center text-2xl text-gray-200 opacity-100 transition-opacity duration-300 ease-in-out"
 		>
 			<a href="/" tabindex="0" class="text-cyan-200"
 				><svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">

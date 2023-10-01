@@ -46,7 +46,7 @@
 				stroke-linejoin="round">RL</text
 			>
 			<!-- Text -->
-			<text x="0" y="65" font-family="Inter" font-size="40" fill="#87ccd9">RL</text>
+			<text x="10" y="65" font-family="Inter" font-size="40" fill="#87ccd9">RL</text>
 		</svg></a
 	>
 

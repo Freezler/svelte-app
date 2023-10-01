@@ -36,7 +36,7 @@
 			<!-- Outline -->
 			<text
 				class="drop-shadow-[0px_0px_13px_hsla(234,100%,59%,0.9)] focus:select-none select-none"
-				x="0"
+				x="12"
 				y="66"
 				font-family="Inter"
 				font-size="40"
@@ -46,7 +46,7 @@
 				stroke-linejoin="round">RL</text
 			>
 			<!-- Text -->
-			<text x="0" y="65" font-family="Inter" font-size="40" fill="#87ccd9">RL</text>
+			<text x="10" y="65" font-family="Inter" font-size="40" fill="#87ccd9">RL</text>
 		</svg></a
 	>
 
