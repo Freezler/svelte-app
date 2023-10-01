@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	scroll-behavior: smooth;
+}
+
+body * {
+-moz-scrollbar-width: none;
+-ms-overflow-style: none;
+}
+
+bod

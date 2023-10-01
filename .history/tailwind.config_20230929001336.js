@@ -275,7 +275,7 @@ export default {
 				  900: '#444266',
 				  950: '#232232'
 				}
-			  };
+			  },
 				}
 			},
 			screens: {
@@ -328,6 +328,6 @@ export default {
 				},
 				{ values: theme('textShadow') }
 			);
-		})
+		});
 	]
 };
