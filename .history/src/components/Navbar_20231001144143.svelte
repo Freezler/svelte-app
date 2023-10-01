@@ -25,7 +25,7 @@
 <nav
 	class=" focus:select-none fixed bottom-0 z-10 flex h-20 w-full select-none items-center justify-between bg-transparent px-0 md:top-0"
 >
-	<a href="/" class="ml-3 flex h-16 items-center focus:select-none select-none"
+	<a href="/" class="flex h-16 items-center focus:select-none select-none"
 		><svg
 			class="h-16"
 			xmlns="http://www.w3.org/2000/svg"

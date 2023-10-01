@@ -18,7 +18,7 @@
 					<span class=" drop-shadow-[4.4px_4px_1.4px_rgba(1,1,1,0.9)]">
 						<h1
 							class=" w-[100%] -skew-y-1 transform animate-fast-slide-in font-serif text-[clamp(3.8rem,8vw,10rem)]  -space-x-2 font-[900]  drop-shadow-[3px_3px_1px_rgba(225,225,255,0.92)]
-							 md:transform-none mb-8"
+							 md:transform-none"
 						>
 							{#each 'RANDY' as char}
 								<span

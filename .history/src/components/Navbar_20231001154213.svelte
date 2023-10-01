@@ -25,7 +25,7 @@
 <nav
 	class=" focus:select-none fixed bottom-0 z-10 flex h-20 w-full select-none items-center justify-between bg-transparent px-0 md:top-0"
 >
-	<a href="/" class="ml-3 flex h-16 items-center focus:select-none select-none"
+	<a href="/" class="flex h-16 items-center focus:select-none select-none"
 		><svg
 			class="h-16"
 			xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +51,7 @@
 	>
 
 	<!-- Hamburger voorS  mobile/kleine schermen -->
-	<button class="mr-4 select-none text-white lg:hidden focus:select-none" on:click={toggleNav}>
+	<button class="mr-3 select-none text-white lg:hidden focus:select-none" on:click={toggleNav}>
 		<div class="relative flex h-6 w-6 items-center">
 			<span
 				class={'absolute block h-[2px] w-5 origin-center bg-blueone-50 transition-transform'}

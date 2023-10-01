@@ -18,11 +18,11 @@
 					<span class=" drop-shadow-[4.4px_4px_1.4px_rgba(1,1,1,0.9)]">
 						<h1
 							class=" w-[100%] -skew-y-1 transform animate-fast-slide-in font-serif text-[clamp(3.8rem,8vw,10rem)]  -space-x-2 font-[900]  drop-shadow-[3px_3px_1px_rgba(225,225,255,0.92)]
-							 md:transform-none mb-8"
+							 md:transform-none"
 						>
 							{#each 'RANDY' as char}
 								<span
-									class=" bg-gradient-to-br from-bluetwo-900 via-bluetwo-300 to-bluetwo-900 bg-clip-text bg-no-repeat uppercase  text-transparent"
+									class=" bg-gradient-to-br from-bluetwo-900 via-purpletwo-300 to-purpletwo-900 bg-clip-text bg-no-repeat uppercase  text-transparent"
 								>
 									{char}
 								</span>
@@ -30,7 +30,7 @@
 						</h1></span
 					>
 					<p
-						class=" line-clamp-5 w-[50%] items-center justify-center text-center font-sans text-[clamp(0.5rem,2vw,1.5rem)] text-greenone-100 mb-[8rem]"
+						class=" line-clamp-5 w-[50%] items-center justify-center text-center font-sans text-[clamp(0.5rem,2vw,1.5rem)] text-greenone-100 mb-[16rem]"
 					>
 						Ontdek de magie van mijn Svelte-app - moeiteloos en intuïtief, voor een
 						naadloze gebruikerservaring.
