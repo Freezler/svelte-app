@@ -16,7 +16,7 @@
 		>
 			bg-blueone-50
 		</div>
-		<div class="bg-blueone-100 square-md w-60 h-40 rounded-xl flex items-center justify-center font-display">
+		<div class="bg-blueone-100 square-md w-60 h-40 rounded-xl flex items-center justify-center font-fisplay">
 			bg-blueone-100
 		</div>
 		<div class="bg-blueone-200 square-md w-60 h-40 rounded-xl flex items-center justify-center">

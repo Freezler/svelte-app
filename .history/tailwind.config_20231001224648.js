@@ -8,7 +8,7 @@ export default {
 				btnPulse: ' btnPulse 1s infinite',
 				'spin-slow': 'spin 3s linear infinite',
 				'spin-fast': 'spin 1s linear infinite',
-				'slow-fade-in': 'fade-in 2s ease-in-out',
+				'slow-fade-in': 'fade-in .61s ease-in-out',
 				'fast-fade-in': 'fade-in 0.5s ease-in-out',
 				'slow-fade-out': 'fade-out 2s ease-in-out',
 				'fast-fade-out': 'fade-out 0.1 ease-in-out',

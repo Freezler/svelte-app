@@ -13,7 +13,7 @@
 		<div class="relative flex h-screen items-center justify-evenly mt-[32%]">
 			<div class="mx-auto mb-[90%] flex h-full w-full flex-col">
 				<h1
-					class="text-skew-y-1 mb-[4rem] mt-[20%] w-[100%] transform animate-slow-fade-in -space-x-3 text-center font-sans text-[clamp(4rem,12vw,10rem)] font-[800] drop-shadow-[3px_3px_5px_rgba(22,22,22,0.7)]
+					class="text-skew-y-1 mb-[4rem] mt-[20%] w-[100%] transform animate-slow-fade-infast-slide-in -space-x-3 text-center font-sans text-[clamp(4rem,12vw,10rem)] font-[800] drop-shadow-[3px_3px_5px_rgba(22,22,22,0.7)]
 							 md:transform-none"
 				>
 					{#each 'RANDY' as char}

@@ -6,17 +6,17 @@
 </script>
 
 <main
-	class="flex  flex-col  min-h-screen bg-gradient-to-tr from-astral-900 via-gray-900 to-astral-900 bg-cover bg-center bg-no-repeat w-screen h-full items-center justify-center  text-3xl text-center"
+	class="flex  flex-col  min-h-screen bg-gradient-to-tr from-astral-900 via-gray-900 to-astral-900 bg-cover bg-center bg-no-repeat w-screen h-full items-center justify-center font- text-3xl text-center"
 >
 	<div
 		class="mt-[7.5rem] [&>*]:border-purplethree-400 [&>*]:border-[1px] [&>*]:drop-shadow-[-1px_3px_4px_hsla(25,60%,150%,0.5)] [&>*]:rounded-[12px] text-2xl grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-4 items-center"
 	>
 		<div
-			class="bg-purpleone-50  w-60 h-40 justify-center rounded-xl flex items-center font-mono"
+			class="bg-purpleone-50  w-60 h-40 justify-center rounded-xl flex items-center"
 		>
 			bg-blueone-50
 		</div>
-		<div class="bg-blueone-100 square-md w-60 h-40 rounded-xl flex items-center justify-center font-display">
+		<div class="bg-blueone-100 square-md w-60 h-40 rounded-xl flex items-center justify-center">
 			bg-blueone-100
 		</div>
 		<div class="bg-blueone-200 square-md w-60 h-40 rounded-xl flex items-center justify-center">
