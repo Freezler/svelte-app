@@ -17,8 +17,8 @@
 				>
 					<span
 						class="bg-gradient-to-r from-green-400 to-blue-500
-                 		bg-clip-text
-				 		font-display font-bold text-5xl tracking-tight text-transparent"
+                 bg-clip-text
+                 text-lg text-transparent"
 						><h1
 							class="w-[100%] -skew-y-1 transform animate-fast-slide-in -space-x-4 font-display text-[clamp(5rem,8vw,4rem)] font-bold tracking-tighter text-astral-700 md:transform-none"
 						>

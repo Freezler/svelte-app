@@ -23,7 +23,7 @@
 </script>
 
 <nav
-	class=" fixed bottom-0 z-10 flex h-20 w-full select-none items-center justify-between bg-transparent px-0 md:top-0"
+	class="text-classic_blue_pallete-primary fixed bottom-0 z-10 flex h-20 w-full select-none items-center justify-between bg-transparent px-0 md:top-0"
 >
 	<a href="/" class="flex h-16 items-center"
 		><svg
@@ -80,9 +80,8 @@
 <!-- Conditional Mobile Menu Overlay -->
 {#if showNav}
 	<div
-		class=" fixed inset-0 z-50 flex animate-fast-fade-in select-none items-center justify-center bg-gray-800 bg-opacity-75 backdrop-blur-[5px]"
-		
-		on:click={toggleNav} 
+		class=" fixed inset-0 z-50 flex animate-fast-fade-in select-none items-center justify-center bg-gray-800 bg-opacity-75 bg-blur-[3px]"
+		on:click={toggleNav}
 		on:keypress={toggleNav}
 		role="button"
 		tabindex="0"
