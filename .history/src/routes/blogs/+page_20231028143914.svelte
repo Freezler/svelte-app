@@ -7,6 +7,6 @@
 </script>
 
 <main>
-	
+	<
 	<ColorCards />
 </main>
