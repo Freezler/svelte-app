@@ -18,5 +18,5 @@
 	  <div class="flex h-48 w-48 flex-col rounded-full border-2 border-purplethree-400 bg-cover bg-center" style="background-image: url({avatarUrl})"></div>
 	{/if}
   
-	<button on:click={() => window.location.reload()} class="mt-8 rounded-md border-2 border-purpleone-700 bg-purpleone-900 p-3 text-rosetwo-200 opacity-80 shadow-sm shadow-purpleone-500">Refresh Avatar</button>
+	<button on:click={() => window.location.reload()} class="mt-8 rounded-md border-2 border-purpleone-700 bg-purpleone-900 p-3 text-rosetwo-400 opacity-80 shadow-sm shadow-purpleone-500">Refresh Avatar</button>
   </main>
