@@ -1,6 +1,5 @@
 <script>
 	import { onDestroy, onMount } from 'svelte';
-	import HeroButton from '../components/HeroButton.svelte';
 
 	onMount(() => console.log('Mounted home page'));
 	onDestroy(() => console.log('Unmounted home page'));

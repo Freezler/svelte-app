@@ -1,4 +1,9 @@
-
+<script>
+	import { onMount } from 'svelte';
+	import { onDestroy, onMount } from 'svelte';
+	import { crossfade } from 'svelte/transition';
+	import
+</script>
 
 <div
 	class="z-100 absolute bottom-0 left-0 right-0 top-0 flex animate-slow-fade-in flex-col bg-gradient-to-tr from-astral-900 via-gray-900 to-astral-900">

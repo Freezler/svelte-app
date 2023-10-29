@@ -1,4 +1,5 @@
-
+<script>
+</script>
 
 <div
 	class="z-100 absolute bottom-0 left-0 right-0 top-0 flex animate-slow-fade-in flex-col bg-gradient-to-tr from-astral-900 via-gray-900 to-astral-900">
@@ -9,7 +10,7 @@
 				class="translate-y-24 text-6xl font-semibold text-purpletwo-900">
 				Randy de vries
 			</h1>
-		</div>
+				</div>
 		<svg
 			version="1.1"
 			class="text-md ml-32 h-72 -translate-x-32 -translate-y-16 font-semibold"

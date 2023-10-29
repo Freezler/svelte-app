@@ -1,6 +1,5 @@
 <script>
 	import { onDestroy, onMount } from 'svelte';
-	import HeroButton from '../components/HeroButton.svelte';
 
 	onMount(() => console.log('Mounted home page'));
 	onDestroy(() => console.log('Unmounted home page'));
@@ -26,10 +25,9 @@
 					class=" box-shadow-[4px_4px_5px_rgba(2,12,34,0.3)] mx-auto flex w-[80%] items-center justify-center rounded border-[1px] border-bluethree-900 bg-greytwo-100/10 bg-cover bg-center bg-no-repeat px-5 py-24 text-center backdrop-blur-xl">
 					<p
 						class="xl:mb-8rem mx-8 line-clamp-5 w-full items-center justify-center text-center font-display text-[clamp(0.75rem,2vw,1.5rem)] font-thin text-white">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Praesentium incidunt vitae, modi est qui officia
-						recusandae, sit quaerat omnis fugit accusamus ex ut et
-						dolorem, vero voluptates assumenda quia quam?
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+						incidunt vitae, modi est qui officia recusandae, sit quaerat omnis fugit
+						accusamus ex ut et dolorem, vero voluptates assumenda quia quam?
 					</p>
 					<HeroButton />
 				</div>

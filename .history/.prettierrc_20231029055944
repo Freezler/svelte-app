@@ -9,10 +9,7 @@
 	"overrides": [{ "files": "*.svelte", "options": { "parser": "svelte" } }],
 	"tabWidth": 4,
 	"semi": true,
-	"bracketSpacing": true
-	
-
-	
-
+	"bracketSpacing": true,
+	"br"
 	
 }

@@ -9,10 +9,13 @@
 	"overrides": [{ "files": "*.svelte", "options": { "parser": "svelte" } }],
 	"tabWidth": 4,
 	"semi": true,
-	"bracketSpacing": true
+	"bracketSpacing": true,
+	"bracketSameLine": true,
+	"arrowParens": "always",
+	"proseWrap": "always",
+	"endOfLine": "lf",
+	"htmlWhitespaceSensitivity": "css",
+	"jsxSingleQuote": true
 	
-
-	
-
 	
 }
