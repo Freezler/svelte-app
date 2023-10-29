@@ -6,8 +6,9 @@
 	onMount(async () => {
 	  const response = await fetch('https://source.unsplash.com/360x360/?FACES');
 	  avatarUrl = response.url;
-	}); 
-</script>
+	});
+  
+  </script>
   
   <main class="animate-slow-fade-in  flex flex-col items-center justify-center w-screen h-screen bg-gradient-to-tr from-astral-900 via-gray-900 to-astral-900">
 	{#if avatarUrl !== ''}

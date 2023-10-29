@@ -5,7 +5,7 @@
 <div class="flex flex-col absolute left-0 right-0 top-0 bottom-0 animate-slow-fade-in z-100 bg-gradient-to-tr from-astral-900 via-gray-900 to-astral-900">
 	<div class="relative mt-[20%]">
 		<div class="blur-[0.7px] opacity-90 text-center relative z-20 animate-slow-fade-in">
-			<h1 class="text-6xl font-semibold text-purpletwo-900 translate-y-24">Randy de vries</h1>
+			<h1 class="text-4xl font-semibold text-gradient-to-tr from-astral-900 via-gray-900 to-astral-900 translate-y-24">Randy</h1>
 		</div>
 		<svg
 			version="1.1"

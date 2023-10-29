@@ -1,6 +1,6 @@
 <script>
 	import { onDestroy, onMount } from 'svelte';
-	import ColorCard from '../../components/ColorCards.svelte';
+	import ColorCard
 
 	onMount(() => console.log('Mounted Color Cards page'));
 	onDestroy(() => console.log('Unmounted Color Cards page'));
@@ -8,5 +8,5 @@
 
 <main class="flex flex-col w-screen h-screen bg-gradient-to-tr from-astral-900 via-gray-900 to-astral-900">
 	
-	<ColorCard />
+	<ColorCards />
 </main>	
