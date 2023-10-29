@@ -19,7 +19,7 @@
 	</button>
   
 	<a
-	  class="border-primary-100 relative min-w-[6rem] max-w-[10rem] animate-slow-slide-up rounded-[8px] border-[2px] bg-bluethree-500 px-5 py-2 font-bold text-purpleone-100 transition duration-300 ease-in-out hover:border-bluethree-500 hover:bg-transparent active:animate-btnPulse"
+	  class="border-primary-100 relative min-w-[6rem] max-w-[10rem] animate-fast-slide-up rounded-[8px] border-[2px] bg-bluethree-500 px-5 py-2 font-bold text-purpleone-100 transition duration-300 ease-in-out hover:border-bluethree-500 hover:bg-transparent active:animate-btnPulse"
 	  data-te-ripple-init
 	  data-te-ripple-color="dark"
 	  href="/about"

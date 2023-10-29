@@ -18,7 +18,7 @@ export default {
 				'slow-slide-out': 'slide-out 0.6s ease-in-out',
 				'fast-slide-out': 'slide-out 0.3s ease-in-out',
 				'ani-translate-y': 'translate-y 5s ease-in-out',
-				'fast-slide-up': 'slide-up 0.3s cubic-bezier(0.215, 0.61, 0.355, 1)',
+				'fast-slide-up': 'slide-up 0.4s cubic-bezier(0.215, 0.61, 0.355, 1)',
 				'slow-slide-down': 'slide-down 0.6s cubic-bezier(0.215, 0.61, 0.355, 1)',
 				'burger-smooth': 'burger-smooth 2s ease-in-out',
 				wave: 'wave 5s ease-in-out'
