@@ -27,6 +27,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@tabler/icons-svelte": "^2.40.0"
+		"@tabler/icons-svelte": "^2.40.0",
+		"rollup": "^4.1.5"
 	}
 }

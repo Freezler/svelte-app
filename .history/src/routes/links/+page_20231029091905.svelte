@@ -5,5 +5,5 @@
 	import ScrollBlob from '../../components/scrollBlob.svelte';
 </script>
 <div class="flex flex-col items-center justify-center">
-<ScrollBlob/>
+<Blob/>
 </div>

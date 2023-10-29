@@ -1,6 +1,7 @@
 {
 	
 	"useTabs": true,
+	"indent"
 	"singleQuote": true,
 	"trailingComma": "none",
 	"printWidth": 100,
