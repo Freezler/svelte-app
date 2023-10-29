@@ -5,6 +5,6 @@
 	let email =	'r.l.devries@live.nl'
 	import Blob from '../../components/scrollblob.svelte';
 </script>
-<div class="flex flex-col items-center justify-center">
+<div class="flex flex-col i">
 <Blob/>
 </div>

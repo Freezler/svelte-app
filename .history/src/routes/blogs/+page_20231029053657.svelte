@@ -9,4 +9,4 @@
 <main class="flex flex-col w-screen h-screen bg-gradient-to-tr from-astral-900 via-gray-900 to-astral-900">
 	
 	<ColorCards />
-</main>	
+</main>

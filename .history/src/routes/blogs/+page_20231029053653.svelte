@@ -6,7 +6,7 @@
 	onDestroy(() => console.log('Unmounted Color Cards page'));
 </script>
 
-<main class="flex flex-col w-screen h-screen bg-gradient-to-tr from-astral-900 via-gray-900 to-astral-900">
+<main >
 	
 	<ColorCards />
-</main>	
+</main>
