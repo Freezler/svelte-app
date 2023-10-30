@@ -6,7 +6,7 @@
   
 	const reloadAvatar = async () => {
 		isLoading = true;
-		const response = await fetch('https://source.unsplash.com/360x360/?rijksmuseum');
+		const response = await fetch('https://source.unsplash.com/360x360/?rijksmuseum);
 		avatarUrl = response.url;
 		isLoading = false;
 	}
@@ -29,5 +29,5 @@
 		<div class="flex h-48 w-48 flex-col rounded-full border-2 border-purplethree-400 bg-cover bg-center avatar-image" style="background-image: url({avatarUrl})"></div>
 	{/if}
 
-	<button on:click={reloadAvatar} class="w-[100px] mt-8 rounded-md border-2 border-purpleone-700 bg-purpleone-900 bg-opacity-40 p-3 text-rosetwo-200 opacity-80 shadow-sm shadow-purpleone-500">Next..</button>
+	<button on:click={reloadAvatar} class=" mt-8 rounded-md border-2 border-purpleone-700 bg-purpleone-900 bg-opacity-40 p-3 text-rosetwo-200 opacity-80 shadow-sm shadow-purpleone-500">Refresh Avatar</button>
 </main>
