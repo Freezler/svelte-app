@@ -1,6 +1,6 @@
 <div class="relative mt-[6%]">
 	<div class="relative z-20 animate-slow-fade-in text-center opacity-90 blur-[0.7px]">
-		<h1 class="font-display translate-y-32 text-3xl font-bold text-cyan-200 drop-shadow-[3px_3px_3px_rgba(22,22,22,0.9)]"> HTML<br> CSS <br> javaScript</h1>
+		<h1 class="translate-y-32 text-3xl font-bold text-greytwo-300 drop-shadow-[3px_3px_5px_rgba(22,22,22,0.9)]"> HTML<br> CSS <br> javaScript</h1>
 	</div>
 	<svg
 		version="1.1"
