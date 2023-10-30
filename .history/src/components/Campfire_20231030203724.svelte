@@ -22,8 +22,8 @@
 
 <main class="flex h-screen w-screen animate-slow-fade-in flex-col items-center justify-center bg-gradient-to-tr from-astral-900 via-gray-900 to-astral-900">
 	{#if isLoading}
-	<div class="h-[192px] w-[192px] border-2 rounded-full flex items-center justify-center">
-		<p class="animate-pulse text-xl text-purpleone-100 animate-pulse">Loading...</p>
+	<div class="h-[190px] w-[185px] flex items-center justify-center">
+		<p class="text-3xl text-purpleone-100 animate-pulse">Loading...</p>
 	</div>
 		{:else if avatarUrl !== ''}
 		<div class="flex h-48 w-48 flex-col rounded-full border-2 border-purplethree-400 bg-cover bg-center avatar-image" style="background-image: url({avatarUrl})"></div>
