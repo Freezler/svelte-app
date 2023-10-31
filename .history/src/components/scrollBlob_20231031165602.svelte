@@ -9,8 +9,8 @@
 				-moz-background-clip: text;
 				-webkit-background-clip: text;
 				text-transform: uppercase;
-				font-size: 2.6rem;
-				margin: 4px 0;
+				font-size: rem;
+				margin: 10px 0;
 			"
 		>
 			Jack<br /> -o- <br />Lantern

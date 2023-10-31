@@ -1,7 +1,7 @@
-<div class="relative">
+<div class="relative ">
 	<div class="relative top-10 z-50 animate-slow-fade-in text-center">
 		<h1
-			class="font-sand animate-fade-in -translate-y-[24px] font-bold"
+			class="font-sand animate-fade-in translate-y-[150px] font-bold"
 			style="
 				background-image: url('https://media.giphy.com/media/eAxaiTPPlHsPYElltk/giphy-downsized-large.gif');
 				background-size: cover;
@@ -9,17 +9,18 @@
 				-moz-background-clip: text;
 				-webkit-background-clip: text;
 				text-transform: uppercase;
-				font-size: 2.6rem;
-				margin: 4px 0;
+				font-size: 80px;
+				margin: 10px 0;
 			"
 		>
-			Jack<br /> -o- <br />Lantern
+			Jack<br> -o- <br>Lantern
 		</h1>
+		<p class="font-handwriting text-4xl translate-y-40">het verhaal van:</p>
 	</div>
 
 	<svg
 		version="1.1"
-		class="ml-32 h-[600px] -translate-x-32 -translate-y-[380px] opacity-50"
+		class="ml-32 h-[1000px] -translate-x-32 -translate-y-[480px] opacity-50"
 		xmlns="http://www.w3.org/2000/svg"
 		viewBox="0 0 500 500"
 		width="100%"
@@ -43,53 +44,47 @@
 			/></path
 		></svg
 	>
-	<div class="absolute top-0 translate-y-[280px] z-60  p-4 text-red-900 [&>p]:text-center [&>p]:font-handwriting  [&>p]:text-greyone-200  [&>p]:text-xl [&>p]:mx-12 [&>p]:bg-redone-300 [&>p]:bg-opacity-20 text-center">
-		<h1 class="mb-8 text-2xl font-semibold">Het Verhaal van Stingy Jack en de Lantaarn</h1>
-		<p class="mb-4 rounded-lg border border-gray-300 bg-gray-200 bg-opacity-10 p-4 text-left text-gray-700">
+	<div class="z-60 bg-opaque p- relative rounded-lg text-center shadow-lg">
+		<h1 class="mb-4 text-2xl font-semibold">Het Verhaal van Stingy Jack en de Lantaarn</h1>
+		<p class="text-left text-gray-700">
 			Lang geleden, in Ierland, leefde er een man genaamd Stingy Jack. Jack stond bekend om
 			zijn hebzucht en gierigheid. Op een dag ontmoette hij de duivel bij een lokale herberg.
 		</p>
-		<p class="mb-4 rounded-lg border border-gray-300 bg-gray-200 p-4 text-left text-gray-700">
+		<p class="text-left text-gray-700">
 			Jack daagde de duivel uit om zijn laatste cent uit te geven aan drank. De duivel, altijd
 			bereid om een weddenschap aan te nemen, stemde toe. Maar toen het tijd was om te
 			betalen, veranderde Jack snel van gedachten en smeekte hij de duivel om zijn ziel te
 			sparen.
 		</p>
-		<p class="mb-4 rounded-lg border border-gray-300 bg-gray-200 p-4 text-left text-gray-700">
+		<p class="text-left text-gray-700">
 			De duivel, listig als hij was, ging akkoord met Jack's smeekbede, met de voorwaarde dat
 			Jack hem niet zou lastigvallen of proberen te verleiden om zijn ziel voor de komende
 			tien jaar op te eisen.
 		</p>
-		<p class="mb-4 rounded-lg border border-gray-300 bg-gray-200 p-4 text-left text-gray-700">
+		<p class="text-left text-gray-700">
 			Tien jaar later kwam Jack weer oog in oog met de duivel. Deze keer probeerde hij slim te
 			zijn en vroeg hij de duivel om een appel uit een boom te plukken voordat hij zijn ziel
 			zou afstaan. Terwijl de duivel de boom beklom, sneed Jack een kruisteken in de stam,
 			waardoor de duivel gevangen zat.
 		</p>
-		<p class="mb-4 rounded-lg border border-gray-300 bg-gray-200 p-4 text-left text-gray-700">
+		<p class="text-left text-gray-700">
 			Jack beloofde de duivel vrij te laten op voorwaarde dat hij zijn ziel nooit zou opeisen.
 			De duivel ging akkoord en Jack liet hem vrij.
 		</p>
-		<p class="mb-4 rounded-lg border border-gray-300 bg-gray-200 p-4 text-left text-gray-700">
+		<p class="text-left text-gray-700">
 			Toen Jack uiteindelijk stierf, ontdekte hij dat hij niet welkom was in de hemel vanwege
 			zijn zondige leven, en de duivel herinnerde zich zijn belofte om Jack's ziel niet op te
 			eisen. Jack werd veroordeeld tot eeuwig zwerven in de duisternis.
 		</p>
-		<p class="mb-4 rounded-lg border border-gray-300 bg-gray-200 p-4 text-left text-gray-700">
+		<p class="text-left text-gray-700">
 			Hij smeekte de duivel om wat licht en de duivel gooide hem een gloeiende kooltje uit de
 			hel. Jack plaatste de kooltje in een uitgeholde raap en gebruikte het als lantaarn om
 			door de duisternis te dwalen. Sindsdien staat hij bekend als "Jack of the Lantern," en
 			dat evolueerde tot "Jack-o'-Lantern."
 		</p>
-		<p class="mb-4 rounded-lg border border-gray-300 bg-gray-200 p-4 text-left text-gray-700">
+		<p class="text-left text-gray-700">
 			En zo ontstond de traditie van het uithollen van pompoenen en het plaatsen van kaarsen
 			binnenin tijdens Halloween.
 		</p>
-		 <p>
-			eind..
-			<br>
-			maar <echt class=""></echt>
-		 </p>
-
 	</div>
 </div>

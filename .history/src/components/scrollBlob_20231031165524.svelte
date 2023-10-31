@@ -9,12 +9,13 @@
 				-moz-background-clip: text;
 				-webkit-background-clip: text;
 				text-transform: uppercase;
-				font-size: 2.6rem;
-				margin: 4px 0;
+				font-size: 2rem;
+				margin: 10px 0;
 			"
 		>
 			Jack<br /> -o- <br />Lantern
 		</h1>
+		<p class="text-1xl translate-y-22 font-handwriting underline">het verhaal van:</p>
 	</div>
 
 	<svg

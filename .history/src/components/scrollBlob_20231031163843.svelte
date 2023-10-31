@@ -1,7 +1,7 @@
 <div class="relative">
 	<div class="relative top-10 z-50 animate-slow-fade-in text-center">
 		<h1
-			class="font-sand animate-fade-in -translate-y-[24px] font-bold"
+			class="font-sand animate-fade-in translate-y-[0px] font-bold"
 			style="
 				background-image: url('https://media.giphy.com/media/eAxaiTPPlHsPYElltk/giphy-downsized-large.gif');
 				background-size: cover;
@@ -9,17 +9,18 @@
 				-moz-background-clip: text;
 				-webkit-background-clip: text;
 				text-transform: uppercase;
-				font-size: 2.6rem;
-				margin: 4px 0;
+				font-size: 40px;
+				margin: 10px 0;
 			"
 		>
 			Jack<br /> -o- <br />Lantern
 		</h1>
+		<p class="text-1xl translate-y-22 font-handwriting underline">het verhaal van:</p>
 	</div>
 
 	<svg
 		version="1.1"
-		class="ml-32 h-[600px] -translate-x-32 -translate-y-[380px] opacity-50"
+		class="ml-32 h-[600px] -translate-x-32 -translate-y-[440px] opacity-50"
 		xmlns="http://www.w3.org/2000/svg"
 		viewBox="0 0 500 500"
 		width="100%"
@@ -43,8 +44,8 @@
 			/></path
 		></svg
 	>
-	<div class="absolute top-0 translate-y-[280px] z-60  p-4 text-red-900 [&>p]:text-center [&>p]:font-handwriting  [&>p]:text-greyone-200  [&>p]:text-xl [&>p]:mx-12 [&>p]:bg-redone-300 [&>p]:bg-opacity-20 text-center">
-		<h1 class="mb-8 text-2xl font-semibold">Het Verhaal van Stingy Jack en de Lantaarn</h1>
+	<div class=" -translate-y-14z-60 bg-opaque p-4 text-red-500 [&>p]:text-center [&>p]:text-xl [&>p]:mx-12 [&>p]:bg-gradient-to-tr from-red-900 via-roseone-900 to-orange-900 relative rounded-lg text-center shadow-lg">
+		<h1 class="mb-4 text-2xl font-semibold">Het Verhaal van Stingy Jack en de Lantaarn</h1>
 		<p class="mb-4 rounded-lg border border-gray-300 bg-gray-200 bg-opacity-10 p-4 text-left text-gray-700">
 			Lang geleden, in Ierland, leefde er een man genaamd Stingy Jack. Jack stond bekend om
 			zijn hebzucht en gierigheid. Op een dag ontmoette hij de duivel bij een lokale herberg.
@@ -85,11 +86,5 @@
 			En zo ontstond de traditie van het uithollen van pompoenen en het plaatsen van kaarsen
 			binnenin tijdens Halloween.
 		</p>
-		 <p>
-			eind..
-			<br>
-			maar <echt class=""></echt>
-		 </p>
-
 	</div>
 </div>
