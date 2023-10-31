@@ -8,7 +8,7 @@
 				color: transparent;
 				-moz-background-clip: text;
 				-webkit-background-clip: text;
-				background-position: center;
+				
 				text-transform: uppercase;
 				font-size: 2.6rem;
 				margin: 4px 0;
