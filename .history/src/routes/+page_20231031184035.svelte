@@ -14,7 +14,7 @@
 		<div class="flex h-screen items-center justify-center">
 			<div class="mx-auto flex h-full w-full flex-col">
 				<h1
-					class="text-shadow-[3px_3px_70px_rgba(2,12,175,0.5)] animate-slow-fade-in  drop-shadow-[3px_3px_5px_rgba(22,22,22,0.7)] md:transform-none mb-[5%] mt-[5%] w-[100%] transform  -space-x-3 text-center font-display text-[clamp(5.2rem,12vw,12rem)] font-[800]">
+					class="text-shadow-[3px_3px_70px_rgba(2,12,175,0.5)] animate-slow-fade-in text-skew-y-1  drop-shadow-[3px_3px_5px_rgba(22,22,22,0.7)] md:transform-none mb-[5%] mt-[4%] w-[100%] transform  -space-x-3 text-center font-display text-[clamp(4rem,12vw,10rem)] font-[800]">
 					{#each `RANDY` as char}
 						<span
 
