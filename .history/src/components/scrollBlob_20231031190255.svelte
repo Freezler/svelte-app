@@ -1,4 +1,4 @@
-<div class=" scroll-smooth relative animate-slow-fade-in">
+<div class="relative ani">
 	<div class="relative top-10 mb-4 z-50 animate-slow-fade-in text-center">
 		<h1
 			class="font-sand animate-slow-fade-in -translate-y-[0px] font-bold"

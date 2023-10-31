@@ -4,7 +4,7 @@
 
 
 <main
-	class="scroll-smooth animate-slow-fade-in flex overflow-scroll flex-col  min-h-[100%] bg-gradient-to-tr from-astral-900 via-gray-900 to-astral-600 bg-cover bg-center bg-no-repeat w-screen  items-center justify-top py-24  text-3xl text-center"
+	class="scanimate-slow-fade-in flex overflow-scroll flex-col  min-h-[100%] bg-gradient-to-tr from-astral-900 via-gray-900 to-astral-600 bg-cover bg-center bg-no-repeat w-screen  items-center justify-top py-24  text-3xl text-center"
 >
 <div class="flex flex-col items-center justify-center">	<div
 		class="text-greytwo-500 [&>*]:border-purplethree-600 [&>*]:border-[1px] [&>*]:drop-shadow-[-1px_3px_4px_hsla(25,60%,150%,0.5)] [&>*]:rounded-[12px] text-2xl grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-8 "
