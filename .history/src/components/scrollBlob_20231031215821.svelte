@@ -48,7 +48,7 @@
 		
 		<div class="w-[80%] md:w-[70%] mx-auto">
 			<h1 class="my-20 text-4xl font-semibold text-yellow-300">Het Verhaal van Stingy Jack en de Lantaarn</h1>
-		<p class="first-letter:text-4xl first-letter:mr-[3px] mb-4 rounded-lg border border-gray-600 bg-orange-600 p-4 text-left text-gray-100 text-opacity-90">
+		<p class="first-letter:text-4xl first-letter:ml mb-4 rounded-lg border border-gray-600 bg-orange-600 p-4 text-left text-gray-100 text-opacity-90">
 			Lang geleden, in Ierland, leefde er een man genaamd Stingy Jack. Jack stond bekend om zijn hebzucht en gierigheid. Op een dag ontmoette hij de duivel bij een lokale herberg.
 		</p>
 		<p class="mb-4 rounded-lg border border-gray-600 bg-orange-600 p-4 text-left text-gray-100 text-opacity-90">
