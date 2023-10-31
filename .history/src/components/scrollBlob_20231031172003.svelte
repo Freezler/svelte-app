@@ -71,9 +71,9 @@
 			En zo ontstond de traditie van het uithollen van pompoenen en het plaatsen van kaarsen binnenin tijdens Halloween.
 		</p>
 		<p class="mb-4 text-left text-gray-100 text-opacity-90">
+			eind..
 			<br>
-			<br>
-			 <span class="text-yellow-300"><br><br></span>
+			maar <span class="text-yellow-300"><br>echt<br></span>
 		</p>
 	</div>
 	
