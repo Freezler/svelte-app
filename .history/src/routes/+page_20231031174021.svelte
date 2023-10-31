@@ -9,7 +9,7 @@
 <main class="-z-10">
 	<slot />
 	<div
-		class="-z-50 h-screen w-screen overflow-hidden bg-gradient-to-tr from-black via-gray-900 to-orange-600 bg-no-repeat">
+		class="-z-50 h-screen w-screen overflow-hidden bg-gradient-to-tr from-astral-900 via-gray-900 to-astral-900 bg-no-repeat">
 		<div class="flex h-screen items-center justify-center">
 			<div class="mx-auto flex h-full w-full flex-col">
 				<h1
@@ -26,7 +26,7 @@
 							-webkit-background-clip: text;
 							background-position: center;
 							text-transform: uppercase;
-							font-size: 6.6rem;
+							font-size: 4.6rem;
 							margin: 4px 0;
 						"
 					>							

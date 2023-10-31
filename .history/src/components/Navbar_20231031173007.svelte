@@ -115,7 +115,7 @@
 				</svg>
 				<hr class="mb-6 w-full border-bluetwo-400" /></a
 			>
-			<a href="/projects" tabindex="0" class="text-[#b910377e]">under construction..</a>
+			<a href="/projects" tabindex="0" class="text-[#dfe2ff]">Projects</a>
 			<a href="/blogs" tabindex="0" class="text-[#dfe2ff]">Color Cards</a>
 			<a href="/about" tabindex="0" class="text-[#dfe2ff]">Gallery</a>
 			<a href="/links" tabindex="0" class="text-[#dfe2ff]">Halloween</a>
