@@ -13,20 +13,20 @@
 		<div class="flex h-screen items-center justify-center">
 			<div class="mx-auto flex h-full w-full flex-col">
 				<h1
-					class="text-shadow-[3px_3px_70px_white] animate-slow-fade-in text-skew-y-1 drop-shadow-[3px_3px_5px_rgba(22,22,22,0.7)]md:transform-none mb-[5%] mt-[4%] w-[100%] transform  -space-x-3 text-center font-display text-[clamp(4rem,12vw,10rem)] font-[800]">
+					class=" animate-slow-fade-in text-skew-y-1 drop-shadow-[3px_3px_5px_rgba(22,22,22,0.7)]md:transform-none mb-[5%] mt-[4%] w-[100%] transform  -space-x-3 text-center font-sans text-[clamp(4rem,12vw,10rem)] font-[800]">
 					{#each `RANDY` as char}
 						<span
 
 						class="font-sand animate-fade-in -translate-y-[0px] font-bold"
 						style="
-							background-image: url('https://source.unsplash.com/1080x1080/?stars');
+							background-image: url('https://media.giphy.com/media/eAxaiTPPlHsPYElltk/giphy-downsized-large.gif');
 							background-size: cover;
 							color: transparent;
 							-moz-background-clip: text;
 							-webkit-background-clip: text;
 							background-position: center;
 							text-transform: uppercase;
-							font-size: 5.2rem;
+							font-size: 6.6rem;
 							margin: 4px 0;
 						"
 					>							
@@ -36,9 +36,9 @@
 				</h1>
 
 				<div
-					class=" box-shadow-[4px_4px_5px_rgba(2,12,34,0.3)] mx-auto flex w-[90%] min-w-[80%] min-h-[30%] max-h-[100%] items-center justify-center rounded border-[1px] border-bluethree-900 bg-greytwo-100/10 bg-cover bg-center bg-no-repeat px-5 py-16 text-center backdrop-blur-xl">
+					class=" box-shadow-[4px_4px_5px_rgba(2,12,34,0.3)] mx-auto flex w-[80%] items-center justify-center rounded border-[1px] border-bluethree-900 bg-greytwo-100/10 bg-cover bg-center bg-no-repeat px-5 py-16 text-center backdrop-blur-xl">
 					<p
-						class=" mx-4 line-clamp-4 h-[140px] md:180px lg:200px xl:h-[200px] w-[80%] items-center justify-center text-center font-sans text-[clamp(0.70rem,2vw,1.5rem)] font-thin text-white">
+						class="p-[1.5rem] mx-4 line-clamp-4 w-full items-center justify-center text-center font-sans text-[clamp(0.70rem,2vw,1.5rem)] font-thin text-white">
 						 Welkom op mijn privépagina waar ik mijn persoonlijke progressie deel. Hier kan ik mijn kennis bijhouden en mijn "skills" laten zien. Dit is mijn eigen ruimte om mijn prestaties te volgen en te reflecteren. Voel je vrij om mee te kijken op mijn reis naar succes.
 					</p>
 					<HeroButton />

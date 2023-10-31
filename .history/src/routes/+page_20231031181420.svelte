@@ -38,7 +38,7 @@
 				<div
 					class=" box-shadow-[4px_4px_5px_rgba(2,12,34,0.3)] mx-auto flex w-[90%] min-w-[80%] min-h-[30%] max-h-[100%] items-center justify-center rounded border-[1px] border-bluethree-900 bg-greytwo-100/10 bg-cover bg-center bg-no-repeat px-5 py-16 text-center backdrop-blur-xl">
 					<p
-						class=" mx-4 line-clamp-4 h-[140px] md:180px lg:200px xl:h-[200px] w-[80%] items-center justify-center text-center font-sans text-[clamp(0.70rem,2vw,1.5rem)] font-thin text-white">
+						class=" mx-4 line-clamp-4 h-[100px] xl: w-full items-center justify-center text-center font-sans text-[clamp(0.70rem,2vw,1.5rem)] font-thin text-white">
 						 Welkom op mijn privépagina waar ik mijn persoonlijke progressie deel. Hier kan ik mijn kennis bijhouden en mijn "skills" laten zien. Dit is mijn eigen ruimte om mijn prestaties te volgen en te reflecteren. Voel je vrij om mee te kijken op mijn reis naar succes.
 					</p>
 					<HeroButton />
