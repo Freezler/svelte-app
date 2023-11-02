@@ -40,7 +40,7 @@
                             height="24"
                             viewBox="0 0 24 24"
                             stroke-width="1.5"
-                            stroke="white"
+                            stroke="currentColor"
                             fill="rgba(39, 68, 82, 100%)"
                             stroke-linecap="round"
                             stroke-linejoin="round"

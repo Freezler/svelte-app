@@ -21,12 +21,12 @@
     }
 </script>
 
-<div class="z-60 wrapper max-w-50 mx-auto p-2 mt-[100px] w-[300px] rounded-sm">
+<div class="z-60 wrapper max-w-50 mx-auto p-2 mt-[100px] w-[300px] border-[1px] rounded-sm">
     <div class="accordion flex flex-col p-0 space-y-4">
         {#each panels as panel}
             <!-- svelte-ignore a11y-no-static-element-interactions -->
             <div
-                class="accordion-panel relative isolate overflow-hidden  "
+                class="accordion-panel relative isolate overflow-hidden border border-gray-200 "
                 on:click={() => togglePanel(panel)}
                 on:keydown={() => togglePanel(panel)}
                 aria-roledescription="accordion"
@@ -35,23 +35,23 @@
                     {#if panel === expandedPanel}
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            class="icon icon-tabler icon-tabler-chevron-up mx-auto"
+                            class="icon icon-tabler icon-tabler-chevron-up"
                             width="24"
                             height="24"
                             viewBox="0 0 24 24"
                             stroke-width="1.5"
-                            stroke="white"
-                            fill="rgba(39, 68, 82, 100%)"
+                            stroke="currentColor"
+                            fill="none"
                             stroke-linecap="round"
                             stroke-linejoin="round"
                         >
-                            <path stroke="none" d="M0 0h24v24H0z" fill="transparent" />
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                             <polyline points="6 15 12 9 18 15" />
                         </svg>
                     {/if}
                     <div
-                        class="accordion-title font-display relative isolate grid place-items-center font-bold bg-[rgba(0,0,0,0.2)] text-white p-2"
-                      
+                        class="accordion-title font-display relative isolate grid place-items-center font-bold bg-[rgba(0,0,0,0.2)] text-white p-4"
+                        style="z-index: 1;"
                     >
                         {panel.title}
                     </div>
