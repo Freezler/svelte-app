@@ -40,7 +40,7 @@
 			>
 				<div class="accordion-trigger" aria-expanded={panel === expandedPanel}>
 					<div
-						class="text-white animate-fast-fade-outaccordion-title relative isolate grid place-items-center  bg-gray-100 bg-opacity-30 font-display font-bold"
+						class=" animate-fast-fade-outaccordion-title relative isolate grid place-items-center rounded-sm bg-gray-200 bg font-display font-bold"
 					>
 						{panel.title}
 					</div>
