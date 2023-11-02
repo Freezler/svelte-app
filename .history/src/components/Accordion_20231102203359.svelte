@@ -37,8 +37,7 @@
 				on:click={() => togglePanel(panel)}
 				on:keydown={() => togglePanel(panel)}
                 on:mouseenter={() => expandedPanel = panel}
-                on:mouseleave={() => expandedPanel = null}
-                tabindex="-1"
+                tabindex="3"
 				aria-roledescription="accordion"
 			>
 				<div class="accordion-trigger" aria-expanded={panel === expandedPanel}>

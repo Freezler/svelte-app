@@ -37,7 +37,6 @@
 				on:click={() => togglePanel(panel)}
 				on:keydown={() => togglePanel(panel)}
                 on:mouseenter={() => expandedPanel = panel}
-                on:mouseleave={() => expandedPanel = null}
                 tabindex="-1"
 				aria-roledescription="accordion"
 			>
