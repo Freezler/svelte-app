@@ -36,7 +36,7 @@
 				class="accordion-panel relative isolate overflow-hidden "
 				on:click={() => togglePanel(panel)}
 				on:keydown={() => togglePanel(panel)}
-                tabindex="0"
+             
 				aria-roledescription="accordion"
 			>
 				<div class="accordion-trigger" aria-expanded={panel === expandedPanel}>
