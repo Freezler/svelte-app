@@ -1,0 +1,90 @@
+<div class=" scroll-smooth relative animate-slow-fade-in">
+	<div class="relative top-10 mb-4 z-50 animate-slow-fade-in text-center">
+		<h1
+			class="font-sand animate-slow-fade-in -translate-y-[0px] font-bold"
+			style="
+				background-image: url('https://media.giphy.com/media/eAxaiTPPlHsPYElltk/giphy-downsized-large.gif');
+				background-size: cover;
+				color: transparent;
+				-moz-background-clip: text;
+				-webkit-background-clip: text;
+				background-position: center;
+				text-transform: uppercase;
+				font-size: 2.6rem;
+				margin: 4px 0;
+			"
+		>
+			Jack<br /> -o- <br />Lantern
+		</h1>
+	</div>
+
+	<svg
+		version="1.1"
+		class="ml-32 h-[600px] -translate-x-32 -translate-y-[380px] opacity-50"
+		xmlns="http://www.w3.org/2000/svg"
+		viewBox="0 0 500 500"
+		width="100%"
+		id="blobSvg"
+		style="opacity: 1;"
+		filter="blur(0.5px)"
+		transform="rotate(31)"
+	>
+		<defs>
+			<linearGradient id="gradient" x1="0%" y1="30%" x2="0%" y2="100%">
+				<stop offset="0%" style="stop-color: orange;" />
+				<stop offset="100%" style="stop-color: red;" />
+			</linearGradient>
+		</defs>
+		<path id="blob" fill="url(#gradient)" style="opacity: 0.9;">
+			<animate
+				attributeName="d"
+				dur="8s"
+				repeatCount="indefinite"
+				values="M385.47259,309.13613Q368.27225,368.27225,309.13613,425.14983Q250,482.02741,183.02911,432.9846Q116.05821,383.94179,100.85787,316.97089Q85.65753,250,111.11302,193.28426Q136.56852,136.56852,193.28426,70.4846Q250,4.40068,303.89298,73.30736Q357.78596,142.21404,380.22944,196.10702Q402.67293,250,385.47259,309.13613Z;M409.06419,322.5266Q395.0532,395.0532,322.5266,445.11739Q250,495.18159,163.51944,459.07135Q77.03888,422.96112,82.39949,336.48056Q87.7601,250,115.64271,196.76266Q143.52532,143.52532,196.76266,76.83657Q250,10.14783,323.24578,56.82813Q396.49156,103.50844,409.78338,176.75422Q423.07519,250,409.06419,322.5266Z;M421.63508,307.39005Q364.7801,364.7801,307.39005,427.43403Q250,490.08796,191.6822,428.36178Q133.3644,366.6356,70.9089,308.3178Q8.4534,250,54.21728,174.99058Q99.98115,99.98115,174.99058,81.49686Q250,63.01257,330.66021,75.84607Q411.32042,88.67958,444.90524,169.33979Q478.49006,250,421.63508,307.39005Z;M408.24461,332.63257Q415.26513,415.26513,332.63257,434.71568Q250,454.16622,179.33614,422.74697Q108.67228,391.32772,65.87585,320.66386Q23.07942,250,63.27221,176.73251Q103.46501,103.46501,176.73251,63.02288Q250,22.58075,311.86507,74.4253Q373.73015,126.26985,387.47712,188.13493Q401.22409,250,408.24461,332.63257Z;M405.0078,325.44624Q400.89248,400.89248,325.44624,434.97549Q250,469.0585,165.42535,444.1039Q80.8507,419.1493,84.75627,334.57465Q88.66184,250,94.44262,175.1117Q100.2234,100.2234,175.1117,82.29749Q250,64.37159,306.73538,100.45042Q363.47075,136.52925,386.29693,193.26462Q409.12312,250,405.0078,325.44624Z;M385.47259,309.13613Q368.27225,368.27225,309.13613,425.14983Q250,482.02741,183.02911,432.9846Q116.05821,383.94179,100.85787,316.97089Q85.65753,250,111.11302,193.28426Q136.56852,136.56852,193.28426,70.4846Q250,4.40068,303.89298,73.30736Q357.78596,142.21404,380.22944,196.10702Q402.67293,250,385.47259,309.13613Z"
+			/></path
+		></svg
+	>
+	<!-- Accordion.svelte -->
+<script>
+  let panels = [
+    { title: "Panel 1", content: "Content for Panel 1" },
+    { title: "Panel 2", content: "Content for Panel 2" },
+    { title: "Panel 3", content: "Content for Panel 3" },
+    { title: "Panel 4", content: "Content for Panel 4" },
+    { title: "Panel 5", content: "Content for Panel 5" },
+  ];
+
+  let expandedPanel = null;
+
+  function togglePanel(panel) {
+    expandedPanel = expandedPanel === panel ? null : panel;
+  }
+</script>
+
+<style>
+  /* Replace Tailwind CSS classes here */
+</style>
+
+<div class="wrapper max-w-50 mx-auto px-4">
+  <div class="accordion flex flex-col space-y-4 p-2">
+    {#each panels as panel, index}
+      <div
+        class="accordion-panel relative isolate overflow-hidden"
+        class:selected={panel === expandedPanel}
+        on:click={() => togglePanel(panel)}
+      >
+        <div class="accordion-trigger">
+          <div class="accordion-icon fill-[_panel-color] bg-[hsl(0 0% 0% / 0.55)] w-[_button-size] aspect-w-1 aspect-h-1 p-3 rounded-50 z-10"></div>
+          <div class="accordion-title text-1.5 font-bold relative isolate grid place-items-center">
+            {panel.title}
+          </div>
+        </div>
+        <div class="accordion-content">
+          <p class="transform-[translateY(2rem)] opacity-0" class:transform-[translateY(0)] class:opacity-100>
+            {panel.content}
+          </p>
+        </div>
+      </div>
+    {/each}
+  </div>
+</div>

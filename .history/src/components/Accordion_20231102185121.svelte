@@ -1,0 +1,1 @@
+<div class="accordion-panel relative isolate overflow-hidden" class:selected={panel === expandedPanel} on:click={() => togglePanel(panel)}>
