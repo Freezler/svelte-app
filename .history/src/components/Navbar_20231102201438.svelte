@@ -81,7 +81,7 @@
 	>
 		<a href="/blogs" class="text-[#dfe2ff]">Color Cards</a>
 		<a href="/about" class="text-[#dfe2ff]">Gallery</a>
-		<a href="/links" class="mr-4 text-[#dfe2ff]">Accordeon</a>
+		<a href="/links" class="mr-4 text-[#dfe2ff]">Halloween</a>
 	</div>
 </nav>
 

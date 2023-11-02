@@ -81,7 +81,7 @@
 	>
 		<a href="/blogs" class="text-[#dfe2ff]">Color Cards</a>
 		<a href="/about" class="text-[#dfe2ff]">Gallery</a>
-		<a href="/links" class="mr-4 text-[#dfe2ff]">Accordeon</a>
+		<a href="/links" class="mr-4 text-[#dfe2ff]">Halloween</a>
 	</div>
 </nav>
 
@@ -118,7 +118,7 @@
 			<a href="/projects" tabindex="0" class="text-[#b910377e]">under construction..</a>
 			<a href="/blogs" tabindex="0" class="text-[#dfe2ff]">Color Cards</a>
 			<a href="/about" tabindex="0" class="text-[#dfe2ff]">Gallery</a>
-			<a href="/links" tabindex="0" class="text-[#dfe2ff]">Accordeon</a>
+			<a href="/links" tabindex="0" class="text-[#dfe2ff]">Acc</a>
 		</div>
 	</div>
 {/if}
