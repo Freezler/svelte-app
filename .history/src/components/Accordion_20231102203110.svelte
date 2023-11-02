@@ -36,7 +36,7 @@
 				class="accordion-panel relative isolate overflow-hidden "
 				on:click={() => togglePanel(panel)}
 				on:keydown={() => togglePanel(panel)}
-                on:mouseenter={() => expandedPanel = panel}
+                on:mouseleave
                 tabindex="0"
 				aria-roledescription="accordion"
 			>
