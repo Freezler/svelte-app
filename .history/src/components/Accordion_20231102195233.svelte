@@ -28,25 +28,25 @@
 	}
 </script>
 
-<div class="z-60 max-w-50 mx-auto mt-[10%] w-[80%] rounded-xl border-[1px] border-red-500 animate-slow-slide-down">
+<div class="z-60 max-w-50 mx-auto mt-[10%] w-[80%] rounded-xl border-[1px] border-red-500">
 	<div class="accordion flex flex-col space-y-0 p-0">
 		{#each panels as panel, index}
 			<!-- svelte-ignore a11y-no-static-element-interactions -->
 			<div
-				class="accordion-panel relative isolate overflow-hidden border border-gray-200 "
+				class="accordion-panel relative isolate overflow-hidden border border-gray-200"
 				on:click={() => togglePanel(panel)}
 				on:keydown={() => togglePanel(panel)}
 				aria-roledescription="accordion"
 			>
 				<div class="accordion-trigger" aria-expanded={panel === expandedPanel}>
 					<div
-						class=" animate-fast-fade-outaccordion-title relative isolate grid place-items-center rounded-sm bg-gray-200 font-display font-bold"
+						class="accordion-title relative isolate grid place-items-center rounded-sm bg-gray-200 font-display font-bold"
 					>
 						{panel.title}
 					</div>
 				</div>
 				{#if expandedPanel === panel}
-					<div class="accordion-content z-20 bg-astral-400 px-6 py-4 animate-slow-fade-in">
+					<div class="accordion-content z-20 bg-red-600 px-6 py-4 opacity-40 animate-fast-fade-in">
 						<p class="text-white">
 							{panel.content}
 						</p>
