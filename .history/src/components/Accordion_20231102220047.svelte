@@ -57,7 +57,7 @@
                     </div>
                 </div>
                 {#if expandedPanel === panel}
-                    <div class="accordion-content bg-astral-900  py-4 px-6 z-20 animate-slow-fade-in">
+                    <div class="accordion-content bg-astral-900 opacity-40 py-4 px-6 z-20 animate-slow-fade-in">
                         <p class="text-white">
                             {panel.content}
                         </p>

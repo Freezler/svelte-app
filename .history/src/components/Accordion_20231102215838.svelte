@@ -26,7 +26,7 @@
         {#each panels as panel}
             <!-- svelte-ignore a11y-no-static-element-interactions -->
             <div
-                class="accordion-panel relative isolate overflow-hidden animate-fast-fade-in"
+                class="accordion-panel relative isolate overflow-hidden animate-fad "
                 on:click={() => togglePanel(panel)}
                 on:keydown={() => togglePanel(panel)}
                 aria-roledescription="accordion"
@@ -57,7 +57,7 @@
                     </div>
                 </div>
                 {#if expandedPanel === panel}
-                    <div class="accordion-content bg-astral-900  py-4 px-6 z-20 animate-slow-fade-in">
+                    <div class="accordion-content bg-astral-900 opacity-40 py-4 px-6 z-20">
                         <p class="text-white">
                             {panel.content}
                         </p>
