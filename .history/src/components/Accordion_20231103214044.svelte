@@ -28,12 +28,12 @@
 	}
 </script>
 
-<div class="z-60 wrapper max-w-50 mx-auto mt-[40px] w-[300px] rounded-sm p-2">
-	<div class="flex flex-col space-y-4 p-0">
+<div class="z-60 wrapper max-w-50 mx-auto mt-[20px] w-[300px] rounded-sm p-2">
+	<div class="accordion flex flex-col space-y-4 p-0">
 		{#each panels as panel}
 			<!-- svelte-ignore a11y-no-static-element-interactions -->
 			<div
-				class="relative isolate animate-fast-fade-in overflow-hidden"
+				class="accordion-panel relative isolate animate-fast-fade-in overflow-hidden"
 				on:click={() => togglePanel(panel)}
 				on:keydown={() => togglePanel(panel)}
 				aria-roledescription="accordion"
@@ -41,14 +41,14 @@
 				<div class="" aria-expanded={panel === expandedPanel}>
 					{#if panel === expandedPanel}{/if}
 					<div
-						class="relative isolate grid place-items-center bg-[rgba(0,0,0,0.2)] p-2 font-display font-bold text-white"
+						class="accordion-title relative isolate grid place-items-center bg-[rgba(0,0,0,0.2)] p-2 font-display font-bold text-white"
 					>
 						{panel.title}
 					</div>
 				</div>
 				{#if expandedPanel === panel}
 					<div
-						class="z-20 animate-slow-fade-in bg-astral-900 px-6 py-0"
+						class="accordion-content z-20 animate-slow-fade-in bg-astral-900 px-6 py-0"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"

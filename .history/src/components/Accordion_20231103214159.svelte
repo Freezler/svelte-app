@@ -28,7 +28,7 @@
 	}
 </script>
 
-<div class="z-60 wrapper max-w-50 mx-auto mt-[40px] w-[300px] rounded-sm p-2">
+<div class="z-60 wrapper max-w-50 mx-auto mt-[20px] w-[300px] rounded-sm p-2">
 	<div class="flex flex-col space-y-4 p-0">
 		{#each panels as panel}
 			<!-- svelte-ignore a11y-no-static-element-interactions -->
