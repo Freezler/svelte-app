@@ -65,7 +65,7 @@
 							<path stroke="none" d="M0 0h24v24H0z" fill="transparent" />
 							<polyline points="6 15 12 9 18 15" />
 						</svg>
-						<p class="text-white pt-2 pb-4">
+						<p class="text-white ">
 							{panel.content}
 						</p>
 					</div>
