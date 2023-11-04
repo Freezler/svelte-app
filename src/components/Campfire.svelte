@@ -6,7 +6,7 @@
 
   const reloadAvatar = async () => {
 	isLoading = true;
-	const response = await fetch('https://source.unsplash.com/1080x1080/?experimental?random');
+	const response = await fetch('https://source.unsplash.com/1080x1080/?technolgy?svelte');
 	avatarUrl = response.url;
 	isLoading = false;
   };
@@ -21,7 +21,7 @@
 </script>
 
 <main class="flex justify-start items-center mx-auto  min-h-screen w-screen animate-slow-fade-in flex-col sm:justify-center gap-2 bg-gradient-to-tr from-astral-900 via-gray-900 to-astral-900">
-  <div class="flex flex-col items-center sm:justify-start justify-center gap-2 w-full">
+  <div class="flex flex-col items-center sm:justify-start justify-start gap-2 w-full">
 	{#if isLoading}
 	<div class="img-shadow-[3px_3px_5px_rgba(22,22,22,0.7)] flex h-[400px] w-[100%] min-w-[80%] max-w-[60%] animate-pulse items-center justify-center rounded-[8px] border-[1px] border-purplethree-400">
 	  <p class="animate-pulse text-xl text-purpleone-100">Loading...</p>
