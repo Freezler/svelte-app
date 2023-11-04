@@ -2,14 +2,14 @@
 </script>
 
 <div
-	class="bg-astral-900 bg-opacity-50 fixed w-screen bottom-0 z-40 h-20 flex items-center p-0 m-0"
+	class="bg-astral-900 bg-opacity-50 fixed w-screen bottom-0 z- h-20 flex items-center p-0 m-0"
 >
 	<div class="flex w-full items-center justify-around">
 		<!-- GitHub icon -->
 		<a href="https://github.com/Freezler" class="w-[2/3] "
 			><svg
 				xmlns="http://www.w3.org/2000/svg"
-				class="h-[2.8rem] icon icon-tabler icon-tabler-brand-github z-40"
+				class="h-[2.8rem] icon icon-tabler icon-tabler-brand-github z-10"
 				width="62"
 				height="32"
 				viewBox="0 0 24 24"
