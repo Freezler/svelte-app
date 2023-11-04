@@ -8,7 +8,7 @@
 </script>
 
 <section
-	class="mt-[15%] w-full md:w-[60%] mx-auto flex h-[200px] flex-col items-center justify-center bg-slate-400 bg-opacity-30 bg-cover text-center"
+	class="mt-[15%] w-full lg: w-[2/5flex h-[200px] flex-col items-center justify-center bg-slate-400 bg-opacity-30 bg-cover text-center"
 	id="home"
 >
 	<div class="">
