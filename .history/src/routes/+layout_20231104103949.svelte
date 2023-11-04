@@ -15,7 +15,7 @@
   }
 </style>
 
-<html lang="en" class="scroll-smooth select-none">
+<html lang="en" class="scroll-smooth se">
   <head>
     <!-- Add any necessary head content here -->
   </head>
