@@ -7,11 +7,10 @@
 </script>
 
 <main class="an -z-10">
-	
+	<Hero />
 	<div
 		class="-z-50 h-screen w-screen overflow-hidden bg-gradient-to-tr from-blueone-300 via-gray-300 to-blueone-900 bg-no-repeat transition-opacity duration-300"
-	>
-	<Hero /></div>
+	></div>
 </main>
 
 <style>

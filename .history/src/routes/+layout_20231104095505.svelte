@@ -15,11 +15,11 @@
   }
 </style>
 
-<html lang="en" class="scroll-smooth">
+<html lang="en" class="scroll-smooth animate-fadeAnimation">
   <head>
     <!-- Add any necessary head content here -->
   </head>
-  <body class="z-10 flex flex-col h-screen select-none overflow-hidden transition-opacity">
+  <body class="z-10 flex flex-col h-screen select-none overflow-hidden animate-fadeAnimation">
     <Navbar />
     <main>
       <slot />

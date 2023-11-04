@@ -1,0 +1,18 @@
+<script>
+	import { sendEmail } from '$lib/index.js';
+
+	function handleContactButtonClick() {
+		// Call the sendEmail function here
+		sendEmail();
+	}
+</script>
+
+<section class="m-4 h-[200px] text-center  bg-cover bg-slate-400 bg-opacity-30" id="home">
+	<div class="title-text">
+		<h1>A new site</h1>
+		<p>with a nice simple hero</p>
+	</div>
+</section>
+
+<style>
+</style>

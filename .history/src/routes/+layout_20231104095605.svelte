@@ -19,7 +19,7 @@
   <head>
     <!-- Add any necessary head content here -->
   </head>
-  <body class="z-10 flex flex-col h-screen select-none overflow-hidden transition-opacity">
+  <body class="z-10 flex flex-col h-screen select-none overflow-hidden  am">
     <Navbar />
     <main>
       <slot />
