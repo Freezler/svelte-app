@@ -6,7 +6,7 @@
 >
 	<div class="flex w-full items-center justify-around">
 		<!-- GitHub icon -->
-		<a href="https://github.com/Freezler" class="w-[2/3] "
+		<a href="http://github.com/Freezler" class="w-[2/3] "
 			><svg
 				xmlns="http://www.w3.org/2000/svg"
 				class="h-[2.8rem] icon icon-tabler icon-tabler-brand-github z-10"
