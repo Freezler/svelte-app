@@ -8,7 +8,7 @@
   
 	.circle {
 	  position: absolute;
-	  top: calc(19% - 100px);
+	  top: calc(50% - 0px);
 	  left: calc(50% - 100px);
 	  transform: translate(20%, 20%);
 	  width: 200px;
@@ -58,7 +58,7 @@
 	}
   </style>
   
-  <div class="circle relative mt-10% xs:mt-[10%] sm:mt-[49.5%] md:mt-[20%] lg:mt-[19.5%] ">
+  <div class="circle relative">
 	<!-- Your content, if any, goes here -->
   </div>
   

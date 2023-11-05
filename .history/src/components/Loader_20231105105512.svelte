@@ -58,7 +58,7 @@
 	}
   </style>
   
-  <div class="circle relative mt-10% xs:mt-[10%] sm:mt-[49.5%] md:mt-[20%] lg:mt-[19.5%] ">
+  <div class="circle relative xs:calc(50% - 100px) sm:calc(50% - 100px) md:calc(50% - 100px) lg:calc(50% - 200px) xl:calc(50% - 100px)">
 	<!-- Your content, if any, goes here -->
   </div>
   

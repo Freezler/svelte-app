@@ -9,7 +9,7 @@
 </script>
 
 
-<section class="animate-slow-fade-in mt-[0%] sm:mt-[0%] md:mt-[0%] lg:mt-[0%] xl:mt-[0px] w-full md:w-[60%] mx-auto flex h-[320px] flex-col items-center justify-around bg-slate-400 bg-opacity-30 bg-cover text-center">
+<section class="animate-slow-fade-in mt-[0%] sm:mt-[0%] md:mt-[0%] lg:mt-[0%] xl:mt-[0px] w-full md:w-[60%] mx-auto flex h-[320px] flex-col items-center justify-center bg-slate-400 bg-opacity-90 bg-cover text-center">
   <div class="flex flex-col gap-2">
 	<div class="animate-slow-fade-in flex flex-col items-center justify-center">
 	  <Avatar bgColor="hsla(234,100%,59%,0.3)" textColor="white" name="Randy de vries" src="https://avataaars.io/?avatarStyle=Circle&topType=NoHair&accessoriesType=Blank&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Twinkle&skinColor=Pale" size="180px" />
