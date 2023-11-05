@@ -28,8 +28,8 @@
 	}
 </script>
 
-<div class="animate-slow-fade-in z-60 wrapper max-w-50 mx-auto mt-[10%] w-[300px] rounded-sm p-2">
-	<div class="flex flex-col space-y-1  rounded-md border-[1px] border-astral-500">
+<div class="z-60 wrapper max-w-50 mx-auto mt-[10%] w-[300px] rounded-sm p-2">
+	<div class="flex flex-col space-y-1 p-2 rounded-br-lg border-[1px] border-astral-500">
 		{#each panels as panel}
 			<!-- svelte-ignore a11y-no-static-element-interactions -->
 			<div
@@ -49,7 +49,7 @@
 				</div>
 				{#if expandedPanel === panel}
 					<div
-						class="z-20 animate-slow-fade-in bg-astral-900 bg-opacity-70 px-6 py-0"
+						class="z-20 animate-slow-fade-in bg-astral-900 px-6 py-0"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +66,7 @@
 							<path stroke="none" d="M0 0h24v24H0z" fill="transparent" />
 							<polyline points="6 15 12 9 18 15" />
 						</svg>
-						<p class="text-white pb-3">
+						<p class="text-white pt-2">
 							{panel.content}
 						</p>
 					</div>

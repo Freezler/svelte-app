@@ -28,7 +28,7 @@
 	}
 </script>
 
-<div class="animate-slow-fade-in z-60 wrapper max-w-50 mx-auto mt-[10%] w-[300px] rounded-sm p-2">
+<div class="animaz-60 wrapper max-w-50 mx-auto mt-[10%] w-[300px] rounded-sm p-2">
 	<div class="flex flex-col space-y-1  rounded-md border-[1px] border-astral-500">
 		{#each panels as panel}
 			<!-- svelte-ignore a11y-no-static-element-interactions -->

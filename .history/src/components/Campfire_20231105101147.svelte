@@ -21,7 +21,7 @@
   });
 </script>
 
-<main class="flex justify-center items-center mx-auto min-h-screen w-screen animate-slow-fade-in flex-col  md:mt-0 lg:mt-0 md:justify-around gap-2 bg-gradient-to-tr from-astral-900 via-gray-900 to-astral-900">
+<main class="flex justify-center items-center mx-auto min-h-screen w-screen animate-slow-fade-in flex-col  md:mt-0 lg:mt-0 md:justify-center gap-2 bg-gradient-to-tr from-astral-900 via-gray-900 to-astral-900">
   <div class="flex flex-col items-center sm:justify-center md:justify-center w-full">
 	{#if isLoading}
 	<div class="img-shadow-[3px_3px_5px_rgba(22,22,22,0.7)] flex h-[300px] w-[100%] min-w-[80%] max-w-[60%] animate-pulse items-center justify-center rounded-[4px] border-[1px] border-purplethree-400">
