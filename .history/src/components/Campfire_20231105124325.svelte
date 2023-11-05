@@ -30,8 +30,8 @@
 	  
 	</div>
 	{:else if avatarUrl !== ''}
-	<div class="animate-slow-fade-inimg-shadow-[2px_2px_12px_[rgba(22,22,22,0.7] text-center drop-shadow-[2px_2px_12px_hsla(234,100%,59%,0.9)]] avatar-image flex h-[calc(70vh-80px)] absolute top-[2rem]  w-[60%] min-w-[80%] max-w-[60%] flex-col rounded-[4px] border-[1px] border-bluetwo-600 bg-cover bg-center drop-shadow-[2px_2px_12px_hsla(255,100%,59%,0.9)]">
-	  <h1 class=" drop-shadow-lg text-shadow-[3px_3px_5px_rgba(22,22,22,0.9)] text-bluetwo-200 text-7xl grid place-items-center h-full uppercase font-bold ">randy</h1>
+	<div class="animate-slow-fade-inimg-shadow-[2px_2px_12px_[rgba(22,22,22,0.7] text-center drop-shadow-[2px_2px_12px_hsla(234,100%,59%,0.9)]] avatar-image flex h-[calc(70vh-80px)]  w-[60%] min-w-[80%] max-w-[60%] flex-col rounded-[4px] border-[1px] border-bluetwo-600 bg-cover bg-center drop-shadow-[2px_2px_12px_hsla(255,100%,59%,0.9)]">
+	  <h1 class=" drop-shadow-lg text-shadow-[3px_3px_5px_rgba(22,22,22,0.9)] text-bluetwo-200 text-7xl grid place-items-st h-full uppercase font-bold ">randy</h1>
 	  <Hero />
 	  <!-- <p class="text-shadow-[3px_3px_5px_rgba(22,22,22,0.9)] drop-shadow-xl text-purpleone-100 text-sm text-center grid place-items-center h-full w-[100%] px-[10%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quaerat dolore rem obcaecati omnis deserunt.</p>
 	  <button on:click={reloadAvatar} class="translate-y-[-50%] mx-auto w-[80px] min-w-[80px] max-w-[80%] hover:shadow-[3px_3px_5px_rgba(22,22,22,0.7)] rounded-[8px] border-2 border-purpleone-700 bg-purpleone-300 bg-opacity-60 py-2 px-3 text-center text-rosetwo-100 opacity-90 drop-shadow-[3px_3px_5px_rgba(22,22,22,0.7)]">
