@@ -8,17 +8,16 @@
   
 	.circle {
 	  position: absolute;
-	  top: calc(50% - 20px);
+	  top: calc(19% - 100px);
 	  left: calc(50% - 100px);
 	  transform: translate(50%, 50%);
 	  width: 200px;
-	  height: 200px;
+	  height: 240px;
 	  border: 2px solid transparent;
 	  border-bottom: 2px solid #36E494;
 	  border-top: 2px solid [skyblue];
 	  border-radius: 50%;
 	  animation: animate 3000ms linear infinite;
-	  translate: 0% -40%;
 	}
   
 	.circle:before {
@@ -47,7 +46,6 @@
 	  border-top: 2px solid #be90d4;
 	  border-radius: 50%;
 	  animation: animate 2s linear infinite;
-	  
 	}
   
 	@keyframes animate {
@@ -60,7 +58,7 @@
 	}
   </style>
   
-  <div class="circle md:mt ">
+  <div class="circle relative mt-10% xs:mt-[10%] sm:mt-[49.5%] md:mt-[20%] lg:mt-[19.5%] ">
 	<!-- Your content, if any, goes here -->
   </div>
   

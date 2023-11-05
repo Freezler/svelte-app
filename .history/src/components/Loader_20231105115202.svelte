@@ -8,7 +8,7 @@
   
 	.circle {
 	  position: absolute;
-	  top: calc(50% - 20px);
+	  top: calc(50% - 80px);
 	  left: calc(50% - 100px);
 	  transform: translate(50%, 50%);
 	  width: 200px;

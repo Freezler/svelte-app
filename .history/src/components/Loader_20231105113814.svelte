@@ -8,7 +8,7 @@
   
 	.circle {
 	  position: absolute;
-	  top: calc(50% - 20px);
+	  top: calc(19% - 100px);
 	  left: calc(50% - 100px);
 	  transform: translate(50%, 50%);
 	  width: 200px;
@@ -18,7 +18,7 @@
 	  border-top: 2px solid [skyblue];
 	  border-radius: 50%;
 	  animation: animate 3000ms linear infinite;
-	  translate: 0% -40%;
+	  translate: 0% -35%;
 	}
   
 	.circle:before {
@@ -60,7 +60,7 @@
 	}
   </style>
   
-  <div class="circle md:mt ">
+  <div class="circle ">
 	<!-- Your content, if any, goes here -->
   </div>
   
