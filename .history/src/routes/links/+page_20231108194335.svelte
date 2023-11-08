@@ -1,0 +1,15 @@
+<script>
+	import { onDestroy, onMount } from 'svelte';
+	onMount(() => console.log('Mounted Links page'));
+	onDestroy(() => console.log('Unmounted Links page'));
+	import ScrollBlob from '../../components/scrollBlob.svelte';
+	import Accordion from '../../components/Accordion.svelte';
+</script>
+
+<main
+	class="flex h-screen scroll-smooth juw-screen flex-col bg-gradient-to-tr from-astral-900 via-gray-900 to-astral-900 overflow-scroll pb-24"
+>		
+		<!-- <ScrollBlob /> -->
+		<Accordion />
+		
+</main>
