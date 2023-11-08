@@ -39,7 +39,7 @@
   </div>
 </main>
 <style>
-	@media screen and (max-height: 468px) {
+	@media screen and (inx-height: 268px), screen and (min-width: 368px) {
 		.bobbin {
 		  margin-top: 4rem;
 		}

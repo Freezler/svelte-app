@@ -39,10 +39,10 @@
   </div>
 </main>
 <style>
-	@media screen and (max-height: 468px) {
+	@media screen and (max-height: 268px), screen and (max-width: 368px) {
 		.bobbin {
-		  margin-top: 4rem;
+			scale: 0.8;
 		}
-			
+		sc	
 	}
 </style>
