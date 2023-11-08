@@ -30,7 +30,7 @@
 	  
 	</div>
 	{:else if avatarUrl !== ''}
-	<div class="bobbin h-screen pt-[42px] sm:pt-[62px] md:pt-[100px] animate-slow-fade-in bg-shadow-[2px_2px_12px_[rgba(22,22,22,0.7] text-center drop-shadow-[2px_2px_12px_hsla(234,100%,59%,0.9)]] avatar-image flex  w-[100%] min-w-[100%] max-w-[100%] flex-col border-[1px] border-bluetwo-600 bg-cover bg-center drop-shadow-[2px_2px_12px_hsla(255,100%,59%,0.9)]">
+	<div class="bob h-screen pt-[42px] sm:pt-[62px] md:pt-[100px] animate-slow-fade-in bg-shadow-[2px_2px_12px_[rgba(22,22,22,0.7] text-center drop-shadow-[2px_2px_12px_hsla(234,100%,59%,0.9)]] avatar-image flex  w-[100%] min-w-[100%] max-w-[100%] flex-col border-[1px] border-bluetwo-600 bg-cover bg-center drop-shadow-[2px_2px_12px_hsla(255,100%,59%,0.9)]">
 	  <Hero />
 	  
 	</div>
@@ -39,10 +39,9 @@
   </div>
 </main>
 <style>
-	@media screen and (min-height: 268px), screen and (max-width: 368px) {
-		.bobbin {
-			translate: 0px 4rem 150px;
-		}
+	@media screen and (min-height: 268px) {
+		divbob {
 			
+		}
 	}
 </style>

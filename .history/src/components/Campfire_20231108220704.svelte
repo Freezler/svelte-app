@@ -41,7 +41,7 @@
 <style>
 	@media screen and (min-height: 268px), screen and (max-width: 368px) {
 		.bobbin {
-			translate: 0px 4rem 150px;
+			margin-top: 0;
 		}
 			
 	}
