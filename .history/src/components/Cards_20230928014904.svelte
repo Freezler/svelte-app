@@ -1,9 +1,0 @@
-<script>
-	import { onDestroy, onMount } from 'svelte';
-	onMount(() => console.log('Mounted Cards page'));
-	onDestroy(() => console.log('Unmounted Cards page'));
-</script>
-
-<main class="bg-[url('http://offliberty.com/img/bg/gas.gif">
-
-</main>
