@@ -8,7 +8,7 @@
 	}
 </script>
 
-<section class="absolute top-[25%] xxs:top-[35%] xs:top-[40%] sm:top-[45%] md:top-[40%] lg:top-[30%] xl:top-[30%] mx-auto w-[100%] md:w-[100%] filter contrast-400 z-100 -translate-y-[190px] sm:-translate-y-[190px] md:-translate-y-[220px]  flex flex-col justify-center items-center text-center h-full">
+<section class="absolute top-[39%] xxs:top-[35%] xs:top-[35%] sm:top-[30%] md:top-[40%] lg:top-[30%] xl:top-[35%] mx-auto w-[100%] md:w-[100%] filter contrast-400 z-100 -translate-y-[190px] sm:-translate-y-[190px] md:-translate-y-[220px]  flex flex-col justify-center items-center text-center h-full">
 	<div class="relative flex flex-col items-center justify-center">
 		<Avatar bgColor="goldenrodyellow" textColor="white" name="Randy de vries" src="https://avataaars.io/?avatarStyle=Circle&topType=NoHair&accessoriesType=Blank&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Twinkle&skinColor=Pale" size="150px" />
 		<div class="bg-opacity-50 bg-purpleone-900 rounded-md flex flex-col items-center justify-center mt-[24px]">
