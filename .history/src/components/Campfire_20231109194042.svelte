@@ -30,7 +30,7 @@
 	  
 	</div>
 	{:else if avatarUrl !== ''}
-	<div class="h-screen  xl:mb-[92px] animate-slow-fade-in bg-shadow-[2px_2px_12px_[rgba(22,22,22,0.7] text-center drop-shadow-[2px_2px_12px_hsla(234,100%,59%,0.9)]] avatar-image flex items-center justify-start  w-[100%] min-w-[100%] max-w-[100%] flex-col border-[1px] border-bluetwo-600 bg-cover bg-center drop-shadow-[2px_2px_12px_hsla(255,100%,59%,0.9)]">
+	<div class="h-screen pt-[42px] sm: md: lg:pb-[92px] xl:mb-[92px] animate-slow-fade-in bg-shadow-[2px_2px_12px_[rgba(22,22,22,0.7] text-center drop-shadow-[2px_2px_12px_hsla(234,100%,59%,0.9)]] avatar-image flex items-center justify-start  w-[100%] min-w-[100%] max-w-[100%] flex-col border-[1px] border-bluetwo-600 bg-cover bg-center drop-shadow-[2px_2px_12px_hsla(255,100%,59%,0.9)]">
 	  <Hero />
 	  
 	</div>

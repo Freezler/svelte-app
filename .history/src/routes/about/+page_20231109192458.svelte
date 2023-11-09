@@ -6,6 +6,6 @@
 	onDestroy(() => console.log('Unmounted Campfire page'));
 </script>
 
-<main class="flex flex-col  h-screen justify-start items-center   bg-cover">
+<main class="flex flex-col  h-s justify-start items-center   bg-cover">
  <Campfire />
 </main>
