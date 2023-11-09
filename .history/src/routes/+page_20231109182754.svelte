@@ -9,7 +9,7 @@
 </script>
 
 <main class="animate-slow-fade-in  w-[100%] min-w-[100%] max-w-[100%] min-h-[100%] h-full  ">
-    <div class="grid grid-cols-1  h-screen w-screen overflow-scroll bg-gradient-to-b from-gray-900 via-gray-900 to-astral-950 bg-cover bg-center bg-no-repeat md:pt-20 xl:pt-20">
+    <div class="animate-grid grid-cols-1  h-screen w-screen overflow-scroll bg-gradient-to-b from-gray-900 via-gray-900 to-astral-950 bg-cover bg-center bg-no-repeat md:pt-20 xl:pt-20">
 		<MapContact />
 		<Cards />
 		

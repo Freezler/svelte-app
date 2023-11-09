@@ -27,7 +27,7 @@
 >
 	<a href="/" class="ml-3 flex h-16 select-none items-center focus:select-none"
 		><svg
-			class="h-16 animate-wave"
+			class="h-16 an"
 			xmlns="http://www.w3.org/2000/svg"
 			width="100"
 			height="100"
