@@ -34,20 +34,20 @@
     ];
   </script>
   
-  <div class="overflow-scroll  animate-slow-slide-up flex flex-col items-center">
-    <div class=" md:pt-28 gap-14 grid md:-translate-y-[100px] grid-cols-1 min-w-[50%] md:min-w-max max-w-[100%] sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3  h-[490px] overflow-scroll w-[70%] mx-auto">
+  <div class="overflow-scroll mt-[48px] animate-slow-slide-up flex flex-col items-center justify-out">
+    <div class="md:pt-24 gap-13 grid md:-translate-y-[100px] grid-cols-1 min-w-[50%] md:min-w-max max-w-[100%] sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3  h-[490px] overflow-scroll w-[70%] mx-auto">
       {#each plans as plan (plan.price)}
-        <div class="box-shadow-[3px_3px_px_white] text-center bg-purplethree-400 bg-opacity-40 pt-4 rounded-[8px] border-[#9c428f] border-[1px]  h-[350px]">
+        <div class=" text-center bg-purplethree-400 bg-opacity-40 p-8 rounded-[8px]  h-[350px]">
           <div class="mt-4">
             <h3 class="text-5xl text-purpleone-300">
-              <span class="currency"></span>{plan.price}<span class="period">/month</span>
+              <span class="currency">$</span>{plan.price}<span class="period">/month</span>
             </h3>
           </div>
-          <div class="grid gap-3 ">
+          <div class="grid gap-2 ">
             <h4 class="font-bold text-rose-50 pb-[8px] border-b-[1px] border-purpleone-600 w-[100%] mx-auto">
               {plan.name}
             </h4>
-            <ul class="list-group text-purpleone-50 ">
+            <ul class="list-group text-purpleone-50">
               {#each plan.features as feature (feature)}
                 <li class="list-group-item">{feature}</li>
               {/each}

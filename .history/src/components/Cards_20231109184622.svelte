@@ -34,10 +34,10 @@
     ];
   </script>
   
-  <div class="overflow-scroll  animate-slow-slide-up flex flex-col items-center">
-    <div class=" md:pt-28 gap-14 grid md:-translate-y-[100px] grid-cols-1 min-w-[50%] md:min-w-max max-w-[100%] sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3  h-[490px] overflow-scroll w-[70%] mx-auto">
+  <div class="overflow-scroll mt-[48px] animate-slow-slide-up flex flex-col items-center justify-out">
+    <div class="md:pt-24 gap-12 grid md:-translate-y-[100px] grid-cols-1 min-w-[50%] md:min-w-max max-w-[100%] sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3  h-[490px] overflow-scroll w-[70%] mx-auto">
       {#each plans as plan (plan.price)}
-        <div class="box-shadow-[3px_3px_px_white] text-center bg-purplethree-400 bg-opacity-40 pt-4 rounded-[8px] border-[#9c428f] border-[1px]  h-[350px]">
+        <div class=" text-center bg-purplethree-400 bg-opacity-40 p-8 rounded-[8px]  h-[350px]">
           <div class="mt-4">
             <h3 class="text-5xl text-purpleone-300">
               <span class="currency"></span>{plan.price}<span class="period">/month</span>
