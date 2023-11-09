@@ -1,0 +1,10 @@
+<script>
+</script>
+
+<section class="overflow-scroll flex flex-col px-[40px] items-center justify-center h-[30vh]  w-[100%] text-center bg-gradient-to-t from-indigo-500 via-purple-900 to-pink-500 ">
+	<div class="font-Inter text-white ">
+		<h1 class="text-5xl">Randy de Vries</h1>
+		<p class="text-xl">jS|SVelte|junior web developer</p>
+	</div>
+</section>
+
