@@ -39,7 +39,7 @@
   <div class="relative  justify-center mx-auto  h-[100%] w-full antialiased  text-center animate-slow-fade-in flex flex-col items-center justify-top">
     <div class="h-screen pt-8 md:pt-[28%] md:mt-[10px] gap-16 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 overflow-visible w-[300px]  sm:w-[400px] md:w-[90%] lg:w-[80%] mx-auto">
       {#each plans as plan (plan.price)}
-        <div class=" relative cards  text-shadow-[2px_2px_2px_hsla(99,70%,55%,0.6)] text-center min-w-[300px]  pt-4 rounded-[8px] drop-shadow-[3px_3px_5px_hsla(149,91%,23%,1)] bo[hsla(099,41%,25%,1)] shadow-[1px_1px_13px_1px_hsla(259,91%,23%,1)] border-[1px]  h-[400px] md:h-[420px] place-self-top md:-translate-y-[150px]">
+        <div class=" relative cards mt-12 text-shadow-[2px_2px_2px_hsla(99,70%,55%,0.6)] text-center min-w-[280px]  pt-4 rounded-[8px] drop-shadow-[3px_3px_5px_hsla(149,91%,23%,1)] bo[hsla(099,41%,25%,1)] shadow-[1px_1px_13px_1px_hsla(259,91%,23%,1)] border-[1px]  h-[400px] md:h-[420px] place-self-top md:-translate-y-[150px]">
           
           <div class="antialiased  bg-greyone-700   bg-blend-darken h-[content]">
             <h3 class="text-5xl font-sans py-1 my-4 font-bold text-white text-shadow-xl">
