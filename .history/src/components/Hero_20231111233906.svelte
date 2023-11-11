@@ -8,9 +8,9 @@
 	}
 </script>
 
-<section class="mx-auto w-[100%] md:w-[100%] filter contrast-150x	 z-100   flex flex-col justify-center items-center text-center h-full">
+<section class="mx-auto w-[100%] md:w-[100%] filter contrast-400 z-100   flex flex-col justify-center items-center text-center h-full">
 	<div class="relative flex flex-col items-center justify-center">
-		<Avatar bgColor="hsla(245,110%,70%,0.4)" textColor="white" name="Randy de vries" src="https://avataaars.io/?avatarStyle=Circle&topType=NoHair&accessoriesType=Blank&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Twinkle&skinColor=Pale" size="240px" />
+		<Avatar bgColor="hsla(215,210%,70%,0.6)" textColor="white" name="Randy de vries" src="https://avata9aars.io/?avatarStyle=Circle&topType=NoHair&accessoriesType=Blank&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Twinkle&skinColor=Pale" size="150px" />
 		<div class="bg-opacity-50 bg-purpleone-900 rounded-md flex flex-col items-center justify-center mt-[24px]">
 			<h3 class="font-[500] text-2xl text-blueone-200">
 				<span class="font-sans text-redone-200">hi I am,</span> RANDY
