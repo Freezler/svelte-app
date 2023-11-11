@@ -37,12 +37,12 @@
   </script>
   
   <div class="relative  justify-center mx-auto  h-[100%] w-full antialiased  text-center animate-slow-fade-in flex flex-col items-center justify-top">
-    <div class="h-screen pt-8 md:pt-[28%] xl:pt-[25%] gap-16 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 overflow-visible w-[300px]  sm:w-[400px] md:w-[90%] lg:w-[80%] mx-auto">
+    <div class="pt-8 md:pt-[28%] xl:pt-[25%] gap-8 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 overflow-visible w-[400px]  sm:w-[500px] md:w-[80%] lg:w-[80%] mx-auto">
       {#each plans as plan (plan.price)}
-        <div class=" relative cards mt-24 text-shadow-[2px_2px_2px_hsla(99,70%,55%,0.6)] text-center min-w-[280px]  pt-4 rounded-[8px] drop-shadow-[3px_3px_5px_hsla(149,91%,23%,1)] bo[hsla(099,41%,25%,1)] shadow-[1px_1px_13px_1px_hsla(259,91%,23%,1)] border-[1px]  h-[400px] md:h-[420px] place-self-top md:-translate-y-[150px]">
+        <div class=" pb-8  relative cards mt-8 text-shadow-[2px_2px_2px_hsla(99,70%,55%,0.6)] text-center min-w-[280px]  pt-4 rounded-[8px] drop-shadow-[3px_3px_5px_hsla(149,91%,23%,1)] bo[hsla(099,41%,25%,1)] shadow-[1px_1px_13px_1px_hsla(259,91%,23%,1)] border-[1px]  h-[400px] md:h-[420px] place-self-top md:-translate-y-[150px]">
           
-          <div class="antialiased  bg-greyone-700   bg-blend-darken h-[content]">
-            <h3 class="text-5xl font-sans py-1 my-4 font-bold text-white text-shadow-xl">
+          <div class="antialiased  bg-grone-700   bg-blend-lighten h-[content]">
+            <h3 class="text-5xl font-sans py-1 mb-2 font-bold text-white text-shadow-xl">
               <span class="currency"></span>{plan.price}
             </h3>
           </div>
@@ -55,7 +55,7 @@
                 <li class="list-group-item text-sm font-display text-white ">{feature}</li>
               {/each}
             </ul>
-            <button href="#blank" class="active:scale-[97%] active:border-[0px_200px_0px] absolute bottom-[30px] sm:bottom-[18px] left-[50%] translate-x-[-50%] my-3 w-[200px] md:w-[200px] mx-auto bg-purpleone-600 text-astral-100 uppercase font-bold py-2 px-0 border-[2px] hover:border-purpleone-700 hover:bg-blueone-100 hover:text-purpleone-700 hover:transition-all rounded-[6px] ">More Info</button>
+            <button href="#blank" class="active:scale-[97%] active:border-[0px_200px_0px] absolute bottom-[10px] sm:bottom-[18px] left-[50%] translate-x-[-50%] my-3 w-[200px] md:w-[200px] mx-auto bg-purpleone-600 text-astral-100 uppercase font-bold py-2 px-0 border-[2px] hover:border-purpleone-700 hover:bg-blueone-100 hover:text-purpleone-700 hover:transition-all rounded-[6px] ">More Info</button>
           </div>
         </div>
       {/each}
