@@ -21,7 +21,7 @@
 			<button class="w-[120px] text-[clamp(12px,2vw,20px)] text-purple-700 bg-purplethree-200 py-2 px-2 md:py-2 md:px-6 rounded-md hover:text-white hover:bg-purpleone-400 transition-colors duration-300 hover:transition-colors hover:transition-duration-300 ease-in-out" type="button">
 				INFO
 			</button>
-			<button class="w-[120px] text-[clamp(12px,2vw,20px)] text-purple-700 bg-purplethree-200 py-2 px-1x md:py-2 md:px-2 rounded-md hover:text-white hover:bg-purpleone-400 transition-colors duration-300 hover:transition-colors hover:transition-duration-300 ease-in-out" on:click={sendEmail}  type="button">
+			<button class="w-[120px] text-[clamp(12px,2vw,20px)] text-purple-700 bg-purplethree-200 py-1 px-1x md:py-2 md:px-2 rounded-md hover:text-white hover:bg-purpleone-400 transition-colors duration-300 hover:transition-colors hover:transition-duration-300 ease-in-out" on:click={sendEmail}  type="button">
 				CONTACT
 			</button>
 		</div>

@@ -17,11 +17,11 @@
 			</h3>
 			<p class="bg-opacity-20 bg-purpleone-700 rounded-md text-purpleone-100 text-shadow-[3px_3px_5px_rgba(22,22,22,0.9)] text-center w-[80%]">Welcome to my web project made with Svelte & TailwindCSS</p>
 		</div>
-		<div class="font-[900] mt-4 pb-4 gap-4 flex">
-			<button class="w-[120px] text-[clamp(12px,2vw,20px)] text-purple-700 bg-purplethree-200 py-2 px-2 md:py-2 md:px-6 rounded-md hover:text-white hover:bg-purpleone-400 transition-colors duration-300 hover:transition-colors hover:transition-duration-300 ease-in-out" type="button">
+		<div class="font-[900] mt-4 pb-4 w-">
+			<button class="text-[clamp(12px,2vw,20px)] text-purple-700 bg-purplethree-200 py-1 px-2 md:py-2 md:px-6 rounded-md hover:text-white hover:bg-purpleone-400 transition-colors duration-300 hover:transition-colors hover:transition-duration-300 ease-in-out" type="button">
 				INFO
 			</button>
-			<button class="w-[120px] text-[clamp(12px,2vw,20px)] text-purple-700 bg-purplethree-200 py-2 px-1x md:py-2 md:px-2 rounded-md hover:text-white hover:bg-purpleone-400 transition-colors duration-300 hover:transition-colors hover:transition-duration-300 ease-in-out" on:click={sendEmail}  type="button">
+			<button class="text-[clamp(12px,2vw,20px)] text-purple-700 bg-purplethree-200 py-1 px-2 md:py-2 md:px-6 rounded-md hover:text-white hover:bg-purpleone-400 transition-colors duration-300 hover:transition-colors hover:transition-duration-300 ease-in-out" on:click={sendEmail}  type="button">
 				CONTACT
 			</button>
 		</div>
