@@ -1,6 +1,6 @@
 <script>
 	import { onDestroy, onMount } from 'svelte';
-	
+	import BgImage from '../../components/Bg-Image.svelte';
 	onMount(() => console.log('Mounted projects page'));
 	onDestroy(() => console.log('Unmounted projects page'));
 </script>
