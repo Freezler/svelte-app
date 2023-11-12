@@ -8,8 +8,8 @@
 	}
 </script>
 
-<section class="mx-auto w-[75%] md:w-[60%]  z-100 flex flex-col overflow-scroll justify-center items-center text-center ">
-	<div class="h-screen relative flex flex-col items-center justify-center w-[100%] border-blueone-200 border-2">
+<section class="mx-auto w-[75%] md:w-[60%]  z-100 flex flex-col justify-center items-center text-center ">
+	<div class="relative flex flex-col items-center justify-center w-[100%] border-bl-200 border-2">
 		<Avatar  initials="RV" bgColor="hsla(245,110%,70%,0.4)" textColor="white" name="Randy de vries" src="https://avataaars.io/?avatarStyle=Circle&topType=NoHair&accessoriesType=Blank&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Twinkle&skinColor=Pale" />
 		<div class="bg-opacity-50 rounded-md flex flex-col items-center justify-center mt-[50px]">
 			<h3 class="font-[500] text-2xl text-blueone-200">

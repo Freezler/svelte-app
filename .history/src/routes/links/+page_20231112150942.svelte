@@ -2,7 +2,7 @@
 	import { onDestroy, onMount } from 'svelte';
 	onMount(() => console.log('Mounted Links page'));
 	onDestroy(() => console.log('Unmounted Links page'));
-	// import CijferlijstInput from '../../components/CijferlijstInput.svelte';
+	import CijferlijstInput from '../../components/CijferlijstInput.svelte';
 	import Accordion from '../../components/Accordion.svelte';
 	
 </script>
