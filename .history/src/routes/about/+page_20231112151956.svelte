@@ -8,6 +8,6 @@
 </script>
 
 <main class="flex flex-col h-screen justify-center items-center bg-cover">
-<Bgimg /> 
+<Bgimg 
 
 </main>

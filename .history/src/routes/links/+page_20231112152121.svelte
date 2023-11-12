@@ -17,6 +17,6 @@
 </div>
 <div class="flex flex-col w-[100%] items-center justify-center">
 	 <h3 class="text-3xl sm:text-5xl md:text-6xl xl:8xl text-purpleone-300 pb-[40px]">CijferLijst check</h3>
-		<CijferlijstInput />
+		<!-- <CijferlijstInput /> -->
 	</div>
 </main>
