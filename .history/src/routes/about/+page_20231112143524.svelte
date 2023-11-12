@@ -3,11 +3,11 @@
 	import { onDestroy, onMount } from 'svelte';
 	import BgImage from '../../components/Bg-Image.svelte';
 	
-	onMount(() => console.log('Mounted about page'));
-	onDestroy(() => console.log('Unmounted about page'));
+	onMount(() => console.log('about page'));
+	onDestroy(() => console.log('Unmounted Campfire page'));
 </script>
 
-<main class="flex flex-col h-screen justify-center items-center bg-cover">
+<main class="flex flex-col  h-screen justify-start items-center   bg-cover">
  <BgImage />
  <h1>{name}</h1>
 </main>

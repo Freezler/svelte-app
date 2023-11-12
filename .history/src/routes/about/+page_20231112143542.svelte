@@ -7,7 +7,7 @@
 	onDestroy(() => console.log('Unmounted about page'));
 </script>
 
-<main class="flex flex-col h-screen justify-center items-center bg-cover">
+<main class="flex flex-col  h-screen justify-start items-center   bg-cover">
  <BgImage />
  <h1>{name}</h1>
 </main>
