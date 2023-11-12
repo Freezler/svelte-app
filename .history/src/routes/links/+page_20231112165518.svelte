@@ -15,7 +15,7 @@
 	<p class="animate-slow-slide-up text-xs sm:text-[16px] md:text-xl xl:2xl text-white border-b-[1px]  border-purpleone-300 text-purpleone600">For this project i'm using the following languages and frameworks:</p>
 	<Accordion />
 </div>
-<div class="flex flex-col items-center justify-center border-2 w-[content] px-8 py-4 font-sans h-[content] mx-auto">
+<div class="flex flex-col items-center justify-center border-2 w-[70%] font-sans h-[screen]">
 	 <h3 class="text-3xl sm:text-5xl md:text-6xl xl:8xl text-purpleone-300 pb-[40px]">CijferLijst check</h3>
 		<CijferlijstInput />
 	</div>
