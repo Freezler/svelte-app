@@ -13,14 +13,14 @@
 		<Avatar
 			size="clamp(220px, 20vw, 250px)"
 			initials="RV"
-			bgColor="hsla(255,0%,0%,0.9)"
+			bgColor="hsla(245,110%,70%,0.4)"
 			textColor="white"
 			name="Randy de vries"
 			src="https://source.unsplash.com/random/700x700?human-face"
 			class="filter:hue-rotate-180 filter-saturate-500 "
 		/>
 		<div
-			class=" flex flex-col items-center justify-items-center py-5 px-6  h-[screen] w-[max-content] grid-cols-1 place-content-center rounded-[8px] bg-[hsla(255,14%,50%,0.4)] bg-opacity-50"
+			class=" flex flex-col items-center justify-items-center py-5 px-6  h-[screen] w-[max-content] grid-cols-1 place-content-center rounded-[8px] bg-purpleone-300 bg-opacity-50"
 		>
 			<h3 class=" text-[clamp(24px,2vw,5rem)] font-[500] text-blueone-200">
 				<span class="font-sans text-redone-200 text-2xl">hi I am,</span> RANDY
@@ -35,7 +35,7 @@
 			class="grid translate-y-[20px] grid-cols-2 place-content-center justify-items-center gap-4 place-self-center font-[900] xs:translate-y-[30px] sm:translate-y-[10px]"
 		>
 			<button
-				class="hover:transition-duration-300 w-[100%] rounded-[4px] border-[1px]  border-purpleone-200 px-2 py-2 text-[clamp(8px,3vw,16px)] text-purple-300 transition-colors duration-300 ease-in-out hover:bg-purpleone-400 hover:text-white hover:transition-colors md:px-6 md:py-2"
+				class="hover:transition-duration-300 w-[100%] rounded-[4px] bg-purplethree-400 b px-2 py-2 text-[clamp(8px,3vw,16px)] text-purple-700 transition-colors duration-300 ease-in-out hover:bg-purpleone-400 hover:text-white hover:transition-colors md:px-6 md:py-2"
 				type="button" on:click={() => window.location.reload()}
 			>
 				NEW IMG

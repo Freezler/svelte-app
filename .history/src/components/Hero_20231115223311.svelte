@@ -35,7 +35,7 @@
 			class="grid translate-y-[20px] grid-cols-2 place-content-center justify-items-center gap-4 place-self-center font-[900] xs:translate-y-[30px] sm:translate-y-[10px]"
 		>
 			<button
-				class="hover:transition-duration-300 w-[100%] rounded-[4px] border-[1px]  border-purpleone-200 px-2 py-2 text-[clamp(8px,3vw,16px)] text-purple-300 transition-colors duration-300 ease-in-out hover:bg-purpleone-400 hover:text-white hover:transition-colors md:px-6 md:py-2"
+				class="hover:transition-duration-300 w-[100%] rounded-[4px] border-[1px] border-purpleone-200 px-2 py-2 text-[clamp(8px,3vw,16px)] text-purple-700 transition-colors duration-300 ease-in-out hover:bg-purpleone-400 hover:text-white hover:transition-colors md:px-6 md:py-2"
 				type="button" on:click={() => window.location.reload()}
 			>
 				NEW IMG
