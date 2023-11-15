@@ -8,19 +8,19 @@
 	class="z-100 overflow-none mx-auto grid h-[100vh] w-[100vw] grid-cols-1 place-items-center justify-items-center text-center"
 >
 	<div
-		class="  flex h-screen w-[100%] -translate-y-[50px] flex-1 flex-col items-center justify-center gap-4 text-center scale-100"
+		class="  md:scale-50 flex h-screen w-[100%] -translate-y-[50px] scale-100 flex-col items-center justify-center gap-4 text-center xs:scale-105 sm:scale-100 xxl:scale-100"
 	>
 		<Avatar
-			size="clamp(220px, 20vw, 250px)"
+			size="clamp(140px, 20vw, 250px)"
 			initials="RV"
 			bgColor="hsla(245,110%,70%,0.4)"
 			textColor="white"
 			name="Randy de vries"
 			src="https://source.unsplash.com/random/700x700?human-face"
-			class="filter:hue-rotate-180 filter-saturate-200"
+			class="filter:hue-rotate-180 bg-cover bg-center bg-no-repeat outline-[10px] outline-white"
 		/>
 		<div
-			class="translate-y-[20px] flex flex-col items-center justify-items-center py-5 px-6  h-[screen] w-[max-content] grid-cols-1 place-content-center rounded-[8px] bg-purpleone-300 bg-opacity-50"
+			class="justify-items-center py-5 px-6  grid h-[screen] w-[max-content] grid-cols-1 place-content-center rounded-[8px] bg-purpleone-300 bg-opacity-50"
 		>
 			<h3 class=" text-[clamp(24px,2vw,5rem)] font-[500] text-blueone-200">
 				<span class="font-sans text-redone-200 text-2xl">hi I am,</span> RANDY

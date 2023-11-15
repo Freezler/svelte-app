@@ -20,7 +20,7 @@
 			class="filter:hue-rotate-180 filter-saturate-200"
 		/>
 		<div
-			class="translate-y-[20px] flex flex-col items-center justify-items-center py-5 px-6  h-[screen] w-[max-content] grid-cols-1 place-content-center rounded-[8px] bg-purpleone-300 bg-opacity-50"
+			class="-translate-y-[20px] flex flex-col items-center justify-items-center py-5 px-6  grid h-[screen] w-[max-content] grid-cols-1 place-content-center rounded-[8px] bg-purpleone-300 bg-opacity-50"
 		>
 			<h3 class=" text-[clamp(24px,2vw,5rem)] font-[500] text-blueone-200">
 				<span class="font-sans text-redone-200 text-2xl">hi I am,</span> RANDY
