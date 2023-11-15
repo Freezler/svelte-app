@@ -1,0 +1,19 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Your custom CSS goes here */
+body {
+	scroll-behavior: smooth;
+}
+
+body * {
+	-moz-scrollbar-width: none;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+
+/* *,html {
+	scroll-behavior: smooth;
+	border: 1px solid red;
+} */
