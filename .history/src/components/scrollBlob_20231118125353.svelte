@@ -1,0 +1,138 @@
+<script>
+	let info = [
+		{
+			city: 'Venice',
+			country: 'Italy',
+			population: '260,060',
+			founded: '697',
+			image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/venice.jpg',
+			emblem: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/italian-emblem.svg'
+		},
+		{
+			city: 'Paris',
+			country: 'France',
+			population: '2.2 Million',
+			founded: '~250BC',
+			image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/paris.jpg',
+			emblem: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/french-emblem.svg'
+		},
+		{
+			city: 'Salzburg',
+			country: 'Austria',
+			population: '145,871',
+			founded: '1622',
+			image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/salzburg.jpg',
+			emblem: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/austrian-emblem.svg'
+		},
+		{
+			city: 'Prague',
+			country: 'Czech Republic',
+			population: '1.2 Million',
+			founded: '870',
+			image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/prague.jpg',
+			emblem: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/czech-emblem.svg'
+		}
+	];
+	import { fade } from 'svelte/transition';
+</script>
+
+<div
+	id="container"
+	class="relative flex h-[92vh] w-[100vw] overflow-hidden"
+	transition:fade={{ delay: 250, duration: 300 }}
+	
+>
+	{#each info as item}
+		<!-- Slide Container -->
+		<div
+			class="slide relative grid h-[100%] w-[100vw]  grid-cols-1 grid-rows-1 place-content-center justify-items-center overflow-hidden active:scale-100 transition-all  duration-[2000ms] ease-in-out hover:w-[1500%] "
+		>
+			<!-- image Container -->
+
+			<div  class=" image h-[100vh] w-[100vw]  transform overflow-hidden">
+				<img
+					src={item.image}
+					class="relative h-[100%] w-[100%] object-cover object-center"
+					alt=""
+					loading="lazy"
+				/>
+				<!-- Overlay Container -->
+				<div
+					class="overlay absolute inset-  mt-24 flex w-[100vw] h-[100vh] items-center justify-center"
+				>
+					<!-- Content Container -->
+					<div
+						class="relative content flex flex-1 opacity-0  gap-8 flex-col items-center justify-between text-left font-display text-white  shadow-2xl	 transition-opacity duration-[1300] ease-in-out text-shadow-[3px_3px_5px_hsla(0,0%,0%,0.9)]"
+					>
+						<h1
+							class="title border-b-[1px] border-blueone-100 font-sans text-[clamp(1.5rem,5vw,5rem)] font-[700] text-white "
+							data-title={item.city}
+						>
+							{item.city}
+						</h1>
+						<!-- Emblem Container -->
+						<div
+							class="emblem relative z-150 w-[content]   items-center justify-center "
+						>
+							<svg class="w-[100px] object-cover py-8" viewBox="0 0 100 100">
+								<image xlink:href={item.emblem} width="100" height="100" />
+							</svg>
+						</div>
+						<!-- City information Container -->
+						<ul
+							class="city-info opacity-1 z-100 mt-24 flex transform flex-col  px-2  font-display transition-all duration-[3000ms] ease-in-out"
+						>
+							<li class="country">{item.country}</li>
+							<li class="founded">Founded: {item.founded}</li>
+							<li class="population">Population: {item.population}</li>
+						</ul>
+					</div>
+					<div class="btn-close" >
+						<button type="submit" class="btn-close"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	{/each}
+</div>
+
+<style>
+	* {
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+		border: 2px solid red;
+	}
+
+	.slide:hover .overlay {
+		opacity: 1;
+	}
+
+	.content {
+		transition: all ;
+		transition-duration: 2200ms; ;
+		transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+		background-color: oklab(1% 20% 20% / 0.5);
+		height: 300px;
+	}
+
+	.slide:hover .content {
+		transform: translateX(0) translateY(-100%);
+		transition: all 1000ms ease-in-out;
+		scale: 1;
+		opacity: 1;
+	}
+
+	.emblem {
+		transform:  scale(0.5) opacity(0) rotate(0) skew(0) translate(100px);
+		transition: transform 1000ms ease-in-out;
+	}
+
+	.slide:hover .emblem {
+		transform: translateX(0);
+		scale: 1.2;
+
+		
+	}
+	
+</style>
