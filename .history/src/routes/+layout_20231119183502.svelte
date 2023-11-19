@@ -4,24 +4,12 @@
   import Footer from '../components/Footer.svelte';
   import Loader from '../components/Loader.svelte';
   import { fade } from 'svelte/transition';
-  import { onMount } from 'svelte';
 
-  let isContentLoaded = false;
-
-  onMount(() => {
+  window.addEventListener('load', () => {
     const loader = document.getElementById('loader');
-    const content =document.getElementById('content');
-
-    window.addEventListener('load', () => {
-      loader.style.display = 'none';
-      content.style.display = 'flex';
-    });
-
-    setTimeout(() => {
-      loader.style.display = 'none';
-      content.style.display = 'flex';
-      isContentLoaded = true;
-    }, 0.1);
+    const content = document.getElementById('content');
+    loader.style.display = 'none';
+    content.style.display = 'flex';
   });
 </script>
 
@@ -35,12 +23,9 @@
       <div id="loader" class="text-center text-white" style="display: flex;">
         <Loader />
       </div>
-      <div id="content" style="display: none;" on:transition:end={fade}>
-        {#if !isContentLoaded}
-          <h1 class="relative z-500 text-3xl sm:text-5xl md:text-6xl xl:8xl text-purpleone-300"> weer Loading...</h1>
-        {:else}
-          <slot />
-        {/if}
+      <div id="content" class="flex" on:transition={fade}>
+        <h1 class="relative z-500 text-3xl sm:text-5xl md:text-6xl xl:8xl text-purpleone-300"> weer Loading...</h1>
+        <slot />
       </div>
     </main>
     <Footer />

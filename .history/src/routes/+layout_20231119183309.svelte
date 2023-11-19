@@ -10,7 +10,7 @@
 
   onMount(() => {
     const loader = document.getElementById('loader');
-    const content =document.getElementById('content');
+    const content =a document.getElementById('content');
 
     window.addEventListener('load', () => {
       loader.style.display = 'none';
