@@ -121,13 +121,13 @@
 
 	.slide:hover .content {
 		transform: translate(0) translateY(0);
-		transition: all 900ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+		transition: all 700ms ease-in-out;
 
 		opacity: 1;
 	}
 	.slide .content {
-		transform: translateX(0) translateY(200%);	;
-		transition: all 700ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+		transform: translateX(0) translateY(-200%);	;
+		transition: all 300ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
 		width: 1000px;
 		opacity: 0;
 	}

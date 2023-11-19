@@ -85,14 +85,16 @@
 							</div>
 							<!-- City information Container -->
 							<ul
-								class="city-info opacity-1 z-100 flex  flex-col  font-display "
+								class="city-info opacity-1 z-100 flex transform flex-col gap-0 font-display transition-all duration-[3000ms] ease-in-out"
 							>
 								<li class="country">{item.country}</li>
 								<li class="founded">Founded: {item.founded}</li>
 								<li class="population">Population: {item.population}</li>
 							</ul>
 						</div>
-						
+						<div class="btn-close">
+							<button type="submit" class="btn-close"></button>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -109,26 +111,27 @@
 
 	.slide:hover .overlay {
 		opacity: 0;
-		transition: all 300ms ease-in-out;
+
+		transition: all 200ms ease-in-out;
 	}
 
 	.content {
-		
-		transition-duration: 3000ms;
-		transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-		background-color: oklab(1% 20% 20% / 0.5);
+		transition: all;
+		transition-duration: 2000ms;
+		transition-timing-function: ease-in-out;
+		background-color: oklab(1% 20% 20% / 0.4);
 	}
 
 	.slide:hover .content {
 		transform: translate(0) translateY(0);
-		transition: all 900ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+		transition: all 1200ms ease-in-out;
 
 		opacity: 1;
 	}
 	.slide .content {
-		transform: translateX(0) translateY(200%);	;
-		transition: all 700ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
-		width: 1000px;
+		transform: translateX(-100%) translateY(0);
+		transition: all 700ms ease-in-out;
+
 		opacity: 0;
 	}
 
@@ -155,7 +158,7 @@
 		opacity: 1;
 		/* Update the width to 75% of the viewport width */
 		transition: 200ms cubic-bezier(cubic-bezier(0.83, 0.61, 0.28, 0.36));
-		width: 100%;
+		width: 1000px;
 		height: 100%;
 	}
 </style>

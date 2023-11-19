@@ -85,14 +85,16 @@
 							</div>
 							<!-- City information Container -->
 							<ul
-								class="city-info opacity-1 z-100 flex  flex-col  font-display "
+								class="city-info opacity-1 z-100 flex transform flex-col gap-1 font-display "
 							>
 								<li class="country">{item.country}</li>
 								<li class="founded">Founded: {item.founded}</li>
 								<li class="population">Population: {item.population}</li>
 							</ul>
 						</div>
-						
+						<div class="btn-close">
+							<button type="submit" class="btn-close"></button>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -121,12 +123,12 @@
 
 	.slide:hover .content {
 		transform: translate(0) translateY(0);
-		transition: all 900ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+		transition: all 700ms ease-in-out;
 
 		opacity: 1;
 	}
 	.slide .content {
-		transform: translateX(0) translateY(200%);	;
+		transform: translateX(-100%) translateY(0);
 		transition: all 700ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
 		width: 1000px;
 		opacity: 0;
