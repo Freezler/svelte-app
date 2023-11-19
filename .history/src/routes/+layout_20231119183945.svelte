@@ -35,9 +35,9 @@
       <div id="loader" class="text-center text-white" style="display: flex;">
         <Loader />
       </div>
-      <div id="content" style="display: none;" on:transition={fade}>
+      <div id="content" style="display: none;" on:transition:end={fade}>
         {#if !isContentLoaded}
-          <Loader />
+          
         {:else}
           <slot />
         {/if}

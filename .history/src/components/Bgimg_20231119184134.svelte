@@ -8,7 +8,7 @@
 
   const reloadAvatar = async () => {
 	isLoading = true;
-	const response = await fetch('https://source.unsplash.com/2160x2160/?holidays,christmas');
+	const response = await fetch('https://source.unsplash.com/2160x2160/?holidayschristmas');
 	avatarUrl = response.url;
 	isLoading = false;
   };
@@ -30,7 +30,7 @@
   }
 </script>
 
-<main on:transition={fade} class="overflow-hidden flex items-center justify-center mx-auto  h-[100vh] w-screen animate-slow-fade-in flex-col bg-gradient-to-tr from-astral-950 via-gray-950 to-astral-950 ">
+<main class="overflow-hidden flex items-center justify-center mx-auto  h-[100vh] w-screen animate-slow-fade-in flex-col bg-gradient-to-tr from-astral-950 via-gray-950 to-astral-950 ">
   <div class="border-b-[1px] border-purpleone-600 flex flex-col items-center justify-top  w-full">
 	{#if isLoading}
 	<div class="shadow-[3px_3px_15px_3px_rgba(22,22,22,0.7)] flex h-screen bg-cover bg-center drop-shadow-[2px_2px_12px_hsla(255,100%,59%,0.9)] w-[100%] min-w-[100%] max-w-[100%] animate-pulse items-center justify-center  ">

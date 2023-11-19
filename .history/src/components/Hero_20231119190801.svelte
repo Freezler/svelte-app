@@ -102,8 +102,7 @@
 	.button-64:active,
 	.button-64:hover {
 		outline: 0;
-		scale: 1.015;
-		transition: transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+		scale: ;
 	}
 
 	.button-64 span {

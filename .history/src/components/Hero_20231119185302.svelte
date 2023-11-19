@@ -74,18 +74,17 @@
 	/* CSS */
 	.button-64 {
 		align-items: center;
-		background-image: linear-gradient(144deg, hsla(330, 100%, 88%, 0.459), #4a03628b 50%, #00ddeb);
+		background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
 		background-clip: margin-box;
 		inset: 1;
 		border: 0px;
 		border-radius: 8px;
-		box-shadow: 0px 0px 11px 1px hsla(295, 62%, 49%, 0.9);
+		box-shadow: 0px 0px 8px 0px hsla(295, 21%, 24%, 0.9);
 		box-sizing: border-box;
 		color: #ffffff;
 		display: flex;
 		font-family: Phantomsans, sans-serif;
 		font-size: clamp(16px, 2vw, 32px);
-		font-weight: 500;
 		justify-content: center;
 		line-height: 1em;
 		width: clamp(120px, 20vw, 200px);
@@ -102,25 +101,21 @@
 	.button-64:active,
 	.button-64:hover {
 		outline: 0;
-		scale: 1.015;
-		transition: transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 	}
 
 	.button-64 span {
-		background-color: rgba(150, 19, 150, 0.20);
+		background-color: rgba(150, 19, 150, 0.6);
 		padding: 16px 24px;
 		border-radius: 6px;
 		width: 100%;
 		height: 100%;
-		transition: 600ms;
+		transition: 2300ms;
 	}
 
 	.button-64:hover span {
-		background: linear-gradient(215deg, #33d5f96a, #ed06f571 50%, #33d5f951);
-		transition: transform 1000ms cubic-bezier(0.645, 0.08, 0.86, 0.52) reverse;
+		background: linear-gradient(215deg, #33d5f979, #48034b 50%, #33d5f979);
+		transition: transform 2000ms cubic-bezier(0.645, 0.08, 0.86, 0.52) reverse;
 		scale: 1;
-		color: white;
-		
 	}
 
 	@media (min-width: 768px) {

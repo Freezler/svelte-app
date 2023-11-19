@@ -74,7 +74,7 @@
 	/* CSS */
 	.button-64 {
 		align-items: center;
-		background-image: linear-gradient(144deg, hsla(330, 100%, 88%, 0.459), #4a03628b 50%, #00ddeb);
+		background-image: linear-gradient(144deg, #40f2ff75, #4a03628b 50%, #00ddeb);
 		background-clip: margin-box;
 		inset: 1;
 		border: 0px;
@@ -102,8 +102,6 @@
 	.button-64:active,
 	.button-64:hover {
 		outline: 0;
-		scale: 1.015;
-		transition: transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 	}
 
 	.button-64 span {

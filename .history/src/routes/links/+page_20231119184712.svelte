@@ -9,7 +9,7 @@
 </script>
 
 <main
-	class="animate-slow-fade-in z-100 grid grid-cols-1 h-screen scroll-smooth place-content-start justify-center items-center w-screen flex-col bg-gradient-to-b from-astral-900 via-gray-900 to-astral-900 overflow-scroll pb-24" 
+	class=" z-100 grid grid-cols-1 h-screen scroll-smooth place-content-start justify-center items-center w-screen flex-col bg-gradient-to-b from-astral-900 via-gray-900 to-astral-900 overflow-scroll pb-24" on:transitions={fade}
 >	
 <div class="grid grid-cols-1 place-content-center	text-center w-[100%] items-center justify-center font-sans h-screen ">
 	<h1 class="animate-slow-slide-down text-3xl sm:text-5xl md:text-6xl xl:8xl text-purpleone-300  ">Perpetual Learning!</h1>
