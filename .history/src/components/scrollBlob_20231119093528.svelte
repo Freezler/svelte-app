@@ -50,12 +50,12 @@
 		{#each info as item}
 			<!-- Slide Container -->
 			<div
-				class="slide flex h-[100vh] w-[100vw] hover:w-[3300px]  flex-col  items-center justify-center overflow-hidden transition-all duration-[1600ms] cubic-bezier(0.075, 0.82, 0.165, 1)"
+				class="slide  flex h-[100vh] w-[100vw] items-center justify-center overflow-hidden transition-all duration-[1400ms] cubic-bezier(0.075, 0.82, 0.165, 1)"
 			>
 				<!-- image Container -->
 
 				<div
-					class=" image flex h-[100vh] w-[100vw] transform flex-col items-center  overflow-hidden "
+					class=" image flex h-[100%] w-[100%] transform flex-col items-center justify-start overflow-hidden "
 				>
 					<img
 						src={item.image}

@@ -44,18 +44,18 @@
 {#if show}
 	<div
 		id="container"
-		class="relative flex h-[100%] w-[100%] overflow-hidden bg-black"
-		transition:fade={{ delay: 250, duration:500 }}
+		class="relative flex h-[100vh] w-[100vw] overflow-hidden bg-black"
+		transition:fade={{ delay: 250, duration: 300 }}
 	>
 		{#each info as item}
 			<!-- Slide Container -->
 			<div
-				class="slide flex h-[100vh] w-[100vw] hover:w-[3300px]  flex-col  items-center justify-center overflow-hidden transition-all duration-[1600ms] cubic-bezier(0.075, 0.82, 0.165, 1)"
+				class="slide  flex h-[100vh] w-[100vw] items-center justify-center overflow-hidden transition-all duration-[1400ms] cubic-bezier(0.075, 0.82, 0.165, 1)"
 			>
 				<!-- image Container -->
 
 				<div
-					class=" image flex h-[100vh] w-[100vw] transform flex-col items-center  overflow-hidden "
+					class=" image flex h-[100%] w-[100%] transform flex-col items-center justify-center overflow-hidden "
 				>
 					<img
 						src={item.image}
@@ -65,14 +65,14 @@
 					/>
 					<!-- Overlay Container -->
 					<div
-						class="overlay absolute inset-0 flex transform items-center "
+						class="overlay absolute inset-0 flex h-[100%] w-[100%] transform items-center justify-center"
 					>
 						<!-- Content Container -->
 						<div
-							class="content z-100 flex flex-1 transform flex-col items-center justify-center text-center font-display text-white  shadow-xl transition duration-[1900ms] ease-in-out text-shadow-[3px_3px_5px_hsla(180,45%,10%,0.9)] "
+							class="content z-100 flex flex-1 transform flex-col items-center justify-center text-center font-display text-white hover:w-[1300px] shadow-xl transition duration-[900ms] ease-in-out text-shadow-[3px_3px_5px_hsla(180,45%,10%,0.9)] "
 						>
 							<h1
-								class="title font-sans text-[clamp(1.2rem,5vw,4rem)] font-[800] text-white"
+								class="title border-b-[1px] border-blueone-100 font-sans text-[clamp(1.5rem,5vw,5rem)] font-[800] text-white"
 								data-title={item.city}
 							>
 								{item.city}
