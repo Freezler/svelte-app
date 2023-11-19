@@ -4,11 +4,11 @@
   import Footer from '../components/Footer.svelte';
 </script>
 
-<html lang="en" class="select-none scroll-smooth bg-black">
+<html lang="en" class="select-none scroll-smooth">
   <head>
     <!-- Add any necessary head content here -->
   </head>
-  <body class="flex flex-col h-full overflow-scroll">
+  <body class=" flex flex-col h-full overflow-scroll">
     <Navbar />
     <main>
       <slot />

@@ -120,9 +120,9 @@
 <style>
 	.fading-1 {
   background: 
-     linear-gradient(45deg,  hsla(0, 1%, 13%, 0.1) , hsla(225, 17%, 91%, 0.9), transparent) 
-    bottom /var(--d, 0) 1.5px no-repeat;
-  transition: 0.6s;
+     linear-gradient(90deg, transparent, hsla(283, 83%, 52%, 0.9), transparent) 
+    bottom /var(--d, 0) 32px no-repeat;
+  transition: 0.5s;
 }
 .fading-1:hover {
   --d: 100%;

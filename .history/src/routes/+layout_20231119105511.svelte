@@ -4,7 +4,7 @@
   import Footer from '../components/Footer.svelte';
 </script>
 
-<html lang="en" class="select-none scroll-smooth bg-black">
+<html lang="en" class="select-none scroll-smooth bg-{transparent}">
   <head>
     <!-- Add any necessary head content here -->
   </head>

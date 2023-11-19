@@ -8,7 +8,7 @@
 </script>
 
 <main
-	class="scroll-invisible m-0 grid h-screen w-screen grid-cols-1 grid-rows-1 place-items-center justify-items-center bg-transparent bg-cover bg-center bg-no-repeat p-0 bg-blend-darken hover:bg-blend-darken"
+	class="scroll-invisible m-0 grid h-screen w-screen grid-cols-1 grid-rows-1 place-items-center justify-items-center bg-transparent bg-cover bg-center bg-no-repeat p-0 bg-blend-dark hover:bg-blend-darken"
 >
 	<Bgimg />
 </main>
