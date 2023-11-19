@@ -29,7 +29,7 @@
 				<span class="font-sans text-xl text-redone-200">hi I am,</span> RANDY
 			</h3>
 			<p
-				class="type w-[110%] place-content-center -space-y-2 justify-self-center bg-opacity-20 text-center text-[clamp(13px,2vw,1.2rem)] text-purpleone-100 text-shadow-[3px_3px_5px_rgba(22,22,22,0.9)]"
+				class="type w-[110%] place-content-center -space-y-2 justify-self-center bg-opacity-20 text-center text-[clamp(16px,2vw,1.2rem)] text-purpleone-100 text-shadow-[3px_3px_5px_rgba(22,22,22,0.9)]"
 			>
 				<span>Welcome to my web project made with Svelte & TailwindCSS</span>
 			</p>
