@@ -21,7 +21,7 @@
       loader.style.display = 'none';
       content.style.display = 'flex';
       isContentLoaded = true;
-    }, 0.1);
+    }, 3000);
   });
 </script>
 

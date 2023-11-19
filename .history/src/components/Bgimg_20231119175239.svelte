@@ -8,7 +8,7 @@
 
   const reloadAvatar = async () => {
 	isLoading = true;
-	const response = await fetch('https://source.unsplash.com/2160x2160/?abstract?christmas');
+	const response = await fetch('https://source.unsplash.com/2160/?abstract?christmas');
 	avatarUrl = response.url;
 	isLoading = false;
   };

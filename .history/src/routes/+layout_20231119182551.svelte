@@ -21,7 +21,7 @@
       loader.style.display = 'none';
       content.style.display = 'flex';
       isContentLoaded = true;
-    }, 0.1);
+    }, 3000);
   });
 </script>
 
@@ -30,14 +30,14 @@
     <!-- Add any necessary head content here -->
   </head>
   <body>
-    <main class="flex flex-col h-screen overflow-scroll">
+    <main on:transition:out={fade} class="flex flex-col h-screen overflow-scroll">
       <Navbar />
-      <div id="loader" class="text-center text-white" style="display: flex;">
+      <div id="loader" style="display: flex;">
         <Loader />
       </div>
-      <div id="content" style="display: none;" on:transition:end={fade}>
+      <div id="content" style="display: none;">
         {#if !isContentLoaded}
-          <h1 class="relative z-500 text-3xl sm:text-5xl md:text-6xl xl:8xl text-purpleone-300"> weer Loading...</h1>
+          
         {:else}
           <slot />
         {/if}

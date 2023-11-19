@@ -21,7 +21,7 @@
       loader.style.display = 'none';
       content.style.display = 'flex';
       isContentLoaded = true;
-    }, 0.1);
+    }, 3000);
   });
 </script>
 
@@ -32,7 +32,7 @@
   <body>
     <main class="flex flex-col h-screen overflow-scroll">
       <Navbar />
-      <div id="loader" class="text-center text-white" style="display: flex;">
+      <div id="loader"class="absolute top-0" style="display: flex;">
         <Loader />
       </div>
       <div id="content" style="display: none;" on:transition:end={fade}>
