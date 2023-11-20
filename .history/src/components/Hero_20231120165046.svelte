@@ -65,7 +65,7 @@
 		>
 			refresh
 			<img
-				src="https://icons.getbootstrap.com/assets/icons/arrow-repeat.svg"
+				src="https://source.unsplash.com/16x16/?refresh"
 				class="target:animate-spin h-[16px] w-[16px] items-center transition-all"
 				style="filter: invert(100%);opacity: 0.9; margin-left: 5px; height: 16px; width: 16px;"
 				alt=""
@@ -79,7 +79,7 @@
 		>
 			Contact
 			<img
-				src="https://icons.getbootstrap.com/assets/icons/envelope.svg"
+				src="src/assets/email.png"
 				style="margin-left:5px; height: 21px; width: 18px;filter: invert(100%);"
 				class=" text-white hover:animate-fly duration-[2000ms] focus:animate-wave items-center transition-all"
 				alt=""

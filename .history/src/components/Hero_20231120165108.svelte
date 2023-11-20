@@ -79,7 +79,7 @@
 		>
 			Contact
 			<img
-				src="https://icons.getbootstrap.com/assets/icons/envelope.svg"
+				src="src/assets/email.png"
 				style="margin-left:5px; height: 21px; width: 18px;filter: invert(100%);"
 				class=" text-white hover:animate-fly duration-[2000ms] focus:animate-wave items-center transition-all"
 				alt=""
