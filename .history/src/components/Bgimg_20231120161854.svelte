@@ -8,7 +8,7 @@
 
 	const reloadAvatar = async () => {
 		isLoading = true;
-		const response = await fetch('https://source.unsplash.com/1920x1080/?gotham');
+		const response = await fetch('https://source.unsplash.com//?flowers, colors, nature');
 		avatarUrl = response.url;
 		isLoading = false;
 	};

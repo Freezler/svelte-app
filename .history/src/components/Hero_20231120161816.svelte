@@ -17,7 +17,7 @@
 				initials="RV"
 				textColor="white"
 				name="Randy de vries"
-				src="https://source.unsplash.com/300x300/?perspective"
+				src="https://source.unsplash.com/300x300/?joker"
 				style="margin-bottom: 50px;"
 				
 				

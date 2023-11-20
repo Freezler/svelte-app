@@ -8,17 +8,16 @@
 </script>
 
 <section
-	class="z-100 overflow-none -translate-y-10 bg-[oklch(12.5%_0.057_322.41)]bg-opacity-40 flex h-[100vh] w-screen animate-slow-fade-in flex-col items-center justify-center overflow-hidden text-center drop-shadow-[2px_2px_12px_hsla(245,90%,5%,0.3)]"
+	class="z-100 overflow-none -translate-y-8 bg-[oklch(12.5%_0.057_322.41)]bg-opacity-40 flex h-[100%] w-screen animate-slow-fade-in flex-col items-center justify-center overflow-hidden text-center drop-shadow-[2px_2px_12px_hsla(245,90%,5%,0.3)]"
 >
-	<div class="h-[clamp(220px, 20vw, 250px] w-[100%] flex-col">
-		<div class="animate-slow-fade-in m-0 flex max-h-[content] md:h-[1005] md:translate-y-10 lg:translate-y-[52px] w-[100%] items-start justify-center">
+	<div class="h-[clamp(120px, 15vw, 150px] w-[100%] flex-col">
+		<div class="animate-slow-fade-in m-0 flex max-h-[content] min-w-[100%] w-[100%] items-start justify-center">
 			<Avatar
 				size="clamp(140px, 20vw, 180px)"
 				initials="RV"
 				textColor="white"
 				name="Randy de vries"
-				src="https://source.unsplash.com/300x300/?perspective"
-				style="margin-bottom: 50px;"
+				src="https://source.unsplash.com/400x400/?joker"
 				
 				
 				alt="Randy de vries"
@@ -32,7 +31,7 @@
 			>
 				<h3
 					class=" 
-					font-Poppins animate-slow-slide-down bg-[url(https://source.unsplash.com/1920x1080/?batman)] bg-cover bg-clip-text bg-center bg-no-repeat text-center
+					font-Poppins animate-slow-slide-down bg-[url(https://source.unsplash.com/1920x1080/?winter)] bg-cover bg-clip-text bg-center bg-no-repeat text-center
 				  text-[clamp(32px,20vw,11rem)] font-[600] text-transparent drop-shadow-[1px_1px_12px_rgba(245,52,445,0.4)]"
 				>
 					<span

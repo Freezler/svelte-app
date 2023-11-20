@@ -64,12 +64,9 @@
 			}}
 		>
 			refresh
-			<img
-				src="src/assets/refresh.png"
-				class="target:animate-spin h-[16px] w-[16px] items-center transition-all"
-				style="filter: invert(100%);opacity: 0.9; margin-left: 5px; height: 16px; width: 16px;"
-				alt=""
-			/>
+			<svg>
+				<Md
+			</svg>
 		</button>
 
 		<button

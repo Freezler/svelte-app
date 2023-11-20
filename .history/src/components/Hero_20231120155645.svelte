@@ -8,31 +8,30 @@
 </script>
 
 <section
-	class="z-100 overflow-none -translate-y-10 bg-[oklch(12.5%_0.057_322.41)]bg-opacity-40 flex h-[100vh] w-screen animate-slow-fade-in flex-col items-center justify-center overflow-hidden text-center drop-shadow-[2px_2px_12px_hsla(245,90%,5%,0.3)]"
+	class="z-100 overflow-none bg-[oklch(12.5%_0.057_322.41)]bg-opacity-40 flex h-[100%] w-screen animate-slow-fade-in flex-col items-center justify-center overflow-hidden text-center drop-shadow-[2px_2px_12px_hsla(245,90%,5%,0.3)]"
 >
-	<div class="h-[clamp(220px, 20vw, 250px] w-[100%] flex-col">
-		<div class="animate-slow-fade-in m-0 flex max-h-[content] md:h-[1005] md:translate-y-10 lg:translate-y-[52px] w-[100%] items-start justify-center">
+	<div class="h-[60%] w-[100%] flex-col">
+		<div class="animate-slow-fade-in m-0 flex h-[100%] w-[100%] items-start justify-center">
 			<Avatar
-				size="clamp(140px, 20vw, 180px)"
+				size="160px"
 				initials="RV"
 				textColor="white"
 				name="Randy de vries"
-				src="https://source.unsplash.com/300x300/?perspective"
-				style="margin-bottom: 50px;"
+				src="https://source.unsplash.com/400x400/?joker"
 				
 				
 				alt="Randy de vries"
 				
 			/>
 		</div>
-		<div class="flex   flex-col items-center justify-center">
+		<div class="flex h-[100vh] w-[100%] flex-col items-center justify-center">
 			<div
-				class="z-100  flex w-[100%] animate-slow-fade-in flex-col
-				 items-center justify-evenly bg-[oklch(12.5%_0.057_322.41)] bg-astral-950 bg-opacity-60 drop-shadow-[2px_2px_12px_hsla(245,90%,5%,0.3)] sm:flex-col lg:h-[320px]"
+				class="z-100 m flex w-[100%] animate-slow-slide-down
+				 items-center justify-center bg-[oklch(12.5%_0.057_322.41)] bg-astral-950 bg-opacity-60 drop-shadow-[2px_2px_12px_hsla(245,90%,5%,0.3)] sm:flex-col lg:h-[320px]"
 			>
 				<h3
 					class=" 
-					font-Poppins animate-slow-slide-down bg-[url(https://source.unsplash.com/1920x1080/?batman)] bg-cover bg-clip-text bg-center bg-no-repeat text-center
+					font-Poppins animate-slow-slide-down bg-[url(https://source.unsplash.com/1920x1080/?winter)] bg-cover bg-clip-text bg-center bg-no-repeat text-center
 				  text-[clamp(32px,20vw,11rem)] font-[600] text-transparent drop-shadow-[1px_1px_12px_rgba(245,52,445,0.4)]"
 				>
 					<span
@@ -45,10 +44,10 @@
 				class=" z-100 h-[35%] w-[100%] animate-slow-slide-down flex-col items-center justify-center justify-items-end bg-astral-900 bg-opacity-50 text-center drop-shadow-[2px_2px_12px_hsla(15,00%,59%,0.2)]"
 			>
 				<p
-					class="type ml-8 font-Poppins justify-items-evenly  animate-slow-slide-in-rtl w-[content] flex justify-center items-center
-					bg-opacity-20 text-center align-middle text-[clamp(8px,3vw,1.6rem)] font-[500] text-purpleone-100 text-shadow-[3px_3px_5px_rgba(2,3,2,0.8)]"
+					class="type font-Poppins justify-items-evenly w-[max-content] animate-slow-slide-in-rtl
+					bg-opacity-20 text-left align-middle text-[clamp(12px,3vw,1.6rem)] font-[500] text-purpleone-100 text-shadow-[3px_3px_5px_rgba(2,3,2,0.8)]"
 				>
-					<span class="">Welcome to my Svelte & TailwindCSS site</span>
+					<span class="">Welcome to my web project made with Svelte & TailwindCSS</span>
 				</p>
 			</div>
 		</div>

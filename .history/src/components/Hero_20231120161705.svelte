@@ -17,7 +17,7 @@
 				initials="RV"
 				textColor="white"
 				name="Randy de vries"
-				src="https://source.unsplash.com/300x300/?perspective"
+				src="https://source.unsplash.com/400x400/?joker"
 				style="margin-bottom: 50px;"
 				
 				
@@ -32,7 +32,7 @@
 			>
 				<h3
 					class=" 
-					font-Poppins animate-slow-slide-down bg-[url(https://source.unsplash.com/1920x1080/?batman)] bg-cover bg-clip-text bg-center bg-no-repeat text-center
+					font-Poppins animate-slow-slide-down bg-[url(https://source.unsplash.com/1920x1080/?winter)] bg-cover bg-clip-text bg-center bg-no-repeat text-center
 				  text-[clamp(32px,20vw,11rem)] font-[600] text-transparent drop-shadow-[1px_1px_12px_rgba(245,52,445,0.4)]"
 				>
 					<span

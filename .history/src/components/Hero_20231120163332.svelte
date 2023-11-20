@@ -5,6 +5,7 @@
 	const randomNumber = Math.floor(Math.random() * 100);
 	let isHoveredNewImg = false;
 	let isHoveredContact = false;
+	import import MdRefresh from 'svelte-icons/md/MdRefresh.svelte'
 </script>
 
 <section

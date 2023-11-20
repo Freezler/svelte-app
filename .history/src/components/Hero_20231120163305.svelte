@@ -5,6 +5,7 @@
 	const randomNumber = Math.floor(Math.random() * 100);
 	let isHoveredNewImg = false;
 	let isHoveredContact = false;
+	import MdRefresh from 'svelte-icons/md/MdRefresh.svelte'
 </script>
 
 <section
@@ -64,12 +65,7 @@
 			}}
 		>
 			refresh
-			<img
-				src="src/assets/refresh.png"
-				class="target:animate-spin h-[16px] w-[16px] items-center transition-all"
-				style="filter: invert(100%);opacity: 0.9; margin-left: 5px; height: 16px; width: 16px;"
-				alt=""
-			/>
+			<MdRefresh style="margin-left:5px; height: 21px; width: 18px;filter: invert(100%);" class=" text-white hover:animate-fly duration-[2000ms] focus:animate-wave items-center transition-all" />
 		</button>
 
 		<button
