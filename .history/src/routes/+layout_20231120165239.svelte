@@ -7,14 +7,13 @@
 </script>
 
 <html
-  transition:fade={{ delay: 2, duration:200 }}
 	lang="en"
 	class=" select-none scroll-smooth bg-[oklch(12.5%_0.057_322.41)] text-white"
 >
 	<head>
 		<!-- Add any necessary head content here -->
 	</head>
-	<body class="flex h-screen flex-col">
+	<body class="">
 		<header>
 			<Navbar />
 		</header>

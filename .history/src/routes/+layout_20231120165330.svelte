@@ -7,7 +7,7 @@
 </script>
 
 <html
-  transition:fade={{ delay: 2, duration:200 }}
+  transition:fade={{ delay: 2, duration:600 }}
 	lang="en"
 	class=" select-none scroll-smooth bg-[oklch(12.5%_0.057_322.41)] text-white"
 >
