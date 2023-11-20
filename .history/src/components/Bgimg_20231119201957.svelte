@@ -1,0 +1,46 @@
+<script>
+  import { afterUpdate, onMount } from 'svelte';
+  import Loader from './Loader.svelte';
+  import Hero from './Hero.svelte';
+  import { fade } from 'svelte/transition';
+  let avatarUrl = '';
+  let isLoading = true;
+
+  const reloadAvatar = async () => {
+	isLoading = true;
+	const response = await fetch('https://source.unsplash.com/2160x2160/?holidays,christmas');
+	avatarUrl = response.url;
+	isLoading = false;
+  };
+
+  onMount(() => {
+	reloadAvatar();});
+
+  afterUpdate(() => {
+	if (isLoading) return; // Only reload avatar after initial load
+	const image = document.querySelector('.avatar-image');
+	image.style.backgroundImage = `url(${avatarUrl})`;
+	image.style.backgroundSize = 'cover';
+	image.style.backgroundPosition = 'center';
+	
+  });
+
+  function handleClick() {
+	document.querySelector('.avatar-image').style.backgroundImage = `url(${atarUrl})`;
+  }
+</script>
+
+<main on:transition={fade} class="overflow-hidden flex items-center justify-center mx-auto  h-[100vh] w-screen animate-slow-fade-in flex-col bg-[oklch(12.5%_0.057_322.41)]">
+  <div class="border-b-[1px] border-purpleone-600 flex flex-col items-center justify-top  w-full">
+	{#if isLoading}
+	<div class="shadow-[3px_3px_15px_3px_rgba(22,22,22,0.7)] flex h-screen bg-cover bg-center drop-shadow-[2px_2px_12px_hsla(255,100%,59%,0.9)] w-[100%] min-w-[100%] max-w-[100%] animate-pulse items-center justify-center  ">
+	  <p class="pt-8 animate-pulse text-md text-purpleone-100"><Loader />Loading</p>
+	</div>
+	{:else if avatarUrl !== ''}
+	<div class="  z-1000 scale-100 md:scale-[1.1] h-screen text-center drop-shadow-[2px_2px_12px_hsla(234,100%,59%,0.9)]] avatar-image flex items-center justify-center w-[100%] min-w-[100%] max-w-[100%] flex-col bg-cover bg-center bg-[oklch(12.5%_0.057_322.41)]">
+			  <Hero />
+	</div>
+	{/if}
+  </div>
+</main>
+
