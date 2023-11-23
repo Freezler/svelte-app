@@ -8,11 +8,11 @@
 </script>
 
 <section
-	class=" z-100 overflow-none bg-[oklch(12.5%_0.057_322.41)]bg-opacity-40 flex-col h-[100svh] w-screen animate-slow-fade-in  overflow-hidden text-center drop-shadow-[2px_2px_12px_hsla(245,90%,5%,0.3)]"
+	class="z-100 overflow-none bg-[oklch(12.5%_0.057_322.41)]bg-opacity-40 flex-col h-[100svh] w-screen animate-slow-fade-in  overflow-hidden text-center drop-shadow-[2px_2px_12px_hsla(245,90%,5%,0.3)]"
 >
-	<div class="flex w-[100%] flex-col justify-center items-center h-[100svh] gap-16">
+	<div class="flex w-[100%] flex-col h-[100svh]">
 		<div
-			class=" flex m-auto w-[100%]  animate-slow-fade-in justify-around items-center  "
+			class=" flex m-auto w-[100%]  animate-slow-fade-in justify-center items-end bg-[oklch(12.5%_0.057_322.41)] bg-astral-950 bg-opacity-60 drop-shadow-[2px_2px_12px_hsla(245,90%,5%,0.3)]"
 		>
 			<Avatar
 				size="clamp(140px, 20vw, 180px)"

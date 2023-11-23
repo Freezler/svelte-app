@@ -8,7 +8,7 @@
 </script>
 
 <main
-	class="scroll-invisible  m-0 flexh-[100svh] w-screen img h-s[100svh]  bg-[oklch(12.5%_0.057_322.41)] bg-cover bg-center bg-no-repeat p-0 bg-blend-lighten hover:bg-blend-darken"
+	class="scroll-invisible  m-0 flexh-[100svh] w-screen im  bg-[oklch(12.5%_0.057_322.41)] bg-cover bg-center bg-no-repeat p-0 bg-blend-lighten hover:bg-blend-darken"
 >
 	<Bgimg />
 </main>

@@ -8,11 +8,11 @@
 </script>
 
 <section
-	class=" z-100 overflow-none bg-[oklch(12.5%_0.057_322.41)]bg-opacity-40 flex-col h-[100svh] w-screen animate-slow-fade-in  overflow-hidden text-center drop-shadow-[2px_2px_12px_hsla(245,90%,5%,0.3)]"
+	class="z-100 overflow-none bg-[oklch(12.5%_0.057_322.41)]bg-opacity-40 flex h-[100svh] w-screen animate-slow-fade-in flex-col overflow-hidden text-center drop-shadow-[2px_2px_12px_hsla(245,90%,5%,0.3)]"
 >
-	<div class="flex w-[100%] flex-col justify-center items-center h-[100svh] gap-16">
+	<div class="h-[clamp(220px, 20vw, 250px] w-[100%] flex-row">
 		<div
-			class=" flex m-auto w-[100%]  animate-slow-fade-in justify-around items-center  "
+			class="m-0 flex max-h-[100svh] w-[100%]  animate-slow-fade-in items-center justify-ar md:h-[100%]"
 		>
 			<Avatar
 				size="clamp(140px, 20vw, 180px)"
@@ -23,10 +23,10 @@
 				alt="Randy de vries"
 			/>
 		</div>
-		<div class="flex flex-col h-[300px]">
+		<div class="flex flex-col">
 			<div
-				class="z-100 flex  w-[100%] animate-slow-fade-in
-				items-center bg-[oklch(12.5%_0.057_322.41)] bg-astral-950 bg-opacity-60 drop-shadow-[2px_2px_12px_hsla(245,90%,5%,0.3)] sm:flex-col h-[520px]"
+				class="z-100 flex h-[320px] w-[100%] animate-slow-fade-in
+				items-center bg-[oklch(12.5%_0.057_322.41)] bg-astral-950 bg-opacity-60 drop-shadow-[2px_2px_12px_hsla(245,90%,5%,0.3)] sm:flex-col lg:h-[320px]"
 			>
 				<h3
 					class=" 

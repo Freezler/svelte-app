@@ -8,25 +8,27 @@
 </script>
 
 <section
-	class=" z-100 overflow-none bg-[oklch(12.5%_0.057_322.41)]bg-opacity-40 flex-col h-[100svh] w-screen animate-slow-fade-in  overflow-hidden text-center drop-shadow-[2px_2px_12px_hsla(245,90%,5%,0.3)]"
+	class="z-100 overflow-none  bg-[oklch(12.5%_0.057_322.41)]bg-opacity-40 flex h-[100svh] w-screen animate-slow-fade-in flex-col items-center justify- overflow-hidden text-center drop-shadow-[2px_2px_12px_hsla(245,90%,5%,0.3)]"
 >
-	<div class="flex w-[100%] flex-col justify-center items-center h-[100svh] gap-16">
-		<div
-			class=" flex m-auto w-[100%]  animate-slow-fade-in justify-around items-center  "
-		>
+	<div class="h-[clamp(220px, 20vw, 250px] w-[100%] flex-col">
+		<div class="animate-slow-fade-in m-0 flex max-h-[content] md:h-[1005] md:translate-y-10 lg:translate-y-[52px] w-[100%] items-center justify-center">
 			<Avatar
 				size="clamp(140px, 20vw, 180px)"
 				initials="RV"
 				textColor="white"
 				name="Randy de vries"
 				src="https://source.unsplash.com/300x300/?computer"
+				
+				
+				
 				alt="Randy de vries"
+				
 			/>
 		</div>
-		<div class="flex flex-col h-[300px]">
+		<div class="flex flex-col ">
 			<div
-				class="z-100 flex  w-[100%] animate-slow-fade-in
-				items-center bg-[oklch(12.5%_0.057_322.41)] bg-astral-950 bg-opacity-60 drop-shadow-[2px_2px_12px_hsla(245,90%,5%,0.3)] sm:flex-col h-[520px]"
+				class="z-100  flex h-[100svh] w-[100%] flex-row animate-slow-fade-in 
+				 items-center justify-center bg-[oklch(12.5%_0.057_322.41)] bg-astral-950 bg-opacity-60 drop-shadow-[2px_2px_12px_hsla(245,90%,5%,0.3)] sm:flex-col lg:h-[320px]"
 			>
 				<h3
 					class=" 
@@ -40,10 +42,10 @@
 				</h3>
 			</div>
 			<div
-				class=" z-100 h-[35%] w-[100%] animate-slow-slide-down flex-col items-center justify-center bg-astral-900 bg-opacity-50 text-center drop-shadow-[2px_2px_12px_hsla(15,00%,59%,0.2)]"
+				class=" z-100 h-[35%] w-[100%] animate-slow-slide-down flex-col items-center justify-center  bg-astral-900 bg-opacity-50 text-center drop-shadow-[2px_2px_12px_hsla(15,00%,59%,0.2)]"
 			>
 				<p
-					class="type font-Poppins justify-items-evenly ml-8 flex w-[content] animate-slow-slide-in-rtl items-center justify-center
+					class="type ml-8 font-Poppins justify-items-evenly  animate-slow-slide-in-rtl w-[content] flex justify-center items-center
 					bg-opacity-20 text-center align-middle text-[clamp(8px,3vw,1.6rem)] font-[500] text-purpleone-100 text-shadow-[3px_3px_5px_rgba(2,3,2,0.8)]"
 				>
 					<span class="">Welcome to my Svelte & TailwindCSS site</span>
@@ -56,7 +58,7 @@
 		class="z-400 xs:scale-120 mt-4 flex h-[100px] w-[100%] flex-row items-center justify-center gap-4 transition-all sm:scale-125 md:scale-110"
 	>
 		<button
-			class="active:schale-[0.999] flex h-[44px] w-[120px] transform select-none items-center justify-center rounded-[12px] border-[1px] border-bluethree-100 bg-bluetwo-950/80 text-center text-[12px] uppercase shadow transition-all duration-300 ease-in-out hover:scale-[1.015] hover:bg-blue-200 hover:bg-[linear-gradient(45deg,rgb(0,255,255),rgb(0,0,255))] hover:text-white hover:drop-shadow-[0px_0px_2px_hsla(5,10%,9%,0.9)]"
+			class="border-[1px] select-none border-bluethree-100 flex h-[44px] w-[120px] transform items-center justify-center rounded-[12px]  bg-bluetwo-950/80 text-[12px] text-center uppercase shadow transition-all duration-300 ease-in-out active:schale-[0.999] hover:scale-[1.015] hover:bg-blue-200 hover:bg-[linear-gradient(45deg,rgb(0,255,255),rgb(0,0,255))] hover:text-white hover:drop-shadow-[0px_0px_2px_hsla(5,10%,9%,0.9)]"
 			on:click={() => {
 				window.location.reload();
 			}}
@@ -64,7 +66,7 @@
 			refresh
 			<img
 				src="https://icons.getbootstrap.com/assets/icons/arrow-repeat.svg"
-				class="h-[16px] w-[16px] items-center transition-all target:animate-spin"
+				class="target:animate-spin h-[16px] w-[16px] items-center transition-all"
 				style="filter: invert(100%);opacity: 0.9; margin-left: 5px; height: 16px; width: 16px;"
 				alt=""
 			/>
@@ -72,14 +74,14 @@
 
 		<button
 			type="button"
-			class="active:schale-[0.999] flex h-[44px] w-[120px] transform select-none items-center justify-center rounded-[12px] border-[1px] border-bluethree-100 bg-bluetwo-950/80 text-center text-[12px] uppercase shadow transition-all duration-300 ease-in-out hover:scale-[1.015] hover:bg-blue-200 hover:bg-[linear-gradient(45deg,rgb(0,255,255),rgb(0,0,255))] hover:text-white hover:drop-shadow-[0px_0px_2px_hsla(5,10%,9%,0.9)]"
+			class="border-[1px] select-none border-bluethree-100 flex h-[44px] w-[120px] transform items-center justify-center rounded-[12px]  bg-bluetwo-950/80 text-[12px] text-center uppercase shadow transition-all duration-300 ease-in-out active:schale-[0.999] hover:scale-[1.015] hover:bg-blue-200 hover:bg-[linear-gradient(45deg,rgb(0,255,255),rgb(0,0,255))] hover:text-white hover:drop-shadow-[0px_0px_2px_hsla(5,10%,9%,0.9)]"
 			on:click={sendEmail}
 		>
 			Contact
 			<img
 				src="https://icons.getbootstrap.com/assets/icons/envelope.svg"
 				style="margin-left:5px; height: 21px; width: 18px;filter: invert(100%);"
-				class=" hover:animate-fly items-center text-white transition-all duration-[2000ms] focus:animate-wave"
+				class=" text-white hover:animate-fly duration-[2000ms] focus:animate-wave items-center transition-all"
 				alt=""
 			/>
 		</button>
