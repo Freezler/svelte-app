@@ -28,6 +28,7 @@
 	"type": "module",
 	"dependencies": {
 		"@tabler/icons-svelte": "^2.41.0",
+		"avatar": "^0.1.0",
 		"rollup": "^4.5.0",
 		"svelte-avatar": "^1.2.0"
 	}
