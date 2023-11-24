@@ -17,7 +17,7 @@
 			initials="RV"
 			textColor="white"
 			name="Randy de vries"
-			src="./src/assets/avatar.jpg"
+			src="./avatar.png"
 			
 		/>
 		
