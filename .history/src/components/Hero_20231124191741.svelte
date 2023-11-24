@@ -23,7 +23,7 @@
 		
 	</div>
 	<div
-		class=" z-100 h-[220px] md:h-[250px] justify-center	 w-[100vw] animate-slow-slide-down flex-col items-center  bg-astral-950 bg-opacity-50 text-center drop-shadow-[2px_2px_12px_hsla(15,00%,59%,0.2)]"
+		class=" z-100 h-[220px] md:h-[250px] ju	 w-[100vw] animate-slow-slide-down flex-col items-center  bg-astral-950 bg-opacity-50 text-center drop-shadow-[2px_2px_12px_hsla(15,00%,59%,0.2)]"
 	>
 	<h1 class="mt-16 text-clamp-1 text-3xl sm:text-5xl md:text-6xl xl:8xl">RANDY DE VRIES</h1>
 		<p
