@@ -11,19 +11,19 @@
 	class=" z-100 overflow-none h-[100svh] w-full animate-slow-fade-in flex-col items-center justify-around overflow-hidden text-center drop-shadow-[2px_2px_12px_hsla(245,90%,5%,0.3)]"
 >
 <div class="flex flex-col gap-8 items-center">
-	<div class="animate-slow-slide-up z-400 flex w-[auto] flex-col justify-center items-center border-2 rounded-full   Avatar ">
+	<div class="animate-slow-slide-up z-400 flex w-[180px] flex-col justify-center items-center border-2 rounded-full   Avatar ">
 		<Avatar
-			size="230px"
+			size="150px"
 			initials="RV"
 			textColor="white"
 			name="Randy de vries"
-			src="./src/assets/Avatar2.png"
+			src="./src/assets/avatar.jpg"
 			
 		/>
 		
 	</div>
 	<div
-		class=" z-100 h-[220px] md:h-[250px] justify-center	w-[100vw] animate-slow-slide-down flex-col items-center  bg-astral-950 bg-opacity-50 text-center drop-shadow-[2px_2px_12px_hsla(15,00%,59%,0.2)]"
+		class=" z-100 h-[220px] md:h-[250px] justify-center	 w-[100vw] animate-slow-slide-down flex-col items-center  bg-astral-950 bg-opacity-50 text-center drop-shadow-[2px_2px_12px_hsla(15,00%,59%,0.2)]"
 	>
 	<h1 class="mt-16 text-clamp-1 text-3xl sm:text-5xl md:text-6xl xl:8xl">RANDY DE VRIES</h1>
 		<p

@@ -11,9 +11,9 @@
 	class=" z-100 overflow-none h-[100svh] w-full animate-slow-fade-in flex-col items-center justify-around overflow-hidden text-center drop-shadow-[2px_2px_12px_hsla(245,90%,5%,0.3)]"
 >
 <div class="flex flex-col gap-8 items-center">
-	<div class="animate-slow-slide-up z-400 flex w-[auto] flex-col justify-center items-center border-2 rounded-full   Avatar ">
+	<div class="animate-slow-slide-up z-400 flex w-[180px] flex-col justify-center items-center border-2 rounded-full   Avatar ">
 		<Avatar
-			size="230px"
+			size="150px"
 			initials="RV"
 			textColor="white"
 			name="Randy de vries"

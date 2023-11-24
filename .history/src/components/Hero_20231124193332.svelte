@@ -13,7 +13,7 @@
 <div class="flex flex-col gap-8 items-center">
 	<div class="animate-slow-slide-up z-400 flex w-[auto] flex-col justify-center items-center border-2 rounded-full   Avatar ">
 		<Avatar
-			size="230px"
+			size="150px"
 			initials="RV"
 			textColor="white"
 			name="Randy de vries"
