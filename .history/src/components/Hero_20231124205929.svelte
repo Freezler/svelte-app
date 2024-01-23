@@ -51,13 +51,13 @@
 
 				<button
 					type="button"
-					class="z-45 active:schale-[0.999] flex transform select-none items-center justify-center rounded-lg border border-bluethree-100 bg-bluetwo-950/80 px-5 py-2.5 text-center uppercase shadow transition-all duration-200 ease-in-out hover:scale-[1.015] hover:bg-blue-200 hover:bg-[linear-gradient(45deg,rgba(0,255,255,0.5),rgba(0,0,5,0.5))] hover:text-white hover:drop-shadow-[0px_0px_2px_hsla(5,10%,9%,0.9)]"
+					class="z-45 active:schale-[0.999] flex transform select-none items-center justify-center rounded border border-bluethree-100 bg-bluetwo-950/80 px-5 py-2.5 text-center uppercase shadow transition-all duration-300 ease-in-out hover:scale-[1.015] hover:bg-blue-200 hover:bg-[linear-gradient(45deg,rgba(0,255,255,0.5),rgba(0,0,5,0.5))] hover:text-white hover:drop-shadow-[0px_0px_2px_hsla(5,10%,9%,0.9)]"
 					on:click={sendEmail}
 				>
 					Contact
 					<img
 						src="https://icons.getbootstrap.com/assets/icons/envelope.svg"
-						style="margin-right: 2px; margin-left:5px; 	height: 21px; width: 18px;filter: invert(100%);"
+						style="margin-right: 2px; margin-left:5px; height: 21px; width: 18px;filter: invert(100%);"
 						class="z-45 hover:animate-fly items-center text-white transition-all duration-[2000ms] focus:animate-wave"
 						alt=""
 					/>

@@ -291,7 +291,7 @@ export default {
 			},
 			spacing: {
 				'2.5': '10px',
-				5: '20px',
+				
 			}
 		},
 		screens: {

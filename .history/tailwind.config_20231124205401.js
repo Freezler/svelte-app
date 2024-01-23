@@ -290,8 +290,7 @@ export default {
 
 			},
 			spacing: {
-				'2.5': '10px',
-				5: '20px',
+				'2.5': 
 			}
 		},
 		screens: {

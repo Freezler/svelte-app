@@ -55,7 +55,7 @@
 					on:click={sendEmail}
 				>
 					Contact
-					<img
+							<img
 						src="https://icons.getbootstrap.com/assets/icons/envelope.svg"
 						style="margin-right: 2px; margin-left:5px; 	height: 21px; width: 18px;filter: invert(100%);"
 						class="z-45 hover:animate-fly items-center text-white transition-all duration-[2000ms] focus:animate-wave"

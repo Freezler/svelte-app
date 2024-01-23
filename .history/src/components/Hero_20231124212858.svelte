@@ -46,7 +46,7 @@
 						class="infinite h-[16px] w-[16px] items-center transition-all hover:animate-spin"
 						style="filter: invert(100%);opacity: 0.9; margin-left: 5px; height: 16px; width: 16px;"
 						alt=""
-					/>
+					/>	
 				</button>
 
 				<button
@@ -57,7 +57,7 @@
 					Contact
 					<img
 						src="https://icons.getbootstrap.com/assets/icons/envelope.svg"
-						style="margin-right: 2px; margin-left:5px; 	height: 21px; width: 18px;filter: invert(100%);"
+						style="margin-right: 2px; margin-left:5px; height: 21px; width: 18px;filter: invert(100%);"
 						class="z-45 hover:animate-fly items-center text-white transition-all duration-[2000ms] focus:animate-wave"
 						alt=""
 					/>

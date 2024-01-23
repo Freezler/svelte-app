@@ -14,36 +14,37 @@
 </script>
 
 <nav
-	class=" fixed bottom-0 z-10 flex w-[100%] select-none items-center justify-between text-center antialiased md:bottom-auto md:right-0 md:top-0 md:justify-center"
+	class=" fixed bottom-0 z-10 flex w-[100%] select-none items-center justify-between text-center antialiased md:right-0 md:top-0 md:bottom-a md:justify-center"
 >
 	<svg
-		class="flex h-[content] w-[content] animate-pulse md:absolute md:-right-4 md:-top-2"
-		version="1.1"
-		xmlns="http://www.w3.org/2000/svg"
-		width="100"
-		height="100"
-		viewBox="0 0 100 100"
-	>
-		<!-- Outline -->
-		<text
-			class="animate-slow-slide-up select-none shadow-2xl focus:select-none md:animate-slow-slide-down"
-			x="0"
-			y="66"
-			font-size="40"
-			fill="red3"
-			stroke="oklch(57.77% 0.271 327.71 / 80.3%)"
-			stroke-width="2"
-			stroke-linejoin="round">RV</text
+			class="flex h-[content] w-[content] animate-pulse md:absolute md:-right-4 md:-top-2"
+			version="1.1"
+			xmlns="http://www.w3.org/2000/svg"
+			width="100"
+			height="100"
+			viewBox="0 0 100 100"
 		>
-		<!-- Text -->
-		<text
-			class="animate-slow-slide-in md:animate-slow-slide-in-rtl"
-			x="0"
-			y="65"
-			font-size="40"
-			fill="oklch(157.77% 0.271 327.71 / 80.3%)">RV</text
-		>
-	</svg>
+			<!-- Outline -->
+			<text
+				class="animate-slow-slide-up select-none shadow-2xl focus:select-none md:animate-slow-slide-down"
+				x="0"
+				y="66"
+				font-size="40"
+				fill="red3"
+				stroke="oklch(57.77% 0.271 327.71 / 80.3%)"
+				stroke-width="2"
+				stroke-linejoin="round">RV</text
+			>
+			<!-- Text -->
+			<text
+				class="animate-slow-slide-in md:animate-slow-slide-in-rtl "
+				x="0"
+				y="65"
+				font-size="40"
+				fill="oklch(157.77% 0.271 327.71 / 80.3%)">RV</text
+			>
+		</svg>
+	
 
 	<!-- Hamburger voorS  mobile/kleine schermen -->
 	<button
@@ -57,12 +58,12 @@
 				class:top-2={!showNav}
 			></span>
 			<span
-				class={'absolute z-20 block h-[2px] w-5 origin-center bg-white blur-none transition-transform'}
+				class={'z-20 absolute block h-[2px] w-5 origin-center bg-white blur-none transition-transform'}
 				class:-rotate-45={showNav}
 				class:bottom-2={!showNav}
 			></span>
 			<span
-				class={'absolute z-20 block h-[2px] w-5 origin-center bg-white blur-none transition-transform'}
+				class={'z-20 absolute block h-[2px] w-5 origin-center bg-white blur-none transition-transform'}
 				class:-rotate-45={showNav}
 				class:bottom-2={!showNav}
 			></span>
@@ -70,7 +71,7 @@
 	</button>
 
 	<div
-		class={`absolute top-0 z-50	hidden select-none flex-row  items-center justify-center gap-8 bg-astral-950/40 bg-cover bg-center px-5 py-5 font-display text-xl  uppercase text-blueone-50 md:flex ${
+		class={`absolute top-0 z-50	hidden font-display flex-row  select-none items-center justify-center gap-8 bg-astral-950/40 bg-cover bg-center px-5 py-5 text-xl  uppercase text-blueone-50 md:flex ${
 			showNav ? 'hidden' : 'block'
 		}`}
 	>
@@ -92,7 +93,7 @@
 		tabindex="0"
 	>
 		<div
-			class="absulute letter-spacing-1 flex select-none flex-col items-center justify-between pb-4 text-2xl text-blueone-200 opacity-100 transition-all duration-100 ease-in-out"
+			class="absulute letter-spacing-1 flex select-none flex-col justify-between items-center pb-4 text-2xl text-blueone-200 opacity-100 transition-all duration-100 ease-in-out"
 		>
 			<a href="/" tabindex="0" class="font-[800] text-cyan-800">
 				<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
@@ -136,4 +137,6 @@
 	.fading-1:hover {
 		--d: 100%;
 	}
+
+	
 </style>
