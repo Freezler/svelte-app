@@ -7,10 +7,10 @@
 
 <section
 	transition:fade={{ delay: 0, duration: 300 }}
-	class=" z-100 overflow-none mt-32 flex h-[100svh] animate-slow-fade-in items-center justify-center overflow-hidden text-center"
+	class=" z-100 overflow-none mt-32 flex h-[100svh] animate-slow-fade-in items-center justify-center overflow-hidden  text-center  "
 >
 	<div
-		class="flex flex-col items-center gap-8 rounded-md
+		class="flex flex-col items-center gap-8 rounded-md   
 	"
 	>
 		<div
@@ -25,24 +25,26 @@
 			/>
 		</div>
 		<div
-			class="z-80 box-border h-[120px] border=[1px] border-[hsla(178,94%,63%,0.9)] 
+			class="z-100 pt-8 pb-32
 			
-		animate-slow-slide-down flex-row rounded-lg items-center justify-center bg-[hsla(180,8%,17%,0.6)] px-8 py-4 pb-32  text-center drop-shadow-[2px_2px_12px_hsla(225,70%,49%,0.3)]"
+		box-border h-[120px] py-8  px-8 animate-slow-slide-down flex-row items-center justify-center text-center drop-shadow-[2px_2px_12px_hsla(5,0%,9%,0.6)]  bg-[hsla(5,0%,9%,0.3)]"
 		>
 			<h1 class="animate-slow-slide-in-ltr z-50 flex flex-col items-center justify-center">
 				Hi, my name is Randy!
 			</h1>
 			<p
-				class=" m-0 flex w-[content] animate-slow-slide-in-rtl items-center justify-center bg-opacity-20
+				class=" m-0 flex w-[content] animate-slow-slide-in-rtl items-center justify-center bg-opacity-20 
 			text-center font-display text-[clamp(16px,2vw,1.6rem)] font-[500] text-purpleone-100 text-shadow-[3px_3px_5px_rgba(2,3,2,0.8)]"
 			>
-				<span class="typewriter"> Don't be a useless eater!. </span>
+				<span class="typewriter">
+					Don't be a useless eater!.
+				</span>
 			</p>
 			<div
-				class="z-45 flex h-[100px] w-[100%] flex-row items-center justify-center gap-4 pb-6 transition-all"
+				class="z-45 flex h-[100px] pb-6 w-[100%] flex-row items-center justify-center gap-4 transition-all"
 			>
 				<button
-					class="z-500 flex transform select-none items-center justify-center rounded-lg bg-bluetwo-950/80 px-5 py-2.5 text-center uppercase shadow transition-all duration-200 ease-in-out hover:scale-[1.015] hover:bg-blue-200 hover:bg-[linear-gradient(45deg,rgba(0,255,255,0.5),rgba(0,0,5,0.5))] hover:text-white hover:drop-shadow-[0px_0px_2px_hsla(5,10%,9%,0.9)] active:scale-[0.999]"
+					class="z-500 flex transform select-none items-center justify-center rounded-lg  bg-bluetwo-950/80 px-5 py-2.5 text-center uppercase shadow transition-all duration-200 ease-in-out hover:scale-[1.015] hover:bg-blue-200 hover:bg-[linear-gradient(45deg,rgba(0,255,255,0.5),rgba(0,0,5,0.5))] hover:text-white hover:drop-shadow-[0px_0px_2px_hsla(5,10%,9%,0.9)] active:scale-[0.999]"
 					on:click={() => {
 						window.location.reload();
 					}}
@@ -58,7 +60,7 @@
 
 				<button
 					type="button"
-					class="z-45 active:schale-[0.999] flex transform select-none items-center justify-center rounded-lg bg-bluetwo-950/80 px-5 py-2.5 text-center uppercase shadow transition-all duration-200 ease-in-out hover:scale-[1.015] hover:bg-blue-200 hover:bg-[linear-gradient(45deg,rgba(0,255,255,0.5),rgba(0,0,5,0.5))] hover:text-white hover:drop-shadow-[0px_0px_2px_hsla(5,10%,9%,0.9)]"
+					class="z-45 active:schale-[0.999] flex transform select-none items-center justify-center rounded-lg  bg-bluetwo-950/80 px-5 py-2.5 text-center uppercase shadow transition-all duration-200 ease-in-out hover:scale-[1.015] hover:bg-blue-200 hover:bg-[linear-gradient(45deg,rgba(0,255,255,0.5),rgba(0,0,5,0.5))] hover:text-white hover:drop-shadow-[0px_0px_2px_hsla(5,10%,9%,0.9)]"
 					on:click={sendEmail}
 				>
 					Contact

@@ -25,9 +25,9 @@
 			/>
 		</div>
 		<div
-			class="z-80 box-border h-[120px] border=[1px] border-[hsla(178,94%,63%,0.9)] 
+			class="z-80 box-border h-[120px] border=[1px] 
 			
-		animate-slow-slide-down flex-row rounded-lg items-center justify-center bg-[hsla(180,8%,17%,0.6)] px-8 py-4 pb-32  text-center drop-shadow-[2px_2px_12px_hsla(225,70%,49%,0.3)]"
+		animate-slow-slide-down flex-row items-center justify-center bg-[hsla(178,94%,63%,0.2)] px-8 py-8 pb-32 pt-8 text-center drop-shadow-[2px_2px_12px_hsla(5,0%,19%,0.6)]"
 		>
 			<h1 class="animate-slow-slide-in-ltr z-50 flex flex-col items-center justify-center">
 				Hi, my name is Randy!

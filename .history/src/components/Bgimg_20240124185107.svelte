@@ -47,13 +47,13 @@
 		{#if isLoading}
 			<div
 				class="flex h-screen w-[100%] min-w-[100%] animate-pulse items-center justify-center bg-cover bg-center shadow-[3px_3px_15px_3px_rgba(22,22,22,0.7)] 
-			bg-transparent drop-shadow-[5px_5px_15px_hsla(175,100%,9%,0.8)]"
+			bg-transparent drop-shadow-[5px_5px_15px_hsla§55,100%,89%,0.8)]"
 			>
 				<p class="text-xl animate-[pulse_2s_ease_infinite] font-type pt-8 text-purplethree-00 drop-shadow-[2px_2px_12px_hsla(155,100%,159%,0.9)]"><Loader />Loading</p>
 			</div>
 		{:else if avatarUrl !== ''}
 			<div
-				class="  drop-shadow-[2px_2px_12px_hsla(154,90%,9%,0.9)]] avatar-image flex h-screen w-screen  flex-col items-center justify-center  bg-cover bg-center text-center "
+				class="  drop-shadow-[2px_2px_12px_hsla(54,50%,99%,0.5)]] avatar-image flex h-screen w-screen  flex-col items-center justify-center  bg-cover bg-center text-center "
 			>
 				<Hero />
 				<Header />

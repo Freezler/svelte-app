@@ -53,7 +53,7 @@
 			</div>
 		{:else if avatarUrl !== ''}
 			<div
-				class="  drop-shadow-[2px_2px_12px_hsla(154,90%,9%,0.9)]] avatar-image flex h-screen w-screen  flex-col items-center justify-center  bg-cover bg-center text-center "
+				class="  drop-shadow-[2px_2px_12px_hsla(54,50%,99%,0.5)]] avatar-image flex h-screen w-screen  flex-col items-center justify-center  bg-cover bg-center text-center "
 			>
 				<Hero />
 				<Header />
