@@ -7,12 +7,12 @@
 
 <section
 	transition:fade={{ delay: 3, duration: 600 }}
-	class=" z-100 overflow-none h-full border-teal-700 border-4 w-full animate-slow-fade-in flex items-center justify-center overflow-hidden text-center drop-shadow-[2px_2px_12px_hsla(245,90%,5%,0.3)]"
+	class=" z-100 overflow-none h-[100px] w-full animate-slow-fade-in flex-col items-center justify-center overflow-hidden text-center drop-shadow-[2px_2px_12px_hsla(245,90%,5%,0.3)]"
 >
-	<div class="flex flex-col items-center gap-2">
+	<div class="flex flex-col items-center j gap-4">
 		<div class="z-400 flex w-[auto] animate-slow-slide-up flex-col items-center justify-center">
 			<Avatar
-				size="160px"
+				size="120px"
 				initials="RV"
 				textColor="white"
 				name="Randy de vries"
@@ -20,20 +20,18 @@
 			/>
 		</div>
 		<div
-			class=" z-100 h-[120px] w-[100vw] animate-slow-slide-down flex-col items-center justify-center text-center drop-shadow-[2px_2px_12px_hsla(15,00%,59%,0.2)] md:h-[150px]"
+			class=" z-100 h-[120px] w-[100vw] animate-slow-slide-down flex-col items-center justify-center bg-astral-950 bg-opacity-50 text-center drop-shadow-[2px_2px_12px_hsla(15,00%,59%,0.2)] md:h-[150px]"
 		>
 			<h1 class="text-clamp-1 xl:8xl mt-2 text-3xl sm:text-5xl md:text-6xl">
 				RANDY DE VRIES
 			</h1>
 			<p
-				class="ml-8 flex w-[content] animate-slow-slide-in-rtl justify-start
+				class="typewriter ml-8 flex w-[content] animate-slow-slide-in-rtl justify-start
 			bg-opacity-20 text-center font-display text-[clamp(8px,3vw,1.6rem)] font-[500] text-purpleone-100 text-shadow-[3px_3px_5px_rgba(2,3,2,0.8)]"
 			>
-				<span class="typewriter">I'm a junior web developer from Amsterdam, the Netherlands</span>
+				<span class="">I'm a junior web developer from Amsterdam, the Netherlands</span>
 			</p>
-			<div
-				class="z-45 flex h-[100px] w-[100%] flex-row items-center justify-center gap-4 transition-all"
-			>
+			<div class="z-45 flex h-[100px] w-[100%] flex-row items-center justify-center gap-4">
 				<button
 					class="z-500 flex transform select-none items-center justify-center rounded-lg border border-bluethree-100 bg-bluetwo-950/80 px-5 py-2.5 text-center uppercase shadow transition-all duration-200 ease-in-out hover:scale-[1.015] hover:bg-blue-200 hover:bg-[linear-gradient(45deg,rgba(0,255,255,0.5),rgba(0,0,5,0.5))] hover:text-white hover:drop-shadow-[0px_0px_2px_hsla(5,10%,9%,0.9)] active:scale-[0.999]"
 					on:click={() => {
@@ -68,9 +66,9 @@
 </section>
 
 <style>
-	span.typewriter {
+	.typewriter {
 		overflow: hidden; /* Ensures the content is not revealed until the animation */
-		border-right: 0.15em solid orange; /* The typwriter cursor */
+		border-right: 0.15em solid orange; /* The typewriter cursor */
 		white-space: nowrap; /* Keeps the content on a single line */
 		margin: 0 auto; /* Gives that scrolling effect as the typing happens */
 		letter-spacing: 0.15em; /* Adjust as needed */
@@ -85,7 +83,7 @@
 			width: 0;
 		}
 		to {
-			width: 100%;
+			width: calc(100% + 0.15em); /* Update to include the width of the cursor */
 		}
 	}
 	@keyframes blink-caret {
@@ -96,21 +94,5 @@
 		50% {
 			border-color: orange;
 		}
-	}
-	
-
-	@keyframes spin {
-		0% {
-			transform: rotate(0deg);
-		}
-		100% {
-			transform: rotate(360deg);
-		}
-	}
-	h1 {
-		font-family: 'League Spartan', sans-serif;
-
-		font-weight: 600;
-		color: whitesmoke;
 	}
 </style>

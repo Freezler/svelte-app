@@ -7,9 +7,9 @@
 
 <section
 	transition:fade={{ delay: 3, duration: 600 }}
-	class=" z-100 overflow-none h-full border-teal-700 border-4 w-full animate-slow-fade-in flex items-center justify-center overflow-hidden text-center drop-shadow-[2px_2px_12px_hsla(245,90%,5%,0.3)]"
+	class=" z-100 overflow-none h-[100] w-full animate-slow-fade-in flex-col items-center justify-center overflow-hidden text-center drop-shadow-[2px_2px_12px_hsla(245,90%,5%,0.3)]"
 >
-	<div class="flex flex-col items-center gap-2">
+	<div class="flex flex-col items-center gap-8">
 		<div class="z-400 flex w-[auto] animate-slow-slide-up flex-col items-center justify-center">
 			<Avatar
 				size="160px"
@@ -20,7 +20,7 @@
 			/>
 		</div>
 		<div
-			class=" z-100 h-[120px] w-[100vw] animate-slow-slide-down flex-col items-center justify-center text-center drop-shadow-[2px_2px_12px_hsla(15,00%,59%,0.2)] md:h-[150px]"
+			class=" z-100 h-[120px] w-[100vw] animate-slow-slide-down flex-col items-center justify-center bg-astral-950 bg-opacity-50 text-center drop-shadow-[2px_2px_12px_hsla(15,00%,59%,0.2)] md:h-[150px]"
 		>
 			<h1 class="text-clamp-1 xl:8xl mt-2 text-3xl sm:text-5xl md:text-6xl">
 				RANDY DE VRIES

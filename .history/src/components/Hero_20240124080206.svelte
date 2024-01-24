@@ -7,7 +7,7 @@
 
 <section
 	transition:fade={{ delay: 3, duration: 600 }}
-	class=" z-100 overflow-none h-full border-teal-700 border-4 w-full animate-slow-fade-in flex items-center justify-center overflow-hidden text-center drop-shadow-[2px_2px_12px_hsla(245,90%,5%,0.3)]"
+	class=" z-100 overflow-none h-full w-full animate-slow-fade-in flex-col items-center justify-center overflow-hidden text-center drop-shadow-[2px_2px_12px_hsla(245,90%,5%,0.3)]"
 >
 	<div class="flex flex-col items-center gap-2">
 		<div class="z-400 flex w-[auto] animate-slow-slide-up flex-col items-center justify-center">

@@ -18,7 +18,7 @@
 		<header>
 			<Navbar />
 		</header>
-		<main class="flex h-[100%] flex-col">
+		<main class="flex h-[80%] flex-col">
 			<slot />
 		</main>
 		<footer>
