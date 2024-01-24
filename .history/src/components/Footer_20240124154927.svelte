@@ -1,0 +1,16 @@
+<script>
+</script>
+
+<div
+	class="bob fixed bottom-0 top:0 left-0 right:0 m-0 flex h-[70px] w-screen items-center justify-between  bg-blue-800 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-80 "
+>
+	<div class="flex w-full items-center justify-around">
+		<!-- GitHub icon -->
+		<small class="italic text-white">Randy de vries &copy; {new Date().getFullYear()}</small>
+	</div>
+</div>
+<style>
+.bob {
+	vertical-align: baseline;
+}
+</style>
