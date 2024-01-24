@@ -17,7 +17,7 @@
 	class=" fixed bottom-0 left-0 right-0 z-10 flex w-[100%] select-none items-center justify-between text-center antialiased md:bottom-auto md:right-0 md:top-0 md:justify-center md:absolute"
 >
 	<svg
-		class="flex h-auto w-auto animate-pulse md:absolute md:-right-8 md:-top-4 box-border"
+		class="flex h-[content] w-auto animate-pulse md:absolute md:-right-8 md:-top-4 box-border"
 		version="1.1"
 		xmlns="http://www.w3.org/2000/svg"
 		width="100"

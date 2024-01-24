@@ -33,7 +33,7 @@
 
 <main
 	on:transition={fade}
-	class="mx-auto flex h-[100svh]  w-screen animate-slow-fade-in flex-col items-center justify-center overflow-hidden bg-purpleone-950 "
+	class="mx-auto flex h-[100vh] mt-16 w-screen animate-slow-fade-in flex-col items-center justify-center overflow-hidden bg-purpleone-950 "
 >
 	<div class="justify-top flex w-full flex-col items-center border-b-[1px]">
 		{#if isLoading}

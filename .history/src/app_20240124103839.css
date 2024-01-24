@@ -13,11 +13,10 @@ body * {
 	-moz-scrollbar-width: none;
 	scrollbar-width: none;
 	-ms-overflow-style: none;
-	box-sizing: border-box;
 }
 
-/* *,html {
+*,html {
 	scroll-behavior: smooth;
 	border: 1px solid red;
 	box-sizing: border-box;
-} */
+}

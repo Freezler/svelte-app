@@ -9,7 +9,7 @@
 
 	const reloadAvatar = async () => {
 		isLoading = true;
-		const response = await fetch('https://source.unsplash.com/2169x2169/?dark,pattern');
+		const response = await fetch('https://source.unsplash.com/2169x2169/?dark,contrast');
 		avatarUrl = response.url;
 		isLoading = false;
 	};
@@ -33,7 +33,7 @@
 
 <main
 	on:transition={fade}
-	class="mx-auto flex h-[100svh]  w-screen animate-slow-fade-in flex-col items-center justify-center overflow-hidden bg-purpleone-950 "
+	class="mx-auto flex h-[100svh] mt-8 w-screen animate-slow-fade-in flex-col items-center justify-center overflow-hidden bg-purpleone-950 "
 >
 	<div class="justify-top flex w-full flex-col items-center border-b-[1px]">
 		{#if isLoading}
