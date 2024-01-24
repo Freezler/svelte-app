@@ -16,8 +16,9 @@
 				initials="RV"
 				textColor="white"
 				name="Randy de vries"
-				src="src/assets/avatar.png"
-				
+				src="src/assets/joker.jpg"
+				style="h-[60px] w-[60px] shadow-[3px_3px_15px_3px_rgba(22,22,22,0.7)
+				drop-shadow-[2px_2px_12px_hsla(15,00%,59%,0.8)]"
 			/>
 		</div>
 		<div

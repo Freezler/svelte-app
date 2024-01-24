@@ -16,7 +16,7 @@
 				initials="RV"
 				textColor="white"
 				name="Randy de vries"
-				src="src/assets/avatar.png"
+				src="src/assets/joker.jpg"
 				
 			/>
 		</div>

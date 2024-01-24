@@ -10,18 +10,17 @@
 	class=" z-100 overflow-none flex h-full w-full animate-slow-fade-in items-center justify-center overflow-hidden border-4 border-teal-700 text-center drop-shadow-[2px_2px_12px_hsla(245,90%,5%,0.3)]"
 >
 	<div class="flex flex-col items-center gap-8">
-		<div class="z-400 flex w-[auto] animate-slow-slide-up flex-col items-center justify-center ">
+		<div class="z-400 flex w-[auto] animate-slow-slide-up flex-col items-center justify-center">
 			<Avatar
 				size="120px"
 				initials="RV"
 				textColor="white"
 				name="Randy de vries"
-				src="src/assets/avatar.png"
-				
+				src="src/assets/avatar2.jpg"
 			/>
 		</div>
 		<div
-			class="z-100 box-border h-[120px] animate-slow-slide-down flex-row items-center justify-center text-center drop-shadow-[2px_2px_12px_hsla(15,00%,59%,0.8)]"
+			class="z-100 box-cborder h-[120px] animate-slow-slide-down flex-row items-center justify-center text-center drop-shadow-[2px_2px_12px_hsla(15,00%,59%,0.8)]"
 		>
 			<h1 class="animate-slow-slide-in-ltr z-50 flex flex-col items-center justify-center">
 				KOP
