@@ -27,7 +27,7 @@
 		<div
 			class="z-80 box-border h-[120px] border=[1px] border-[hsla(178,94%,63%,0.9)] 
 			
-		animate-slow-slide-down flex-row rounded-lg items-center justify-center bg-[hsla(180,8%,17%,0.6)] px-8 py-4 pb-32 md:pb-34 lg:pb-34 xl:pb-36 text-center drop-shadow-[2px_2px_12px_hsla(225,70%,49%,0.3)]"
+		animate-slow-slide-down flex-row rounded-lg items-center justify-center bg-[hsla(180,8%,17%,0.6)] px-8 py-4 pb-32  text-center drop-shadow-[2px_2px_12px_hsla(225,70%,49%,0.3)]"
 		>
 			<h1 class="text-[clamp(1rem,5vw,1.4rem)]   animate-slow-slide-in-ltr z-50 flex flex-col items-center justify-center">
 				Hi, my name is Randy!
@@ -39,7 +39,7 @@
 				<span class="typewriter"> Welcome to my Personal website, take a look around!</span>
 			</p>
 			<div
-				class="z-45 flex h-[100px] w-[100%] flex-row items-center justify-center gap-4 pb-12 transition-all scale-[0.8] sm:scale-90 md:scale-95 lg:scale-100 xl:scale-110"
+				class="z-45 flex h-[100px] w-[100%] flex-row items-center justify-center gap-4 pb-12 transition-all scale-[0.8] sm:scale-90 md"
 			>
 				<button
 					class="z-500 flex transform select-none items-center justify-center rounded-lg bg-bluetwo-950/50 px-5 py-2.5 text-center uppercase shadow transition-all duration-200 ease-in-out hover:scale-[1.015] hover:bg-blue-200 hover:bg-[linear-gradient(45deg,rgba(0,255,255,0.5),rgba(0,0,5,0.5))] hover:text-white hover:drop-shadow-[0px_0px_2px_hsla(5,10%,9%,0.9)] active:scale-[0.999]"

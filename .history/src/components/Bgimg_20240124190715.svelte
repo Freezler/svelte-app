@@ -9,7 +9,7 @@
 
 	const reloadAvatar = async () => {
 		isLoading = true;
-		const response = await fetch('https://source.unsplash.com/1440x900/?tech');
+		const response = await fetch('https://source.unsplash.com/26/?tech,programming');
 		avatarUrl = response.url;
 		isLoading = false;
 	};
