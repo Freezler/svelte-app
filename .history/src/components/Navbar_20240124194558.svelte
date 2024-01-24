@@ -121,7 +121,7 @@
 				<hr class="fading-1 mb-8 w-full" /></a
 			>
 			<a Travel href="/projects" tabindex="0" class="text-[hsla(215,80%,65%,0.9] fading-1"
-				>Login</a
+				>Travel slider..</a
 			>
 			<a href="/blogs" tabindex="0" class="fading-1 text-[#dfe2ff]">Color Cards</a>
 			<a href="/about" tabindex="0" class="fading-1 text-[#dfe2ff]">Gallery</a>

@@ -6,7 +6,7 @@
 	onDestroy(() => console.log('Unmounted projects page'));
 </script>
 <main  transition:fade={{ delay: 2, duration:600 }}
-class="flex h-screen flex-col items-center justify-center">
+class="w-screen h-[100svh]">
 	<LoginForm/>
 	<slot />
 </main>
