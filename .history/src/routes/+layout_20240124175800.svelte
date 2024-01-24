@@ -9,7 +9,7 @@
 <html
   transition:fade={{ delay: 1.5, duration:200 }}
 	lang="en"
-	class="h-screen select-none overflow-scroll scroll-smooth bg-[oklch(12.5%_0.057_322.41)] text-white"
+	class="h-[100%] select-none overflow-scroll scroll-smooth bg-[oklch(12.5%_0.057_322.41)] text-white"
 >
 	<head>
 		<!-- Add any necessary head content here -->

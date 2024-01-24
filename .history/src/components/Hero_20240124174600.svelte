@@ -17,7 +17,7 @@
 			class="z-400 flex w-[100svw] animate-slow-slide-up flex-col items-center justify-center"
 		>
 			<Avatar
-				size="200px"
+				size="132px"
 				initials="RV"
 				textColor="white"
 				name="Randy de vries"
@@ -77,13 +77,13 @@
 <style>
 	span.typewriter {
 		overflow: hidden; /* Ensures the content is not revealed until the animation */
-		border-right: 0.15em solid rgb(0, 255, 251); /* The typwriter cursor */
+		border-right: 0.15em solid orange; /* The typwriter cursor */
 		white-space: nowrap; /* Keeps the content on a single line */
 		margin: 0 auto; /* Gives that scrolling effect as the typing happens */
 		letter-spacing: 2.2; /* Adjust as needed */
 		color: aliceblue;
 		animation:
-			typing 4.5s steps(38, end),
+			typing 4.5s steps(62, end),
 			blink-caret 0.75s step-end infinite;
 	}
 

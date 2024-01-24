@@ -9,7 +9,7 @@
 <html
   transition:fade={{ delay: 1.5, duration:200 }}
 	lang="en"
-	class="h-screen select-none overflow-scroll scroll-smooth bg-[oklch(12.5%_0.057_322.41)] text-white"
+	class="h-[100%] select-none overflow-scroll scroll-smooth bg-[oklch(12.5%_0.057_322.41)] text-white"
 >
 	<head>
 		<!-- Add any necessary head content here -->
@@ -18,7 +18,7 @@
 		<header>
 			<Navbar />
 		</header>
-		<main class="flex h-screen flex-col">
+		<main class="flex h-[100%] flex-col">
 			<slot />
 		</main>
 		<footer>

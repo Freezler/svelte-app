@@ -41,9 +41,9 @@
 
 <main
 	on:transition={fade}
-	class="mx-auto flex h-[100svh] w-screen animate-slow-fade-in flex-col items-center justify-center overflow-hidden bg-purpleone-950 "
+	class="mx-auto flex h-[100svh] w-[100%] animate-slow-fade-in flex-col items-center justify-center overflow-hidden bg-purpleone-950 "
 >
-	<div class="justify-top flex w-[100%] flex-col items-center ">
+	<div class="justify-top flex w-[100%] flex-col items-center border-b-[1px] bg-black">
 		{#if isLoading}
 			<div
 				class="flex h-screen w-[100%] min-w-[100%] animate-pulse items-center justify-center bg-cover bg-center shadow-[3px_3px_15px_3px_rgba(22,22,22,0.7)] 
@@ -53,7 +53,7 @@
 			</div>
 		{:else if avatarUrl !== ''}
 			<div
-				class="  drop-shadow-[2px_2px_12px_hsla(54,50%,99%,0.5)]] avatar-image flex h-screen w-screen  flex-col items-center justify-center  bg-cover bg-center text-center "
+				class="  drop-shadow-[2px_2px_12px_hsla(54,50%,99%,0.5)]] avatar-image flex h-screen w-[100vw]  flex-col items-center justify-center  bg-cover bg-center text-center "
 			>
 				<Hero />
 				<Header />

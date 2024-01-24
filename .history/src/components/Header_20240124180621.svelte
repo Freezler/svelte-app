@@ -3,8 +3,8 @@
 </script>
 
 <div
-	class=" object-fit absolute top-[10svh] md:top-[9svh] z-0 flex h-[100px] w-screen skew-y-0 animate-slow-fade-in flex-col  bg-greyone-900/20 rounded-md bg-clip-padding backdrop-filter backdrop-blur-[2px] bg-opacity-40 
-	xs:text-left xs:h-[128px] md:h-[160px] lg:h-[190px]"
+	class=" object-fit absolute top-[10svh] md:top-[9svh] z-0 flex h-[10px] w-screen skew-y-0 animate-slow-fade-in flex-col  bg-greyone-900/20 rounded-md bg-clip-padding backdrop-filter backdrop-blur-[2px] bg-opacity-40 
+	xs:text-left md:h-[178px]"
 >
 	<h1
 		class="px-8 mx-auto -skew-y-0 animate-fast-fade-in uppercase font-sans max-w-[100%]

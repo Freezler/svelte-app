@@ -41,7 +41,7 @@
 
 <main
 	on:transition={fade}
-	class="mx-auto flex h-[100svh] w-screen animate-slow-fade-in flex-col items-center justify-center overflow-hidden bg-purpleone-950 "
+	class="mx-auto flex h-[100svh] w-[100%] animate-slow-fade-in flex-col items-center justify-center overflow-hidden bg-purpleone-950 "
 >
 	<div class="justify-top flex w-[100%] flex-col items-center ">
 		{#if isLoading}
@@ -53,7 +53,7 @@
 			</div>
 		{:else if avatarUrl !== ''}
 			<div
-				class="  drop-shadow-[2px_2px_12px_hsla(54,50%,99%,0.5)]] avatar-image flex h-screen w-screen  flex-col items-center justify-center  bg-cover bg-center text-center "
+				class="  drop-shadow-[2px_2px_12px_hsla(54,50%,99%,0.5)]] avatar-image flex h-screen w-[100vw]  flex-col items-center justify-center  bg-cover bg-center text-center "
 			>
 				<Hero />
 				<Header />

@@ -8,7 +8,7 @@
 </script>
 
 <main
-	class="scroll-invisible  m-0 flex w-full img  bg-cover bg-center bg-no-repeat p-0 scroll-smooth"
+	class="scroll-invisible  m-0 flex w-screen img  bg-cover bg-center bg-no-repeat p-0 scroll-smooth"
 >
 	<Bgimg />
 </main>
