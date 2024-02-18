@@ -1,0 +1,31 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+/* Your custom CSS goes here */
+body {
+	scroll-behavior: smooth;
+}
+
+body * {
+	-moz-scrollbar-width: none;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	
+}
+
+/* *,html {
+	scroll-behavior: smooth;
+	border: 1px solid red;
+	box-sizing: border-box;
+} */
+.lightMode {
+    background-color: #f1f1f1f1; /* Example background color for dark mode */
+    color: #111111; /* Example text color for dark mode */
+    /* Add additional styles for dark mode here */
+}
