@@ -18,8 +18,8 @@
 			features: [
 				'When: Created in 1996',
 				'Who: Håkon Wium Lie, Bert Bos',
-				'What: CSS is a style sheet language used for describing the presentation of a document written in HTML or XML.'
-
+				'What: CSS is a style sheet language used for describing the presentation of a document written in HTML or XML.',
+				
 			]
 		},
 		{
@@ -103,7 +103,7 @@
 		font-size: 18px;
 		font-weight: 700;
 		text-decoration: underline;
-		margin-block: 1rem;
+		margin-top: 1rem;
 	}
 
 	.grid {

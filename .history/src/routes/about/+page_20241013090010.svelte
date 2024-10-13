@@ -12,6 +12,7 @@
 <style>
     .info:nth-child(1){
         transition: fadeIn 1s ease-in-out both;
+
     }
 
 

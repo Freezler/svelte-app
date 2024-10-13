@@ -14,12 +14,11 @@
 		{
 			price: 'CSS',
 			image: 'https://images.unsplash.com/photo-1669023414166-a4cc7c0fe1f5?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-			name: 'cascading style sheets',
+			name: 'cascading style sheet',
 			features: [
 				'When: Created in 1996',
 				'Who: Håkon Wium Lie, Bert Bos',
 				'What: CSS is a style sheet language used for describing the presentation of a document written in HTML or XML.'
-
 			]
 		},
 		{
@@ -40,15 +39,15 @@
 		{#each plans as plan}
 			<div class="card">
 				<div class="flex mx-auto">
-					<h2 class="font-bolder text-center">{plan.name}</h2>
+					<h2 class="font-bolder">{plan.name}</h2>
 				</div>
-				<img src={plan.image} class="object-fit h-[100px] pb-4" loading="lazy" alt="tech used" />
+				<img src={plan.image} class="object-fit h-[100px]" loading="lazy" alt="tech used" />
 				<div class="content">
 					{#each plan.features as feature}
 						<p class="">{feature}</p>
 					{/each}
 				</div>
-				<button type="button" class="action border w-[130px] rounded px-4 py-2 mx-auto">try it out</button>
+				<div class="action">try it out</div>
 			</div>
 		{/each}
 	</section>
@@ -72,15 +71,13 @@
 		grid-template-rows: subgrid;
 		grid-row: span 4;
 		gap: 5px;
-		text-wrap: pretty;
+		word
 	}
 
 
 
 	.flex h2 {
-		font-size: clamp(1.25rem, 1.5vw, 1.75rem);
-		font-weight: 700;
-		margin-bottom: 1rem;
+		font-size: 24px;
 	}
 
 	img {
@@ -103,7 +100,7 @@
 		font-size: 18px;
 		font-weight: 700;
 		text-decoration: underline;
-		margin-block: 1rem;
+		margin-top: 1rem;
 	}
 
 	.grid {

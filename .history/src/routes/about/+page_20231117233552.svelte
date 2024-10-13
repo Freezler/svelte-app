@@ -1,2 +1,0 @@
-<script></script>
-<main></main>

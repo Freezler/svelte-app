@@ -103,7 +103,7 @@
 		font-size: 18px;
 		font-weight: 700;
 		text-decoration: underline;
-		margin-block: 1rem;
+		margin-block: 2rem;
 	}
 
 	.grid {

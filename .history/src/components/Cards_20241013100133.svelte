@@ -19,7 +19,6 @@
 				'When: Created in 1996',
 				'Who: Håkon Wium Lie, Bert Bos',
 				'What: CSS is a style sheet language used for describing the presentation of a document written in HTML or XML.'
-
 			]
 		},
 		{
@@ -48,7 +47,7 @@
 						<p class="">{feature}</p>
 					{/each}
 				</div>
-				<button type="button" class="action border w-[130px] rounded px-4 py-2 mx-auto">try it out</button>
+				<button type="button" class="action border-2 w-[130px] rounded px-4 py-2">try it out</button>
 			</div>
 		{/each}
 	</section>
@@ -103,7 +102,7 @@
 		font-size: 18px;
 		font-weight: 700;
 		text-decoration: underline;
-		margin-block: 1rem;
+		margin-top: 1rem;
 	}
 
 	.grid {
